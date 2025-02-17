@@ -1,5 +1,5 @@
 start:
-	java -Xms4G -Xmx4G -jar server.jar --nogui
+	java -Xms512M -Xmx512M -jar server.jar --nogui
 
 ngrok:
 	ngrok tcp 25565
