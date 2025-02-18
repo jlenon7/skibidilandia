@@ -1,5 +1,5 @@
 start:
-	java -Xms3G -Xmx3G -jar server.jar --nogui
+	java -Xms2G -Xmx2G -jar server.jar --nogui
 
 ngrok:
 	ngrok tcp --region=sa --remote-addr=1.tcp.sa.ngrok.io:20697 25565
