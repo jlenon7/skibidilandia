@@ -1,5 +1,5 @@
 start:
-	java -Xms2G -Xmx2G -jar server.jar --nogui
+	java -Xms4G -Xmx4G -jar server.jar --nogui
 
 ngrok:
 	ngrok tcp --region=sa --remote-addr=1.tcp.sa.ngrok.io:20697 25565
@@ -25,10 +25,11 @@ update-worlds:
 
 restart:
 	screen -S minecraft -X stuff "say Servidor será reiniciado em 5 minutos!\n"
-	sleep 2
+	sleep 240
 	screen -S minecraft -X stuff "say Servidor será reiniciado em 1 minuto!\n"
-	sleep 1
+	sleep 60
 	screen -S minecraft -X stuff "say Reiniciando servidor!\n"
+	sleep 5
 	screen -S minecraft -X stuff "save-all\n"
 	screen -S minecraft -X stuff "stop\n"
 	sleep 10
