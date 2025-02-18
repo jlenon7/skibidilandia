@@ -37,7 +37,7 @@ restart:
 
 screen-start:
 	-screen -S minecraft -X quit || true
-	screen -wipe
+	-screen -wipe
 	screen -dmS minecraft make start
 
 screen-connect:
