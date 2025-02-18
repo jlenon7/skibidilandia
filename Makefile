@@ -36,8 +36,8 @@ restart:
 	$(MAKE) screen-start
 
 screen-start:
-	screen -wipe
 	-screen -S minecraft -X quit || true
+	screen -wipe
 	screen -dmS minecraft make start
 
 screen-connect:
