@@ -32,14 +32,14 @@ restart:
 	screen -S minecraft -X stuff "save-all\n"
 	screen -S minecraft -X stuff "stop\n"
 	sleep 10
-	update-worlds
-	screen-start
+	$(MAKE) update-worlds
+	$(MAKE) screen-start
 
 screen-start:
+	screen -wipe
 	-screen -S minecraft -X quit || true
 	screen -dmS minecraft make start
 
 screen-connect:
 	screen -r minecraft
-
 
