@@ -25,9 +25,9 @@ update-worlds:
 
 restart:
 	screen -S minecraft -X stuff "say Servidor será reiniciado em 5 minutos!\n"
-	sleep 240
+	sleep 2
 	screen -S minecraft -X stuff "say Servidor será reiniciado em 1 minuto!\n"
-	sleep 60
+	sleep 1
 	screen -S minecraft -X stuff "say Reiniciando servidor!\n"
 	sleep 5
 	screen -S minecraft -X stuff "save-all\n"
@@ -39,7 +39,8 @@ restart:
 screen-start:
 	-screen -S minecraft -X quit || true
 	-screen -wipe
-	screen -dmS minecraft make start
+	sleep 2
+	screen -dmS minecraft $(MAKE) start
 
 screen-connect:
 	screen -r minecraft
