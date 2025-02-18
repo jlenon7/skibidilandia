@@ -1,11 +1,11 @@
 start:
-	java -Xms512M -Xmx512M -jar server.jar --nogui
+	java -Xms4G -Xmx4G -jar server.jar --nogui
 
 ngrok:
-	ngrok tcp 25565
+	ngrok tcp --region=sa --remote-addr=1.tcp.sa.ngrok.io:20697 25565
 
 ssh:
-	ssh -i "key-skibidilandia.pem" ec2-user@ec2-18-226-248-126.us-east-2.compute.amazonaws.com
+	ssh -i "key-skibidilandia.pem" ubuntu@ec2-15-229-22-159.sa-east-1.compute.amazonaws.com
 
 worlds:
 	rm -rf world world_nether world_the_end skibidilandia_world

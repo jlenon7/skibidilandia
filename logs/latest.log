@@ -1,91 +1,422 @@
-[14:25:13] [ServerMain/INFO]: [bootstrap] Running Java 21 (Java HotSpot(TM) 64-Bit Server VM 21.0.6+8-LTS-188; Oracle Corporation null) on Mac OS X 15.1.1 (aarch64)
-[14:25:13] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
-[14:25:14] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[14:25:14] [ServerMain/INFO]: [PluginInitializerManager] Initialized 5 plugins
-[14:25:14] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (5):
+[17:39:30] [ServerMain/INFO]: [bootstrap] Running Java 21 (Java HotSpot(TM) 64-Bit Server VM 21.0.6+8-LTS-188; Oracle Corporation null) on Mac OS X 15.1.1 (aarch64)
+[17:39:30] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
+[17:39:30] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[17:39:31] [ServerMain/INFO]: [PluginInitializerManager] Initialized 5 plugins
+[17:39:31] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (5):
  - DropHeads (3.9.11), PlasmoVoice (2.1.2), ViaBackwards (5.2.1), ViaVersion (5.2.1), mcMMO (2.2.030)
-[14:25:16] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[14:25:16] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
-[14:25:16] [ServerMain/INFO]: Found new data pack paper, loading it automatically
-[14:25:17] [ServerMain/INFO]: No existing world data, creating new world
-[14:25:17] [ServerMain/INFO]: Loaded 1290 recipes
-[14:25:17] [ServerMain/INFO]: Loaded 1399 advancements
-[14:25:17] [Server thread/INFO]: Starting minecraft server version 1.21
-[14:25:17] [Server thread/INFO]: Loading properties
-[14:25:17] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
-[14:25:18] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[14:25:18] [Server thread/INFO]: Using 4 threads for Netty based IO
-[14:25:18] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[14:25:18] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 2 worker threads, and population gen parallelism of 2 threads
-[14:25:18] [Server thread/INFO]: Default game type: SURVIVAL
-[14:25:18] [Server thread/INFO]: Generating keypair
-[14:25:18] [Server thread/INFO]: Starting Minecraft server on *:25565
-[14:25:18] [Server thread/INFO]: Using default channel type
-[14:25:19] [Server thread/INFO]: Paper: Using libdeflate (macOS ARM64 / Apple Silicon) compression from Velocity.
-[14:25:19] [Server thread/INFO]: Paper: Using native (macOS ARM64 / Apple Silicon) cipher from Velocity.
-[14:25:20] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
-[14:25:20] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
-[14:25:20] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[14:25:20] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[14:25:21] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[14:25:21] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[14:25:22] [Server thread/INFO]: [PlasmoVoice] Loading server plugin PlasmoVoice v2.1.2
-[14:25:22] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.1
-[14:25:22] [Server thread/INFO]: [mcMMO] Loading server plugin mcMMO v2.2.030
-[14:25:22] [Server thread/INFO]: [DropHeads] Loading server plugin DropHeads v3.9.11
-[14:25:22] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[14:25:22] [Server thread/INFO]: [PlasmoVoice] Enabling PlasmoVoice v2.1.2
-[14:25:23] [Server thread/INFO]: [PlasmoVoice] UDP server is started on /[0:0:0:0:0:0:0:0]:25565
-[14:25:23] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[14:25:23] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[14:25:23] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[14:25:23] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[14:25:23] [Server thread/INFO]: Preparing level "world"
-[14:25:27] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[14:25:29] [Server thread/INFO]: Time elapsed: 1991 ms
-[14:25:29] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[14:25:30] [Server thread/INFO]: Time elapsed: 727 ms
-[14:25:30] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[14:25:30] [Server thread/INFO]: Time elapsed: 174 ms
-[14:25:30] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
-[14:25:30] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
-[14:25:30] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
-[14:25:30] [Server thread/INFO]: [mcMMO] Enabling mcMMO v2.2.030
-[14:25:31] [Server thread/INFO]: [mcMMO] Loaded 229 Alchemy potions, skipped 0.
-[14:25:31] [Server thread/INFO]: [DropHeads] Enabling DropHeads v3.9.11
-[14:25:32] [Server thread/INFO]: [spark] Starting background profiler...
-[14:25:33] [Server thread/INFO]: Done preparing level "world" (10.211s)
-[14:25:33] [Server thread/INFO]: Running delayed init tasks
-[14:25:33] [Server thread/INFO]: Done (20.919s)! For help, type "help"
-[14:25:33] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[14:25:33] [Server thread/INFO]: Timings Reset
-[14:44:38] [Server thread/INFO]: Stopping server
-[14:44:38] [Server thread/INFO]: [DropHeads] Disabling DropHeads v3.9.11
-[14:44:38] [Server thread/INFO]: [mcMMO] Disabling mcMMO v2.2.030
-[14:44:38] [Server thread/INFO]: [mcMMO] Server shutdown has been executed, saving and cleaning up data...
-[14:44:38] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.2.1
-[14:44:38] [Server thread/INFO]: [PlasmoVoice] Disabling PlasmoVoice v2.1.2
-[14:44:38] [Server thread/INFO]: [PlasmoVoice] UDP server is stopped
-[14:44:38] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.2.1
-[14:44:38] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[14:44:38] [Server thread/INFO]: Saving players
-[14:44:38] [Server thread/INFO]: Saving worlds
-[14:44:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[14:44:38] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[14:44:38] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[14:44:38] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[14:44:38] [Server thread/INFO]: [ChunkHolderManager] Saved 799 block chunks, 7 entity chunks, 0 poi chunks in world 'world' in 0.27s
-[14:44:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[14:44:38] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[14:44:38] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[14:44:38] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[14:44:38] [Server thread/INFO]: [ChunkHolderManager] Saved 794 block chunks, 2 entity chunks, 0 poi chunks in world 'world_nether' in 0.13s
-[14:44:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[14:44:38] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[14:44:38] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[14:44:38] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[14:44:38] [Server thread/INFO]: [ChunkHolderManager] Saved 792 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.11s
-[14:44:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[14:44:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[14:44:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[14:44:38] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[17:39:33] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[17:39:33] [ServerMain/INFO]: Loaded 1290 recipes
+[17:39:33] [ServerMain/INFO]: Loaded 1399 advancements
+[17:39:34] [Server thread/INFO]: Starting minecraft server version 1.21
+[17:39:34] [Server thread/INFO]: Loading properties
+[17:39:34] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[17:39:34] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[17:39:34] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:39:34] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:39:35] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 2 worker threads, and population gen parallelism of 2 threads
+[17:39:35] [Server thread/INFO]: Default game type: SURVIVAL
+[17:39:35] [Server thread/INFO]: Generating keypair
+[17:39:35] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:39:35] [Server thread/INFO]: Using default channel type
+[17:39:35] [Server thread/INFO]: Paper: Using libdeflate (macOS ARM64 / Apple Silicon) compression from Velocity.
+[17:39:35] [Server thread/INFO]: Paper: Using native (macOS ARM64 / Apple Silicon) cipher from Velocity.
+[17:39:36] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
+[17:39:36] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
+[17:39:37] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[17:39:37] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[17:39:38] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[17:39:38] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[17:39:38] [Server thread/INFO]: [PlasmoVoice] Loading server plugin PlasmoVoice v2.1.2
+[17:39:38] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.1
+[17:39:38] [Server thread/INFO]: [mcMMO] Loading server plugin mcMMO v2.2.030
+[17:39:38] [Server thread/INFO]: [DropHeads] Loading server plugin DropHeads v3.9.11
+[17:39:38] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:39:38] [Server thread/INFO]: [PlasmoVoice] Enabling PlasmoVoice v2.1.2
+[17:39:39] [Server thread/INFO]: [PlasmoVoice] UDP server is started on /[0:0:0:0:0:0:0:0]:5865
+[17:39:39] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:39:39] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:39:39] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:39:39] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:39:39] [Server thread/INFO]: Preparing level "world"
+[17:39:40] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:39:40] [Server thread/INFO]: Time elapsed: 447 ms
+[17:39:40] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[17:39:40] [Server thread/INFO]: Time elapsed: 144 ms
+[17:39:40] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[17:39:40] [Server thread/INFO]: Time elapsed: 60 ms
+[17:39:40] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
+[17:39:40] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+[17:39:40] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
+[17:39:40] [Server thread/INFO]: [mcMMO] Enabling mcMMO v2.2.030
+[17:39:41] [Server thread/INFO]: [mcMMO] Loaded 229 Alchemy potions, skipped 0.
+[17:39:42] [Server thread/INFO]: [DropHeads] Enabling DropHeads v3.9.11
+[17:39:43] [Server thread/INFO]: [spark] Starting background profiler...
+[17:39:44] [Server thread/INFO]: Done preparing level "world" (4.298s)
+[17:39:44] [Server thread/INFO]: Running delayed init tasks
+[17:39:44] [Server thread/INFO]: Done (15.095s)! For help, type "help"
+[17:39:44] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[17:39:44] [Server thread/INFO]: Timings Reset
+[17:39:44] [User Authenticator #0/INFO]: UUID of player danielLegal is 32e53be7-3b09-3f22-979e-628ae14ed67b
+[17:39:45] [Server thread/INFO]: danielLegal joined the game
+[17:39:45] [Server thread/INFO]: danielLegal[/[0:0:0:0:0:0:0:1]:56771] logged in with entity id 150 at ([world]431.05082523524874, 40.0, 1828.3889428539917)
+[17:39:48] [User Authenticator #0/INFO]: UUID of player tgabs7 is 8e329d5d-479f-3c71-a6b3-600853fa1711
+[17:39:49] [Server thread/INFO]: tgabs7 joined the game
+[17:39:49] [Server thread/INFO]: tgabs7[/127.0.0.1:56817] logged in with entity id 475 at ([world]432.65572956580337, 40.0, 1831.3727258860276)
+[17:39:56] [Async Chat Thread - #1/INFO]: [Not Secure] <tgabs7> entrou pelo mesmo ip dani?
+[17:40:00] [Async Chat Thread - #1/INFO]: [Not Secure] <danielLegal> nao
+[17:40:01] [Async Chat Thread - #1/INFO]: [Not Secure] <danielLegal> calmai
+[17:40:02] [Server thread/INFO]: danielLegal lost connection: Disconnected
+[17:40:02] [Server thread/INFO]: danielLegal left the game
+[17:40:03] [User Authenticator #0/INFO]: UUID of player danielLegal is 32e53be7-3b09-3f22-979e-628ae14ed67b
+[17:40:05] [Server thread/INFO]: danielLegal joined the game
+[17:40:05] [Server thread/INFO]: danielLegal[/127.0.0.1:56846] logged in with entity id 583 at ([world]431.05082523524874, 40.0, 1828.3889428539917)
+[17:40:08] [User Authenticator #0/INFO]: UUID of player Marks_17 is ab9dc18a-c471-3f3f-95ad-491f6031e79c
+[17:40:09] [Server thread/INFO]: Marks_17 joined the game
+[17:40:09] [Server thread/INFO]: Marks_17[/[0:0:0:0:0:0:0:1]:56856] logged in with entity id 585 at ([world]-299.69999998807907, -45.0, 687.2044827286533)
+[17:40:09] [Async Chat Thread - #1/INFO]: [Not Secure] <danielLegal> [
+[17:40:12] [Async Chat Thread - #1/INFO]: [Not Secure] <danielLegal> pronto
+[17:40:13] [Async Chat Thread - #0/INFO]: [Not Secure] <tgabs7> testa agora
+[17:40:16] [Async Chat Thread - #0/INFO]: [Not Secure] <danielLegal> ta carregando
+[17:40:21] [Async Chat Thread - #0/INFO]: [Not Secure] <danielLegal> conectando
+[17:40:24] [Async Chat Thread - #0/INFO]: [Not Secure] <tgabs7> mesma mensagem de conectar no UDP?
+[17:40:27] [Async Chat Thread - #0/INFO]: [Not Secure] <danielLegal> ss
+[17:40:31] [Async Chat Thread - #0/INFO]: [Not Secure] <danielLegal> conectando ao udp
+[17:40:45] [User Authenticator #0/INFO]: UUID of player HBplayOne1 is 31b4fb0d-13b9-3e7b-be11-c92abdbc0abc
+[17:40:46] [Server thread/INFO]: HBplayOne1 joined the game
+[17:40:46] [Server thread/INFO]: HBplayOne1[/127.0.0.1:56914] logged in with entity id 944 at ([world]-117.91426445186006, -5.0, 1261.5297849114336)
+[17:41:05] [Async Chat Thread - #0/INFO]: [Not Secure] <tgabs7> deu certo?
+[17:41:11] [User Authenticator #0/INFO]: UUID of player jv501m is 19d95958-8655-3e0c-a91d-e96d2c2ac1bf
+[17:41:11] [Async Chat Thread - #0/INFO]: [Not Secure] <danielLegal> nao
+[17:41:12] [Server thread/INFO]: jv501m joined the game
+[17:41:12] [Server thread/INFO]: jv501m[/[0:0:0:0:0:0:0:1]:56953] logged in with entity id 1549 at ([world]2315.369819181103, 63.0, 3031.545422628464)
+[17:41:14] [Async Chat Thread - #0/INFO]: [Not Secure] <danielLegal> não
+[17:41:19] [Async Chat Thread - #0/INFO]: [Not Secure] <tgabs7> falhou igual antes?
+[17:41:20] [Async Chat Thread - #0/INFO]: [Not Secure] <danielLegal> mesma mensagem de q não conectou
+[17:41:21] [Async Chat Thread - #0/INFO]: [Not Secure] <danielLegal> isso
+[17:41:40] [Async Chat Thread - #0/INFO]: [Not Secure] <tgabs7> sem a voz vai ser uma merda
+[17:41:43] [Server thread/INFO]: jv501m issued server command: /mctop
+[17:41:50] [Async Chat Thread - #0/INFO]: [Not Secure] <danielLegal> pdp
+[17:41:55] [Server thread/INFO]: tgabs7 issued server command: /teleport HBplayOne1
+[17:41:55] [Server thread/INFO]: [tgabs7: Teleported tgabs7 to HBplayOne1]
+[17:42:05] [Async Chat Thread - #0/INFO]: [Not Secure] <tgabs7> vou arrumar isso
+[17:43:02] [Server thread/INFO]: tgabs7 lost connection: Disconnected
+[17:43:02] [Server thread/INFO]: tgabs7 left the game
+[17:43:02] [Server thread/INFO]: danielLegal lost connection: Disconnected
+[17:43:02] [Server thread/INFO]: danielLegal left the game
+[17:43:02] [Server thread/INFO]: HBplayOne1 lost connection: Disconnected
+[17:43:02] [Server thread/INFO]: HBplayOne1 left the game
+[17:43:14] [Async Chat Thread - #2/INFO]: [Not Secure] <Marks_17> ox
+[17:43:16] [User Authenticator #1/INFO]: UUID of player tgabs7 is 8e329d5d-479f-3c71-a6b3-600853fa1711
+[17:43:17] [Server thread/INFO]: tgabs7 joined the game
+[17:43:17] [Server thread/INFO]: tgabs7[/[0:0:0:0:0:0:0:1]:57177] logged in with entity id 2922 at ([world]-130.69021524199783, -6.0, 1283.7611131352598)
+[17:43:20] [Async Chat Thread - #2/INFO]: [Not Secure] <Marks_17> td mundo quito
+[17:43:20] [Async Chat Thread - #2/INFO]: [Not Secure] <jv501m> devem ter caido
+[17:44:23] [Server thread/INFO]: jv501m issued server command: /mctop
+[17:44:25] [User Authenticator #2/INFO]: UUID of player danielLegal is 32e53be7-3b09-3f22-979e-628ae14ed67b
+[17:44:27] [Server thread/INFO]: danielLegal joined the game
+[17:44:27] [Server thread/INFO]: danielLegal[/[0:0:0:0:0:0:0:1]:57257] logged in with entity id 3685 at ([world]433.82421511646334, 40.0, 1835.5677613011794)
+[17:45:06] [Async Chat Thread - #4/INFO]: [Not Secure] <danielLegal> nao foi o udp dnv
+[17:45:18] [Async Chat Thread - #4/INFO]: [Not Secure] <jv501m> pra nois n atualizo
+[17:45:20] [Async Chat Thread - #4/INFO]: [Not Secure] <jv501m> ficamo n jg
+[17:45:22] [Async Chat Thread - #4/INFO]: [Not Secure] <jv501m> no
+[17:45:33] [Async Chat Thread - #4/INFO]: [Not Secure] <danielLegal> foi só pra mim
+[17:45:36] [Async Chat Thread - #4/INFO]: [Not Secure] <danielLegal> eu tava em outro ip
+[17:45:40] [Async Chat Thread - #4/INFO]: [Not Secure] <danielLegal> ai ele fechou esse ip
+[17:51:30] [Server thread/INFO]: tgabs7 lost connection: Disconnected
+[17:51:30] [Server thread/INFO]: tgabs7 left the game
+[17:51:54] [Server thread/INFO]: (mcMMO) Marks_17 has reached a Power level of 100!
+[17:52:00] [Async Chat Thread - #6/INFO]: [Not Secure] <danielLegal> que
+[17:52:01] [Server thread/INFO]: jv501m issued server command: /mctop
+[17:52:05] [Async Chat Thread - #6/INFO]: [Not Secure] <Marks_17> KkKKKKKK
+[17:52:05] [Async Chat Thread - #6/INFO]: [Not Secure] <danielLegal> power level 100 que isso
+[17:52:34] [User Authenticator #3/INFO]: UUID of player HBplayOne1 is 31b4fb0d-13b9-3e7b-be11-c92abdbc0abc
+[17:52:34] [Server thread/INFO]: HBplayOne1 joined the game
+[17:52:34] [Server thread/INFO]: HBplayOne1[/[0:0:0:0:0:0:0:1]:57812] logged in with entity id 8794 at ([world]-132.71819341636413, -6.0, 1283.5661868758946)
+[17:53:48] [Async Chat Thread - #8/INFO]: [Not Secure] <Marks_17> como tira print?
+[17:53:50] [Async Chat Thread - #8/INFO]: [Not Secure] <danielLegal> vendo madeira escura
+[17:53:53] [Async Chat Thread - #8/INFO]: [Not Secure] <danielLegal> aperta f2
+[17:58:08] [Server thread/INFO]: jv501m lost connection: Disconnected
+[17:58:08] [Server thread/INFO]: jv501m left the game
+[17:58:27] [Server thread/INFO]: (mcMMO) Marks_17 has reached level 100 in MINING!
+[17:58:34] [Async Chat Thread - #10/INFO]: [Not Secure] <danielLegal> cara
+[17:58:36] [Async Chat Thread - #10/INFO]: [Not Secure] <danielLegal> COMO
+[17:59:37] [User Authenticator #4/INFO]: UUID of player jv501m is 19d95958-8655-3e0c-a91d-e96d2c2ac1bf
+[17:59:39] [Server thread/INFO]: jv501m joined the game
+[17:59:39] [Server thread/INFO]: jv501m[/[0:0:0:0:0:0:0:1]:58273] logged in with entity id 13224 at ([world]2317.874006238881, -6.0, 3027.3031088983007)
+[18:02:28] [Server thread/INFO]: Marks_17 issued server command: /w jv501m -350 720
+[18:05:05] [User Authenticator #5/INFO]: UUID of player augustomessias21 is f4f61770-20e2-38c2-9083-af70cd16eb0a
+[18:05:07] [Server thread/INFO]: augustomessias21 joined the game
+[18:05:07] [Server thread/INFO]: augustomessias21[/[0:0:0:0:0:0:0:1]:58677] logged in with entity id 17722 at ([world]-122.61024640084358, -5.0, 1261.958534110152)
+[18:05:35] [Server thread/INFO]: augustomessias21 issued server command: /tell HBplayOne1 como vai indo os negocios?
+[18:05:42] [Async Chat Thread - #15/INFO]: [Not Secure] <HBplayOne1> vai bem
+[18:05:49] [Async Chat Thread - #15/INFO]: [Not Secure] <augustomessias21> boa
+[18:05:59] [Async Chat Thread - #15/INFO]: [Not Secure] <danielLegal> ber
+[18:06:03] [Async Chat Thread - #15/INFO]: [Not Secure] <HBplayOne1> que
+[18:06:03] [Async Chat Thread - #15/INFO]: [Not Secure] <danielLegal> arrumou o voip?
+[18:06:08] [Async Chat Thread - #15/INFO]: [Not Secure] <augustomessias21> daqui a pouco vou sair pra ir na capoeira
+[18:06:15] [Async Chat Thread - #15/INFO]: [Not Secure] <HBplayOne1> acho que não
+[18:06:17] [Server thread/INFO]: augustomessias21 issued server command: /tell HBplayOne1 so me fala oq mudou
+[18:06:26] [Async Chat Thread - #14/INFO]: [Not Secure] <HBplayOne1> nada dms
+[18:06:28] [Async Chat Thread - #14/INFO]: [Not Secure] <danielLegal> piazada
+[18:06:33] [Async Chat Thread - #14/INFO]: [Not Secure] <danielLegal> vendo madeira escura
+[18:07:45] [Async Chat Thread - #16/INFO]: [Not Secure] <danielLegal> jv
+[18:07:48] [Async Chat Thread - #16/INFO]: [Not Secure] <danielLegal> quer ir vava?
+[18:07:54] [Async Chat Thread - #16/INFO]: [Not Secure] <jv501m> depois
+[18:07:56] [Async Chat Thread - #16/INFO]: [Not Secure] <jv501m> calumo
+[18:08:03] [Async Chat Thread - #16/INFO]: [Not Secure] <jv501m> calma
+[18:08:14] [Server thread/INFO]: jv501m issued server command: /w m 2222
+[18:08:16] [Server thread/INFO]: jv501m issued server command: /w m 2222 2800
+[18:08:36] [Async Chat Thread - #16/INFO]: [Not Secure] <Marks_17> 100 -220
+[18:08:41] [Async Chat Thread - #16/INFO]: [Not Secure] <jv501m> puts
+[18:08:50] [Async Chat Thread - #16/INFO]: [Not Secure] <HBplayOne1> opa
+[18:09:03] [Async Chat Thread - #16/INFO]: [Not Secure] <danielLegal> opa
+[18:09:05] [Async Chat Thread - #16/INFO]: [Not Secure] <HBplayOne1> que cordenada é essa?
+[18:09:12] [Async Chat Thread - #16/INFO]: [Not Secure] <jv501m> mangos phonk
+[18:09:16] [Async Chat Thread - #16/INFO]: [Not Secure] <Marks_17> n precisa saber
+[18:09:24] [Server thread/INFO]: jv501m issued server command: /w Marks_17 23
+[18:09:27] [Server thread/INFO]: jv501m issued server command: /w Marks_17 2313
+[18:09:28] [Async Chat Thread - #16/INFO]: [Not Secure] <HBplayOne1> vou dar uma passada aí
+[18:09:30] [Server thread/INFO]: jv501m issued server command: /w Marks_17 2313 3030
+[18:09:31] [Async Chat Thread - #17/INFO]: [Not Secure] <danielLegal> tbm
+[18:09:36] [Server thread/INFO]: jv501m issued server command: /w Marks_17 2318 3030
+[18:11:14] [Server thread/INFO]: HBplayOne1 lost connection: Disconnected
+[18:11:14] [Server thread/INFO]: HBplayOne1 left the game
+[18:13:18] [Server thread/INFO]: danielLegal lost connection: Disconnected
+[18:13:18] [Server thread/INFO]: danielLegal left the game
+[18:14:37] [User Authenticator #6/INFO]: UUID of player HBplayOne1 is 31b4fb0d-13b9-3e7b-be11-c92abdbc0abc
+[18:14:37] [Server thread/INFO]: HBplayOne1 joined the game
+[18:14:37] [Server thread/INFO]: HBplayOne1[/[0:0:0:0:0:0:0:1]:59326] logged in with entity id 30327 at ([world]697.7600000747382, 56.0, 1188.8969857189968)
+[18:15:09] [Server thread/INFO]: augustomessias21 issued server command: /tell HBplayOne1 br amanha ou um pouco de noite br procurar a base dos cara pelo nether
+[18:15:17] [Async Chat Thread - #18/INFO]: [Not Secure] <HBplayOne1> br
+[18:15:30] [Server thread/INFO]: augustomessias21 issued server command: /tell HBplayOne1 ou nois mata eles num confronto
+[18:15:36] [Async Chat Thread - #19/INFO]: [Not Secure] <HBplayOne1> bl
+[18:15:43] [User Authenticator #7/INFO]: UUID of player TharekoGameplays is 3431c0dc-f53a-3ee2-90ee-a98ec816d9c1
+[18:15:44] [Server thread/INFO]: TharekoGameplays joined the game
+[18:15:44] [Server thread/INFO]: TharekoGameplays[/[0:0:0:0:0:0:0:1]:59410] logged in with entity id 31672 at ([world]819.7873436971003, 23.030764904126286, 1484.8745920858853)
+[18:15:48] [User Authenticator #7/INFO]: UUID of player danielLegal is 32e53be7-3b09-3f22-979e-628ae14ed67b
+[18:15:50] [Server thread/INFO]: danielLegal joined the game
+[18:15:50] [Server thread/INFO]: danielLegal[/[0:0:0:0:0:0:0:1]:59416] logged in with entity id 32041 at ([world]328.34713032403545, 93.0, 1836.8614049440098)
+[18:16:00] [Server thread/INFO]: danielLegal lost connection: Disconnected
+[18:16:00] [Server thread/INFO]: danielLegal left the game
+[18:16:47] [Server thread/INFO]: Named entity Zombie['Zombie'/31663, uuid='96b78bef-171c-476e-bf7a-02d597419740', l='ServerLevel[world]', x=730.52, y=-3.00, z=1283.51, cpos=[45, 80], tl=1298, v=true] died: Zombie was shot by Skeleton
+[18:17:47] [Server thread/INFO]: jv501m lost connection: Disconnected
+[18:17:47] [Server thread/INFO]: jv501m left the game
+[18:17:57] [Server thread/INFO]: augustomessias21 issued server command: /tell HBplayOne1 quando eu voltar da capoeira e so me chamar
+[18:18:04] [Server thread/INFO]: TharekoGameplays lost connection: Disconnected
+[18:18:04] [Server thread/INFO]: TharekoGameplays left the game
+[18:18:27] [User Authenticator #8/INFO]: UUID of player danielLegal is 32e53be7-3b09-3f22-979e-628ae14ed67b
+[18:18:28] [Server thread/INFO]: danielLegal joined the game
+[18:18:28] [Server thread/INFO]: danielLegal[/[0:0:0:0:0:0:0:1]:59950] logged in with entity id 35034 at ([world]328.34713032403545, 93.0, 1836.8614049440098)
+[18:18:38] [Server thread/INFO]: danielLegal lost connection: Disconnected
+[18:18:38] [Server thread/INFO]: danielLegal left the game
+[18:18:44] [User Authenticator #8/INFO]: UUID of player TharekoGameplays is 3431c0dc-f53a-3ee2-90ee-a98ec816d9c1
+[18:18:45] [Server thread/INFO]: TharekoGameplays joined the game
+[18:18:45] [Server thread/INFO]: TharekoGameplays[/[0:0:0:0:0:0:0:1]:59987] logged in with entity id 35639 at ([world]825.9173227612351, 24.0, 1526.4510480979143)
+[18:20:18] [User Authenticator #9/INFO]: UUID of player danielLegal is 32e53be7-3b09-3f22-979e-628ae14ed67b
+[18:20:20] [Server thread/INFO]: danielLegal joined the game
+[18:20:20] [Server thread/INFO]: danielLegal[/[0:0:0:0:0:0:0:1]:60070] logged in with entity id 37104 at ([world]328.34713032403545, 93.0, 1836.8614049440098)
+[18:20:30] [Server thread/INFO]: danielLegal lost connection: Disconnected
+[18:20:30] [Server thread/INFO]: danielLegal left the game
+[18:20:56] [Server thread/INFO]: HBplayOne1 lost connection: Disconnected
+[18:20:56] [Server thread/INFO]: HBplayOne1 left the game
+[18:21:03] [Server thread/INFO]: augustomessias21 issued server command: /mcmmo:mcinfo
+[18:21:16] [User Authenticator #9/INFO]: UUID of player jv501m is 19d95958-8655-3e0c-a91d-e96d2c2ac1bf
+[18:21:18] [Server thread/INFO]: jv501m joined the game
+[18:21:18] [Server thread/INFO]: jv501m[/[0:0:0:0:0:0:0:1]:60141] logged in with entity id 38427 at ([world]2313.189749746704, 63.0, 3027.279165566472)
+[18:21:40] [User Authenticator #9/INFO]: UUID of player HBplayOne1 is 31b4fb0d-13b9-3e7b-be11-c92abdbc0abc
+[18:21:40] [Server thread/INFO]: HBplayOne1 joined the game
+[18:21:40] [Server thread/INFO]: HBplayOne1[/[0:0:0:0:0:0:0:1]:60161] logged in with entity id 38993 at ([world]701.101767858706, -2.0, 1208.300000011921)
+[18:21:45] [User Authenticator #9/INFO]: UUID of player danielLegal is 32e53be7-3b09-3f22-979e-628ae14ed67b
+[18:21:47] [Server thread/INFO]: danielLegal joined the game
+[18:21:47] [Server thread/INFO]: danielLegal[/[0:0:0:0:0:0:0:1]:60165] logged in with entity id 39299 at ([world]328.34713032403545, 93.0, 1836.8614049440098)
+[18:21:59] [Async Chat Thread - #22/INFO]: [Not Secure] <danielLegal> eita gente
+[18:22:02] [Async Chat Thread - #22/INFO]: [Not Secure] <danielLegal> crashei
+[18:22:14] [Server thread/INFO]: Named entity Slime['Slime'/39288, uuid='df207284-b6ab-4d6a-af9f-d8216e75cf79', l='ServerLevel[world]', x=2413.03, y=67.18, z=2948.94, cpos=[150, 184], tl=598, v=true] died: Slime was slain by jv501m
+[18:22:21] [Server thread/INFO]: danielLegal lost connection: Disconnected
+[18:22:21] [Server thread/INFO]: danielLegal left the game
+[18:23:18] [User Authenticator #10/INFO]: UUID of player danielLegal is 32e53be7-3b09-3f22-979e-628ae14ed67b
+[18:23:19] [Server thread/INFO]: danielLegal joined the game
+[18:23:19] [Server thread/INFO]: danielLegal[/[0:0:0:0:0:0:0:1]:60261] logged in with entity id 40601 at ([world]328.34713032403545, 93.0, 1836.8614049440098)
+[18:23:52] [Server thread/INFO]: danielLegal lost connection: Disconnected
+[18:23:52] [Server thread/INFO]: danielLegal left the game
+[18:24:10] [Server thread/INFO]: augustomessias21 issued server command: /mcinfo SWORDS_RUPTURE
+[18:24:20] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[18:24:46] [User Authenticator #11/INFO]: UUID of player danielLegal is 32e53be7-3b09-3f22-979e-628ae14ed67b
+[18:24:46] [Server thread/INFO]: Marks_17 lost connection: Disconnected
+[18:24:46] [Server thread/INFO]: Marks_17 left the game
+[18:24:47] [Server thread/INFO]: danielLegal joined the game
+[18:24:47] [Server thread/INFO]: danielLegal[/[0:0:0:0:0:0:0:1]:60325] logged in with entity id 41806 at ([world]328.34713032403545, 93.0, 1836.8614049440098)
+[18:25:08] [Server thread/INFO]: danielLegal lost connection: Disconnected
+[18:25:08] [Server thread/INFO]: danielLegal left the game
+[18:25:29] [Server thread/INFO]: augustomessias21 lost connection: Disconnected
+[18:25:29] [Server thread/INFO]: augustomessias21 left the game
+[18:26:41] [Server thread/INFO]: jv501m lost connection: Disconnected
+[18:26:41] [Server thread/INFO]: jv501m left the game
+[18:27:52] [User Authenticator #12/INFO]: UUID of player danielLegal is 32e53be7-3b09-3f22-979e-628ae14ed67b
+[18:27:54] [Server thread/INFO]: danielLegal joined the game
+[18:27:54] [Server thread/INFO]: danielLegal[/[0:0:0:0:0:0:0:1]:60542] logged in with entity id 45574 at ([world]328.34713032403545, 93.0, 1836.8614049440098)
+[18:28:20] [Async Chat Thread - #24/INFO]: [Not Secure] <danielLegal> ber
+[18:28:25] [Async Chat Thread - #24/INFO]: [Not Secure] <danielLegal> arrumo o voip?
+[18:38:19] [Server thread/INFO]: danielLegal lost connection: Disconnected
+[18:38:19] [Server thread/INFO]: danielLegal left the game
+[18:45:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2930ms or 58 ticks behind
+[18:46:11] [Server thread/INFO]: TharekoGameplays lost connection: Disconnected
+[18:46:11] [Server thread/INFO]: TharekoGameplays left the game
+[18:46:11] [Server thread/INFO]: HBplayOne1 lost connection: Disconnected
+[18:46:11] [Server thread/INFO]: HBplayOne1 left the game
+[19:09:29] [User Authenticator #13/INFO]: UUID of player danielLegal is 32e53be7-3b09-3f22-979e-628ae14ed67b
+[19:09:31] [Server thread/INFO]: danielLegal joined the game
+[19:09:31] [Server thread/INFO]: danielLegal[/[0:0:0:0:0:0:0:1]:61698] logged in with entity id 55050 at ([world]426.5851134619349, 55.0, 1826.5338404052711)
+[19:14:02] [User Authenticator #14/INFO]: UUID of player TharekoGameplays is 3431c0dc-f53a-3ee2-90ee-a98ec816d9c1
+[19:14:03] [Server thread/INFO]: TharekoGameplays joined the game
+[19:14:03] [Server thread/INFO]: TharekoGameplays[/[0:0:0:0:0:0:0:1]:61943] logged in with entity id 55790 at ([world]889.2200138175199, 63.0, 1992.6802757684957)
+[19:16:13] [Server thread/INFO]: Villager Villager['Farmer'/55935, uuid='a99a447a-9f6c-4b9c-8b27-dac51dc29419', l='ServerLevel[world]', x=789.30, y=94.00, z=2003.04, cpos=[49, 125], tl=24754, v=true] died, message: 'Farmer was slain by Zombie'
+[19:17:23] [Async Chat Thread - #26/INFO]: [Not Secure] <danielLegal> la ele master
+[19:20:26] [Async Chat Thread - #28/INFO]: [Not Secure] <TharekoGameplays> algm me ajuda to perdido
+[19:22:57] [Server thread/INFO]: danielLegal lost connection: Disconnected
+[19:22:57] [Server thread/INFO]: danielLegal left the game
+[19:22:59] [User Authenticator #15/INFO]: UUID of player danielLegal is 32e53be7-3b09-3f22-979e-628ae14ed67b
+[19:23:01] [Server thread/INFO]: danielLegal joined the game
+[19:23:01] [Server thread/INFO]: danielLegal[/[0:0:0:0:0:0:0:1]:62420] logged in with entity id 58742 at ([world]432.7622555226266, 55.0, 1828.5199833664042)
+[19:27:49] [User Authenticator #16/INFO]: UUID of player ItsMatt_ is 5d774ed3-e8f3-3f8f-9e84-4dfe1b56070f
+[19:27:50] [Server thread/INFO]: ItsMatt_ joined the game
+[19:27:50] [Server thread/INFO]: ItsMatt_[/[0:0:0:0:0:0:0:1]:62675] logged in with entity id 60345 at ([world]430.79173120884815, 55.875, 1829.7979311790436)
+[19:33:34] [Server thread/INFO]: (mcMMO) TharekoGameplays has reached a Power level of 100!
+[19:39:01] [Server thread/INFO]: Named entity Zombie['Zombie'/63116, uuid='063387c7-d8f8-47bd-b9c4-875d0d691455', l='ServerLevel[world]', x=904.96, y=-16.00, z=2092.30, cpos=[56, 130], tl=2551, v=true] died: Zombie was shot by Skeleton
+[19:39:52] [Server thread/INFO]: TharekoGameplays lost connection: Disconnected
+[19:39:52] [Server thread/INFO]: TharekoGameplays left the game
+[19:39:52] [Server thread/INFO]: danielLegal lost connection: Disconnected
+[19:39:52] [Server thread/INFO]: danielLegal left the game
+[19:39:52] [Server thread/INFO]: ItsMatt_ lost connection: Disconnected
+[19:39:52] [Server thread/INFO]: ItsMatt_ left the game
+[19:39:55] [User Authenticator #17/INFO]: UUID of player danielLegal is 32e53be7-3b09-3f22-979e-628ae14ed67b
+[19:39:56] [Server thread/INFO]: danielLegal joined the game
+[19:39:56] [Server thread/INFO]: danielLegal[/[0:0:0:0:0:0:0:1]:63371] logged in with entity id 63896 at ([world]430.16175836262505, 55.0, 1826.3835726976313)
+[19:40:14] [User Authenticator #17/INFO]: UUID of player TharekoGameplays is 3431c0dc-f53a-3ee2-90ee-a98ec816d9c1
+[19:40:15] [Server thread/INFO]: TharekoGameplays joined the game
+[19:40:15] [Server thread/INFO]: TharekoGameplays[/[0:0:0:0:0:0:0:1]:63393] logged in with entity id 63930 at ([world]956.1188211013712, -8.0, 2037.386866291573)
+[19:42:41] [Server thread/INFO]: TharekoGameplays lost connection: Disconnected
+[19:42:41] [Server thread/INFO]: TharekoGameplays left the game
+[19:42:42] [User Authenticator #18/INFO]: UUID of player ItsMatt_ is 5d774ed3-e8f3-3f8f-9e84-4dfe1b56070f
+[19:42:43] [Server thread/INFO]: ItsMatt_ joined the game
+[19:42:43] [Server thread/INFO]: ItsMatt_[/[0:0:0:0:0:0:0:1]:63524] logged in with entity id 65023 at ([world]421.99451187367373, 55.0, 1825.6851457020105)
+[19:45:57] [User Authenticator #19/INFO]: UUID of player TharekoGameplays is 3431c0dc-f53a-3ee2-90ee-a98ec816d9c1
+[19:45:58] [Server thread/INFO]: TharekoGameplays joined the game
+[19:45:58] [Server thread/INFO]: TharekoGameplays[/[0:0:0:0:0:0:0:1]:63694] logged in with entity id 65756 at ([world]934.6533903877576, -20.0, 1992.7481176008205)
+[19:51:56] [Server thread/INFO]: TharekoGameplays issued server command: /tell danielLegal entra na call 1
+[19:52:04] [Async Chat Thread - #31/INFO]: [Not Secure] <danielLegal> to em call com o matias tharek
+[19:52:11] [Async Chat Thread - #31/INFO]: [Not Secure] <TharekoGameplays> ata
+[19:52:15] [Async Chat Thread - #31/INFO]: [Not Secure] <ItsMatt_> a
+[19:52:18] [Async Chat Thread - #31/INFO]: [Not Secure] <TharekoGameplays> posso entar
+[19:52:20] [Async Chat Thread - #31/INFO]: [Not Secure] <ItsMatt_> nao
+[19:52:21] [Server thread/INFO]: (mcMMO) danielLegal has reached level 100 in MINING!
+[19:52:26] [Async Chat Thread - #31/INFO]: [Not Secure] <ItsMatt_> pobre
+[19:52:29] [Async Chat Thread - #31/INFO]: [Not Secure] <ItsMatt_> to brincando
+[19:52:31] [Async Chat Thread - #31/INFO]: [Not Secure] <ItsMatt_> mas nao msm
+[19:52:41] [Async Chat Thread - #31/INFO]: [Not Secure] <ItsMatt_> c n e da aliança
+[19:52:42] [Async Chat Thread - #31/INFO]: [Not Secure] <TharekoGameplays> ta bom
+[19:52:50] [Async Chat Thread - #31/INFO]: [Not Secure] <ItsMatt_> n pode saber onde a a base
+[19:52:59] [Async Chat Thread - #31/INFO]: [Not Secure] <ItsMatt_> bobao na casca do ovinho
+[19:58:08] [Server thread/INFO]: TharekoGameplays lost connection: Disconnected
+[19:58:08] [Server thread/INFO]: TharekoGameplays left the game
+[20:04:02] [User Authenticator #20/INFO]: UUID of player jv501m is 19d95958-8655-3e0c-a91d-e96d2c2ac1bf
+[20:04:05] [Server thread/INFO]: jv501m joined the game
+[20:04:05] [Server thread/INFO]: jv501m[/[0:0:0:0:0:0:0:1]:64684] logged in with entity id 73483 at ([world]2316.435246428923, -6.0, 3034.000608338201)
+[20:04:16] [Async Chat Thread - #32/INFO]: [Not Secure] <danielLegal> eai jv
+[20:04:18] [Async Chat Thread - #32/INFO]: [Not Secure] <danielLegal> man
+[20:04:18] [Async Chat Thread - #32/INFO]: [Not Secure] <jv501m> morre
+[20:04:19] [Async Chat Thread - #33/INFO]: [Not Secure] <danielLegal> jv
+[20:04:21] [Async Chat Thread - #33/INFO]: [Not Secure] <danielLegal> ah
+[20:04:23] [Async Chat Thread - #33/INFO]: [Not Secure] <danielLegal> deixa ent
+[20:04:25] [Async Chat Thread - #33/INFO]: [Not Secure] <jv501m> fala
+[20:04:27] [Async Chat Thread - #33/INFO]: [Not Secure] <danielLegal> ia te falar uma coisa
+[20:04:28] [Async Chat Thread - #33/INFO]: [Not Secure] <danielLegal> nao
+[20:05:15] [Server thread/INFO]: jv501m issued server command: /mctop
+[20:06:14] [Async Chat Thread - #34/INFO]: [Not Secure] <jv501m> mn seis tao até agora jgn é
+[20:06:18] [Async Chat Thread - #34/INFO]: [Not Secure] <ItsMatt_> nao
+[20:06:19] [Async Chat Thread - #35/INFO]: [Not Secure] <danielLegal> ss
+[20:06:22] [Async Chat Thread - #34/INFO]: [Not Secure] <danielLegal> jogando ate agr
+[20:06:22] [Async Chat Thread - #34/INFO]: [Not Secure] <jv501m> ue
+[20:06:25] [Async Chat Thread - #34/INFO]: [Not Secure] <ItsMatt_> kitei as 15
+[20:06:29] [Async Chat Thread - #34/INFO]: [Not Secure] <danielLegal> desde as 18
+[20:06:51] [Async Chat Thread - #34/INFO]: [Not Secure] <jv501m> ninguem da minha aliança fica on ta foda
+[20:06:56] [Async Chat Thread - #34/INFO]: [Not Secure] <jv501m> koa n pode jgr hj tbm
+[20:06:59] [Async Chat Thread - #34/INFO]: [Not Secure] <danielLegal> pq
+[20:07:11] [Async Chat Thread - #34/INFO]: [Not Secure] <jv501m> jg até 3 da manha sabado cumigu
+[20:07:22] [Async Chat Thread - #34/INFO]: [Not Secure] <jv501m> ai a mae dele falou q n pode jgr hj
+[20:09:14] [Server thread/INFO]: ItsMatt_ issued server command: /tell danielLegal GEGE CARALHOOOOOOOOOOOOOOOOOOOKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK
+[20:11:34] [Server thread/INFO]: ItsMatt_ issued server command: /tell danielLegal nao toca no assunto seu arrombado
+[20:12:56] [Server thread/INFO]: jv501m lost connection: Disconnected
+[20:12:56] [Server thread/INFO]: jv501m left the game
+[20:12:59] [User Authenticator #21/INFO]: UUID of player jv501m is 19d95958-8655-3e0c-a91d-e96d2c2ac1bf
+[20:13:00] [Server thread/INFO]: jv501m joined the game
+[20:13:00] [Server thread/INFO]: jv501m[/[0:0:0:0:0:0:0:1]:65154] logged in with entity id 77872 at ([world_nether]273.9820460542745, 87.0, 383.3020836907349)
+[20:14:40] [Server thread/INFO]: jv501m lost connection: Disconnected
+[20:14:40] [Server thread/INFO]: jv501m left the game
+[20:15:11] [User Authenticator #22/INFO]: UUID of player jv501m is 19d95958-8655-3e0c-a91d-e96d2c2ac1bf
+[20:15:12] [Server thread/INFO]: jv501m joined the game
+[20:15:12] [Server thread/INFO]: jv501m[/[0:0:0:0:0:0:0:1]:65285] logged in with entity id 78653 at ([world_nether]259.47281776671446, 65.0, 456.5541824351735)
+[20:20:24] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/80901, uuid='63ee571c-14eb-4b95-a610-aef345e7f189', l='ServerLevel[world_nether]', x=274.12, y=71.00, z=480.80, cpos=[17, 30], tl=2428, v=true] died: Magma Cube was slain by jv501m
+[20:20:35] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/81770, uuid='33035935-73cb-4592-8e95-c6df4d4eccca', l='ServerLevel[world_nether]', x=283.66, y=69.00, z=464.97, cpos=[17, 29], tl=601, v=true] died: Magma Cube was slain by jv501m
+[20:27:47] [Async Chat Thread - #40/INFO]: [Not Secure] <danielLegal> 81 57 183
+[20:27:50] [Server thread/INFO]: (mcMMO) danielLegal has reached a Power level of 200!
+[20:30:36] [Async Chat Thread - #42/INFO]: [Not Secure] <danielLegal> -181 ~ -389
+[20:36:10] [User Authenticator #23/INFO]: UUID of player Marks_17 is ab9dc18a-c471-3f3f-95ad-491f6031e79c
+[20:36:12] [Server thread/INFO]: Marks_17 joined the game
+[20:36:12] [Server thread/INFO]: Marks_17[/[0:0:0:0:0:0:0:1]:50036] logged in with entity id 92242 at ([world]2321.516393610151, -6.0, 3030.255829558826)
+[20:36:19] [Async Chat Thread - #44/INFO]: [Not Secure] <Marks_17> ola
+[20:38:11] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/93268, uuid='ae0bf624-ae7f-42f7-bcc8-2da3dc2cda48', l='ServerLevel[world_nether]', x=-205.61, y=90.00, z=-283.13, cpos=[-13, -18], tl=594, v=true] died: Magma Cube was slain by danielLegal
+[20:38:26] [Server thread/INFO]: Marks_17 issued server command: /w jv501m n consigo sai
+[20:38:41] [Server thread/INFO]: danielLegal has made the advancement [A Terrible Fortress]
+[20:38:45] [Server thread/INFO]: Named entity Blaze['Blaze'/93743, uuid='98b7634f-7b41-4b15-81c6-7dfc0887dbec', l='ServerLevel[world_nether]', x=-223.54, y=68.01, z=-332.27, cpos=[-14, -21], tl=110, v=true] died: Blaze was slain by danielLegal
+[20:38:48] [Server thread/INFO]: danielLegal has made the advancement [Into Fire]
+[20:40:21] [User Authenticator #24/INFO]: UUID of player TharekoGameplays is 3431c0dc-f53a-3ee2-90ee-a98ec816d9c1
+[20:40:21] [Server thread/INFO]: TharekoGameplays joined the game
+[20:40:21] [Server thread/INFO]: TharekoGameplays[/[0:0:0:0:0:0:0:1]:50250] logged in with entity id 94300 at ([world]951.0800054466836, 103.0, 1973.2965169140407)
+[20:43:11] [Server thread/INFO]: TharekoGameplays fell from a high place
+[20:43:28] [Server thread/INFO]: TharekoGameplays lost connection: Disconnected
+[20:43:28] [Server thread/INFO]: TharekoGameplays left the game
+[20:43:38] [Server thread/INFO]: danielLegal tried to swim in lava to escape Magma Cube
+[20:44:49] [Async Chat Thread - #48/INFO]: [Not Secure] <Marks_17> ja paro pra pensa que a fortaleza é uma senzala so que do infenasso?
+[20:45:10] [Server thread/INFO]: jv501m lost connection: Disconnected
+[20:45:10] [Server thread/INFO]: jv501m left the game
+[20:45:43] [User Authenticator #25/INFO]: UUID of player jv501m is 19d95958-8655-3e0c-a91d-e96d2c2ac1bf
+[20:45:44] [Server thread/INFO]: jv501m joined the game
+[20:45:44] [Server thread/INFO]: jv501m[/[0:0:0:0:0:0:0:1]:50532] logged in with entity id 99329 at ([world_nether]-212.510597540284, 32.60722431020594, -14.159619726306273)
+[20:47:08] [Server thread/INFO]: Named entity Horse['Horse'/99722, uuid='2022b61d-cd7c-4299-823e-bc08ab1d5125', l='ServerLevel[world]', x=1943.05, y=70.00, z=2504.00, cpos=[121, 156], tl=3570, v=true] died: Horse was blown up by Creeper
+[20:50:41] [User Authenticator #26/INFO]: UUID of player TharekoGameplays is 3431c0dc-f53a-3ee2-90ee-a98ec816d9c1
+[20:50:42] [Server thread/INFO]: TharekoGameplays joined the game
+[20:50:42] [Server thread/INFO]: TharekoGameplays[/[0:0:0:0:0:0:0:1]:50800] logged in with entity id 102891 at ([world]854.8811937888238, 119.9375, 1160.0192416191285)
+[20:50:55] [Server thread/INFO]: jv501m has made the advancement [Take Aim]
+[20:51:00] [Server thread/INFO]: danielLegal lost connection: Disconnected
+[20:51:00] [Server thread/INFO]: danielLegal left the game
+[20:55:44] [Server thread/INFO]: [Not Secure] [Server] algeum on?
+[20:55:47] [Async Chat Thread - #50/INFO]: [Not Secure] <jv501m> eu
+[20:55:48] [Async Chat Thread - #50/INFO]: [Not Secure] <Marks_17> SI
+[20:55:50] [Async Chat Thread - #50/INFO]: [Not Secure] <TharekoGameplays> eu
+[20:55:52] [Async Chat Thread - #50/INFO]: [Not Secure] <jv501m> soq to prezo
+[20:55:53] [Server thread/INFO]: [Not Secure] [Server] corecto
+[20:55:55] [Async Chat Thread - #50/INFO]: [Not Secure] <jv501m> pfv me ajuda
+[20:56:00] [Server thread/INFO]: [Not Secure] [Server] preso onde?
+[20:56:11] [Async Chat Thread - #50/INFO]: [Not Secure] <jv501m> to em cima dee um andarilho, em cima de um mar de lava, sem guia
+[20:56:13] [Server thread/INFO]: Marks_17 has made the advancement [We Need to Go Deeper]
+[20:56:18] [Async Chat Thread - #50/INFO]: [Not Secure] <jv501m> to tipo num barco soq sobre a lava
+[20:56:29] [Server thread/INFO]: [Not Secure] [Server] não posso ajudar, só se for bug do servidor
+[20:56:34] [Async Chat Thread - #50/INFO]: [Not Secure] <jv501m> mangooooooos
+[20:56:37] [Async Chat Thread - #50/INFO]: [Not Secure] <jv501m> bosta
+[20:56:53] [Server thread/INFO]: [Not Secure] [Server] tu consegue!
+[20:56:56] [Async Chat Thread - #50/INFO]: [Not Secure] <jv501m> ata
+[20:57:01] [Server thread/INFO]: [Not Secure] [Server] vou arrumar o voip gente
+[20:57:04] [Async Chat Thread - #50/INFO]: [Not Secure] <jv501m> vou ter que esperar a boa vontade dele
+[20:57:05] [Async Chat Thread - #50/INFO]: [Not Secure] <jv501m> ok
+[20:57:52] [Server thread/INFO]: TharekoGameplays lost connection: Disconnected
+[20:57:52] [Server thread/INFO]: TharekoGameplays left the game
+[20:58:52] [Server thread/INFO]: [Not Secure] [Server] server ta lagando?
+[20:58:59] [Async Chat Thread - #52/INFO]: [Not Secure] <jv501m> nao faz nada nele por favor
+[20:59:04] [Async Chat Thread - #52/INFO]: [Not Secure] <jv501m> se nao eu morro
+[20:59:15] [Server thread/INFO]: [Not Secure] [Server] voces tao caindo direto parece
+[20:59:34] [Server thread/INFO]: [Not Secure] [Server] tão caindo mesmo ou ta bugado os logs aqui?
+[20:59:40] [Async Chat Thread - #52/INFO]: [Not Secure] <jv501m> bugado
+[20:59:44] [Server thread/INFO]: [Not Secure] [Server] ok
+[20:59:55] [Async Chat Thread - #52/INFO]: [Not Secure] <jv501m> nao reinicia o serv
+[21:04:04] [Server thread/INFO]: [Not Secure] [Server] ok
