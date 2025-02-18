@@ -420,3 +420,85 @@
 [20:59:44] [Server thread/INFO]: [Not Secure] [Server] ok
 [20:59:55] [Async Chat Thread - #52/INFO]: [Not Secure] <jv501m> nao reinicia o serv
 [21:04:04] [Server thread/INFO]: [Not Secure] [Server] ok
+[21:06:34] [User Authenticator #27/INFO]: UUID of player augustomessias21 is f4f61770-20e2-38c2-9083-af70cd16eb0a
+[21:06:36] [Server thread/INFO]: augustomessias21 joined the game
+[21:06:36] [Server thread/INFO]: augustomessias21[/[0:0:0:0:0:0:0:1]:52010] logged in with entity id 109636 at ([world]-121.45747665170425, 64.04907796027396, 1259.4838328150622)
+[21:07:36] [Server thread/INFO]: augustomessias21 has made the advancement [We Need to Go Deeper]
+[21:08:51] [Server thread/INFO]: Named entity Hoglin['Hoglin'/110251, uuid='d136e1e3-4c7a-4874-8985-ed9a6f6d2a9d', l='ServerLevel[world_nether]', x=-237.98, y=51.00, z=-28.98, cpos=[-15, -2], tl=1983, v=true] died: Hoglin was shot by Piglin
+[21:14:27] [Server thread/INFO]: Marks_17 lost connection: Disconnected
+[21:14:27] [Server thread/INFO]: Marks_17 left the game
+[21:17:56] [User Authenticator #28/INFO]: UUID of player HBplayOne1 is 31b4fb0d-13b9-3e7b-be11-c92abdbc0abc
+[21:17:58] [Server thread/INFO]: HBplayOne1 joined the game
+[21:17:58] [Server thread/INFO]: HBplayOne1[/[0:0:0:0:0:0:0:1]:52665] logged in with entity id 114672 at ([world_nether]12.112280243167667, 43.0, 144.52067119753227)
+[21:18:14] [Server thread/INFO]: augustomessias21 issued server command: /tell HBplayOne1 br atras dos cara
+[21:18:44] [Server thread/INFO]: HBplayOne1 issued server command: /tell augustomessias21 agr n
+[21:19:01] [Server thread/INFO]: augustomessias21 issued server command: /tell HBplayOne1 ok
+[21:19:03] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/114941, uuid='b53ecf37-5653-4b07-8dec-940163ace9cf', l='ServerLevel[world_nether]', x=-180.91, y=82.24, z=-313.95, cpos=[-12, -20], tl=379, v=true] died: Magma Cube was shot by jv501m
+[21:19:20] [Server thread/INFO]: jv501m has made the advancement [A Terrible Fortress]
+[21:19:56] [Server thread/INFO]: jv501m has made the advancement [Into Fire]
+[21:23:06] [User Authenticator #29/INFO]: UUID of player Marks_17 is ab9dc18a-c471-3f3f-95ad-491f6031e79c
+[21:23:07] [Server thread/INFO]: Marks_17 joined the game
+[21:23:07] [Server thread/INFO]: Marks_17[/[0:0:0:0:0:0:0:1]:52952] logged in with entity id 117644 at ([world_nether]-182.60435227704792, 32.0, -59.69999998807907)
+[21:23:26] [Server thread/INFO]: jv501m has made the advancement [Spooky Scary Skeleton]
+[21:23:41] [Async Chat Thread - #57/INFO]: [Not Secure] <HBplayOne1> 💀💀💀💀💀
+[21:28:59] [Server thread/INFO]: Marks_17 has made the advancement [A Terrible Fortress]
+[21:34:29] [Server thread/INFO]: Marks_17 has made the advancement [Into Fire]
+[21:36:00] [Server thread/INFO]: HBplayOne1 lost connection: Disconnected
+[21:36:00] [Server thread/INFO]: HBplayOne1 left the game
+[21:37:18] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/128372, uuid='cd9d6dda-c0f2-4e18-b1d6-8339705abde5', l='ServerLevel[world_nether]', x=-74.71, y=95.00, z=-196.37, cpos=[-5, -13], tl=490, v=true] died: Magma Cube was shot by jv501m
+[21:38:26] [User Authenticator #30/INFO]: UUID of player HBplayOne1 is 31b4fb0d-13b9-3e7b-be11-c92abdbc0abc
+[21:38:26] [Server thread/INFO]: HBplayOne1 joined the game
+[21:38:26] [Server thread/INFO]: HBplayOne1[/[0:0:0:0:0:0:0:1]:54162] logged in with entity id 128929 at ([world_nether]-181.51937119891736, 18.0, -192.0367647823851)
+[21:38:33] [Server thread/INFO]: augustomessias21 lost connection: Disconnected
+[21:38:33] [Server thread/INFO]: augustomessias21 left the game
+[21:41:30] [Async Chat Thread - #60/INFO]: [Not Secure] <ItsMatt_> ts pm sybau ngl idek dm tse
+[21:42:16] [Server thread/INFO]: Marks_17 has made the advancement [Who is Cutting Onions?]
+[21:42:55] [Server thread/INFO]: HBplayOne1 lost connection: Disconnected
+[21:42:55] [Server thread/INFO]: HBplayOne1 left the game
+[21:43:58] [Server thread/INFO]: [Not Secure] [Server] pessoal
+[21:44:04] [Server thread/INFO]: [Not Secure] [Server] voip vai voltar a funcionar
+[21:44:09] [Async Chat Thread - #61/INFO]: [Not Secure] <ItsMatt_> finalmente
+[21:44:10] [Server thread/INFO]: jv501m lost connection: Disconnected
+[21:44:10] [Server thread/INFO]: jv501m left the game
+[21:44:11] [Server thread/INFO]: [Not Secure] [Server] mas preciso reiniciar
+[21:44:20] [Server thread/INFO]: [Not Secure] [Server] posso?
+[21:44:28] [Async Chat Thread - #62/INFO]: [Not Secure] <ItsMatt_> por mim pode
+[21:44:40] [Server thread/INFO]: [Not Secure] [Server] galera já ta caindo do server, vao conectar lá no antigo kkk
+[21:44:51] [Server thread/INFO]: [Not Secure] [Server] reiniciando então!
+[21:44:57] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
+[21:44:57] [Server thread/INFO]: ItsMatt_ lost connection: Server is restarting
+[21:44:57] [Server thread/INFO]: ItsMatt_ left the game
+[21:44:57] [Server thread/INFO]: Marks_17 lost connection: Server is restarting
+[21:44:57] [Server thread/INFO]: Marks_17 left the game
+[21:44:57] [Server thread/INFO]: Stopping server
+[21:44:57] [Server thread/INFO]: [DropHeads] Disabling DropHeads v3.9.11
+[21:44:57] [Server thread/INFO]: [mcMMO] Disabling mcMMO v2.2.030
+[21:44:57] [Server thread/INFO]: [mcMMO] Server shutdown has been executed, saving and cleaning up data...
+[21:44:57] [Server thread/INFO]: [mcMMO] Saving mcMMOPlayers... (0)
+[21:44:57] [Server thread/INFO]: [mcMMO] Finished save operation for 0 players!
+[21:44:57] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.2.1
+[21:44:57] [Server thread/INFO]: [PlasmoVoice] Disabling PlasmoVoice v2.1.2
+[21:44:57] [Server thread/INFO]: [PlasmoVoice] UDP server is stopped
+[21:44:57] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.2.1
+[21:44:57] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[21:44:57] [Server thread/INFO]: Saving players
+[21:44:58] [Server thread/INFO]: Saving worlds
+[21:44:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:44:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[21:44:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[21:44:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[21:44:58] [Server thread/INFO]: [ChunkHolderManager] Saved 435 block chunks, 1182 entity chunks, 0 poi chunks in world 'world' in 0.81s
+[21:44:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[21:44:59] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[21:44:59] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[21:44:59] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[21:44:59] [Server thread/INFO]: [ChunkHolderManager] Saved 27 block chunks, 329 entity chunks, 0 poi chunks in world 'world_nether' in 0.12s
+[21:44:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[21:44:59] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[21:44:59] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[21:44:59] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[21:44:59] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[21:44:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:44:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:44:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:44:59] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

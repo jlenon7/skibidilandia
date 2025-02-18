@@ -1,2 +1,3 @@
 1739820768637,mob decapitated,Bat,HBplayOne1,§f[Diamond Sword]
 1739827993107,mob decapitated,Pig,TharekoGameplays,§f[Stone Axe]
+1739838205238,mob decapitated,Wither Skeleton,jv501m,§f[Diamond Sword]
