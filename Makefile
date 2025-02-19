@@ -36,12 +36,9 @@ restart:
 	screen -S minecraft -X stuff "stop\n"
 	sleep 10
 	$(MAKE) update-worlds
-	$(MAKE) screen-start
+	sudo reboot
 
 screen-start:
-	-screen -S minecraft -X quit || true
-	-screen -wipe
-	sleep 2
 	screen -dmS minecraft $(MAKE) start
 
 screen-connect:
