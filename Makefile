@@ -5,7 +5,7 @@ ngrok:
 	ngrok tcp --region=sa --remote-addr=1.tcp.sa.ngrok.io:20697 25565
 
 ssh:
-	ssh -i "key-skibidilandia.pem" ubuntu@ec2-15-229-22-159.sa-east-1.compute.amazonaws.com
+	ssh -i "key-skibidilandia.pem" ubuntu@ec2-54-207-86-45.sa-east-1.compute.amazonaws.com
 
 worlds:
 	rm -rf world world_nether world_the_end skibidilandia_world
@@ -13,6 +13,7 @@ worlds:
 	cp -r skibidilandia_world/world ./world
 	cp -r skibidilandia_world/world_nether ./world_nether
 	cp -r skibidilandia_world/world_the_end ./world_the_end
+	rm -rf skibidilandia_world
 
 update-worlds:
 	rm -rf skibidilandia_world
@@ -22,6 +23,7 @@ update-worlds:
 	cp -r world_nether skibidilandia_world/world_nether
 	cp -r world_the_end skibidilandia_world/world_the_end
 	cd skibidilandia_world && git add -A && git commit -m "feat: server restart" && git push
+	rm -rf skibidilandia_world
 
 restart:
 	screen -S minecraft -X stuff "say Servidor será reiniciado em 5 minutos!\n"
