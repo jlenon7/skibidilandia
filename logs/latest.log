@@ -1,58 +1,85 @@
-[15:08:06] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-124.04.1; Ubuntu null) on Linux 6.8.0-1021-aws (amd64)
-[15:08:06] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
-[15:08:06] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[15:08:08] [ServerMain/INFO]: [PluginInitializerManager] Initialized 5 plugins
-[15:08:08] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (5):
- - DropHeads (3.9.11), PlasmoVoice (2.1.2), ViaBackwards (5.2.1), ViaVersion (5.2.1), mcMMO (2.2.030)
-[15:08:17] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[15:08:21] [ServerMain/INFO]: Loaded 1290 recipes
-[15:08:22] [ServerMain/INFO]: Loaded 1399 advancements
-[15:08:22] [Server thread/INFO]: Starting minecraft server version 1.21
-[15:08:22] [Server thread/INFO]: Loading properties
-[15:08:22] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
-[15:08:24] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[15:08:24] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:08:24] [Server thread/INFO]: Using 4 threads for Netty based IO
-[15:08:26] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[15:08:26] [Server thread/INFO]: Default game type: SURVIVAL
-[15:08:26] [Server thread/INFO]: Generating keypair
-[15:08:26] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:08:26] [Server thread/INFO]: Using epoll channel type
-[15:08:26] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[15:08:26] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
-[15:08:30] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
-[15:08:30] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
-[15:08:32] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[15:08:33] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[15:08:35] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[15:08:35] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[15:08:38] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.1
-[15:08:38] [Server thread/INFO]: [PlasmoVoice] Loading server plugin PlasmoVoice v2.1.2
-[15:08:38] [Server thread/INFO]: [DropHeads] Loading server plugin DropHeads v3.9.11
-[15:08:38] [Server thread/INFO]: [mcMMO] Loading server plugin mcMMO v2.2.030
-[15:08:38] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[15:08:38] [Server thread/INFO]: [PlasmoVoice] Enabling PlasmoVoice v2.1.2
-[15:08:42] [Server thread/INFO]: [PlasmoVoice] UDP server is started on /[0:0:0:0:0:0:0:0]:25565
-[15:08:42] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[15:08:42] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[15:08:42] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[15:08:42] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[15:08:42] [Server thread/INFO]: Preparing level "world"
-[15:08:43] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[15:08:46] [Server thread/INFO]: Time elapsed: 2897 ms
-[15:08:46] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[15:08:47] [Server thread/INFO]: Time elapsed: 481 ms
-[15:08:47] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[15:08:47] [Server thread/INFO]: Time elapsed: 259 ms
-[15:08:47] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
-[15:08:47] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
-[15:08:47] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
-[15:08:47] [Server thread/INFO]: [DropHeads] Enabling DropHeads v3.9.11
-[15:08:48] [Server thread/INFO]: [mcMMO] Enabling mcMMO v2.2.030
-[15:08:51] [Server thread/INFO]: [mcMMO] Loaded 229 Alchemy potions, skipped 0.
-[15:08:55] [Server thread/INFO]: [spark] Starting background profiler...
-[15:08:56] [Server thread/INFO]: Done preparing level "world" (14.199s)
-[15:08:56] [Server thread/INFO]: Running delayed init tasks
-[15:08:56] [Server thread/INFO]: Done (52.894s)! For help, type "help"
-[15:08:56] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[15:08:56] [Server thread/INFO]: Timings Reset
+[15:53:44] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-124.04.1; Ubuntu null) on Linux 6.8.0-1021-aws (amd64)
+[15:53:44] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
+[15:53:44] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[15:53:45] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/SkibCommon.jar'...
+[15:53:46] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/SkibCommon.jar' in 1054ms.
+[15:53:47] [ServerMain/INFO]: [PluginInitializerManager] Initialized 6 plugins
+[15:53:47] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
+ - DropHeads (3.9.11), PlasmoVoice (2.1.2), SkibCommon (1.0), ViaBackwards (5.2.1), ViaVersion (5.2.1), mcMMO (2.2.030)
+[15:53:55] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[15:53:58] [ServerMain/INFO]: Loaded 1290 recipes
+[15:53:58] [ServerMain/INFO]: Loaded 1399 advancements
+[15:53:59] [Server thread/INFO]: Starting minecraft server version 1.21
+[15:53:59] [Server thread/INFO]: Loading properties
+[15:53:59] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[15:54:00] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[15:54:00] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:54:00] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:54:02] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[15:54:03] [Server thread/INFO]: Default game type: SURVIVAL
+[15:54:03] [Server thread/INFO]: Generating keypair
+[15:54:03] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:54:03] [Server thread/INFO]: Using epoll channel type
+[15:54:03] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[15:54:03] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[15:54:07] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
+[15:54:07] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
+[15:54:09] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[15:54:10] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[15:54:12] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[15:54:12] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[15:54:15] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.1
+[15:54:15] [Server thread/INFO]: [PlasmoVoice] Loading server plugin PlasmoVoice v2.1.2
+[15:54:15] [Server thread/INFO]: [DropHeads] Loading server plugin DropHeads v3.9.11
+[15:54:15] [Server thread/INFO]: [SkibCommon] Loading server plugin SkibCommon v1.0
+[15:54:15] [Server thread/INFO]: [mcMMO] Loading server plugin mcMMO v2.2.030
+[15:54:15] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:54:15] [Server thread/INFO]: [PlasmoVoice] Enabling PlasmoVoice v2.1.2
+[15:54:18] [Server thread/INFO]: [PlasmoVoice] UDP server is started on /[0:0:0:0:0:0:0:0]:25565
+[15:54:18] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:54:18] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:54:18] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:54:18] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:54:18] [Server thread/INFO]: Preparing level "world"
+[15:54:20] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:54:22] [Server thread/INFO]: Time elapsed: 2389 ms
+[15:54:22] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[15:54:22] [Server thread/INFO]: Time elapsed: 593 ms
+[15:54:22] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[15:54:23] [Server thread/INFO]: Time elapsed: 342 ms
+[15:54:23] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
+[15:54:23] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+[15:54:23] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
+[15:54:23] [Server thread/INFO]: [DropHeads] Enabling DropHeads v3.9.11
+[15:54:25] [Server thread/INFO]: [SkibCommon] Enabling SkibCommon v1.0
+[15:54:25] [Server thread/INFO]: [mcMMO] Enabling mcMMO v2.2.030
+[15:54:27] [Server thread/INFO]: [mcMMO] Loaded 229 Alchemy potions, skipped 0.
+[15:54:32] [Server thread/INFO]: [spark] Starting background profiler...
+[15:54:32] [Server thread/INFO]: Done preparing level "world" (13.888s)
+[15:54:32] [Server thread/INFO]: Running delayed init tasks
+[15:54:32] [Server thread/INFO]: Done (50.299s)! For help, type "help"
+[15:54:32] [Server thread/INFO]: Timings Reset
+[15:54:32] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[15:55:35] [User Authenticator #0/INFO]: UUID of player felps is 66b64998-f9f7-3a02-9f1c-ff1e2e7fe8bb
+[15:55:36] [Server thread/INFO]: felps joined the game
+[15:55:36] [Server thread/INFO]: felps[/187.65.213.129:57782] logged in with entity id 52 at ([world]1818.7398634065455, 72.0, 589.8480945482277)
+[16:03:14] [User Authenticator #1/INFO]: UUID of player jlenon7 is 6a6dc5c5-65d3-3c55-8a13-d79183ef3ef4
+[16:03:14] [Server thread/INFO]: jlenon7 joined the game
+[16:03:15] [Server thread/INFO]: jlenon7[/177.73.98.71:59343] logged in with entity id 1077 at ([world]887.5, 122.0, 1169.5)
+[16:04:06] [User Authenticator #1/INFO]: UUID of player tgabs7 is 8e329d5d-479f-3c71-a6b3-600853fa1711
+[16:04:07] [Server thread/INFO]: tgabs7 joined the game
+[16:04:07] [Server thread/INFO]: tgabs7[/177.73.98.71:59087] logged in with entity id 1426 at ([world]599.3370564044121, 102.16263345442732, 1878.0609824866679)
+[16:04:17] [Server thread/INFO]: tgabs7 issued server command: /teleport jlenon7
+[16:04:17] [Server thread/INFO]: [tgabs7: Teleported tgabs7 to jlenon7]
+[16:04:37] [Server thread/INFO]: tgabs7 issued server command: /effect clear
+[16:04:37] [Server thread/INFO]: [tgabs7: Removed every effect from tgabs7]
+[16:04:58] [Server thread/INFO]: tgabs7 issued server command: /g oi
+[16:04:58] [Server thread/INFO]: [Global] tgabs7: oi
+[16:05:03] [Server thread/INFO]: tgabs7 issued server command: /tell jlenon7 oi
+[16:05:07] [Server thread/INFO]: felps issued server command: /g oi
+[16:05:07] [Server thread/INFO]: [Global] felps: oi
+[16:14:33] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[16:25:46] [Server thread/INFO]: jlenon7 lost connection: Disconnected
+[16:25:46] [Server thread/INFO]: jlenon7 left the game
+[16:26:14] [Server thread/INFO]: tgabs7 lost connection: Disconnected
+[16:26:14] [Server thread/INFO]: tgabs7 left the game
