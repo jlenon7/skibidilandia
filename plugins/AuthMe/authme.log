@@ -86,3 +86,78 @@
 [02-20 18:35:44]: [FINE] jlenon7 logged in 177.73.98.71
 [02-20 18:38:01]: [FINE] Joao2025 logged in 149.19.165.11
 [02-20 18:40:33]: [INFO] AuthMe 5.6.0-bCUSTOM disabled!
+[02-20 18:45:01]: [INFO] SQLite Setup finished
+[02-20 18:45:01]: [INFO] No supported permissions system found! Permissions are disabled!
+[02-20 18:45:02]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[02-20 18:45:03]: [INFO] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[02-20 18:45:12]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[02-20 18:45:12]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[02-20 18:45:12]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[02-20 18:45:12]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[02-20 18:45:12]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at AuthMe-5.6.0.jar//fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at AuthMe-5.6.0.jar//fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at AuthMe-5.6.0.jar//fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:179)
+	at AuthMe-5.6.0.jar//fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86)
+	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[02-20 18:45:26]: [FINE] Joao2025 logged in 149.19.165.11
+[02-20 18:46:16]: [FINE] augustomessias21 logged in 179.113.188.95
+[02-20 18:46:17]: [FINE] felps logged in 187.65.213.129
+[02-20 18:47:20]: [FINE] messifome logged in 177.37.149.55
+[02-20 18:51:45]: [FINE] The user jlenon7 has 2 accounts:
+[02-20 18:51:45]: [FINE] §7tgabs7, §ajlenon7§7.
+[02-20 18:51:45]: [FINE] jlenon7 logged in 177.73.98.71
+[02-20 19:03:27]: [FINE] messifome logged in 177.37.149.55
+[02-20 19:12:59]: [FINE] jlenon7 used the wrong password
+[02-20 19:13:02]: [FINE] jlenon7 used the wrong password
+[02-20 19:13:04]: [FINE] jlenon7 used the wrong password
+[02-20 19:13:07]: [FINE] jlenon7 used the wrong password
+[02-20 19:13:08]: [FINE] jlenon7 used the wrong password
+[02-20 19:13:11]: [FINE] jlenon7 used the wrong password
+[02-20 19:13:14]: [FINE] jlenon7 used the wrong password
+[02-20 19:16:37]: [FINE] jv501m registered 177.198.93.216
+[02-20 19:16:37]: [FINE] jv501m logged in 177.198.93.216
+[02-20 19:22:21]: [FINE] The user jlenon7 has 2 accounts:
+[02-20 19:22:21]: [FINE] §7tgabs7, §ajlenon7§7.
+[02-20 19:22:21]: [FINE] jlenon7 logged in 177.73.98.71
+[02-20 19:35:12]: [FINE] joaorigo registered 177.198.94.92
+[02-20 19:35:12]: [FINE] joaorigo logged in 177.198.94.92
+[02-20 19:38:23]: [FINE] joaorigo logged in 177.198.94.92
+[02-20 19:42:36]: [FINE] joaorigo logged in 177.198.94.92
+[02-20 19:42:42]: [FINE] jlenon7 used the wrong password
+[02-20 19:42:46]: [FINE] jlenon7 used the wrong password
+[02-20 19:43:02]: [FINE] jlenon7 used the wrong password
+[02-20 19:43:08]: [FINE] The user jlenon7 has 2 accounts:
+[02-20 19:43:08]: [FINE] §7tgabs7, §ajlenon7§7.
+[02-20 19:43:08]: [FINE] jlenon7 logged in 177.73.98.71
+[02-20 19:44:13]: [FINE] HBplayOne1 registered 177.73.101.219
+[02-20 19:44:13]: [FINE] HBplayOne1 logged in 177.73.101.219
+[02-20 19:45:31]: [FINE] HBplayOne1 logged in 177.73.101.219
+[02-20 19:45:41]: [FINE] HBplayOne1 logged in 177.73.101.219
+[02-20 19:47:39]: [FINE] TharekoGameplays logged in 177.73.98.39
+[02-20 19:56:29]: [FINE] The user jlenon7 has 2 accounts:
+[02-20 19:56:29]: [FINE] §7tgabs7, §ajlenon7§7.
+[02-20 19:56:29]: [FINE] jlenon7 logged in 177.73.98.71
+[02-20 20:03:30]: [FINE] kaseh3 registered 177.92.55.107
+[02-20 20:03:30]: [FINE] kaseh3 logged in 177.92.55.107
+[02-20 20:06:05]: [FINE] The user jlenon7 has 2 accounts:
+[02-20 20:06:05]: [FINE] §7tgabs7, §ajlenon7§7.
+[02-20 20:06:05]: [FINE] jlenon7 logged in 177.73.98.71
+[02-20 20:06:20]: [FINE] jv501m logged in 177.198.93.216
+[02-20 20:09:18]: [FINE] The user tgabs7 has 2 accounts:
+[02-20 20:09:18]: [FINE] §7§atgabs7§7, §ajlenon7§7.
+[02-20 20:09:18]: [FINE] tgabs7 logged in 177.73.98.71
+[02-20 20:22:58]: [FINE] Joao2025 logged in 149.19.165.11
+[02-20 20:46:48]: [FINE] Joao2025 logged in 149.19.165.11
+[02-20 20:46:57]: [FINE] TharekoGameplays logged in 177.73.98.39
+[02-20 21:05:07]: [INFO] AuthMe 5.6.0-bCUSTOM disabled!
