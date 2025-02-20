@@ -35,8 +35,7 @@ restart:
 	screen -S minecraft -X stuff "save-all\n"
 	screen -S minecraft -X stuff "stop\n"
 	sleep 10
-	$(MAKE) update-worlds
-	sudo reboot
+	$(MAKE) update-worlds && sudo reboot
 
 screen-start:
 	screen -dmS minecraft $(MAKE) start
