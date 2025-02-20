@@ -1,1 +1,58 @@
-[]
+[
+  {
+    "uuid": "7a878921-cd15-3205-9479-6852af8a491d",
+    "name": "rust8",
+    "created": "2025-02-20 17:23:40 +0000",
+    "source": "tgabs7",
+    "expires": "forever",
+    "reason": "conta duplicada"
+  },
+  {
+    "uuid": "c289e74d-ded5-30a4-be93-b23b133583d4",
+    "name": "hust2",
+    "created": "2025-02-20 17:22:22 +0000",
+    "source": "tgabs7",
+    "expires": "forever",
+    "reason": "conta duplicada"
+  },
+  {
+    "uuid": "48e7b661-ed19-3f1f-91cf-363927291190",
+    "name": "skibiri",
+    "created": "2025-02-20 17:23:21 +0000",
+    "source": "tgabs7",
+    "expires": "forever",
+    "reason": "conta duplicada"
+  },
+  {
+    "uuid": "e71ce910-865f-348c-b0ee-b51be8569ec5",
+    "name": "hurst",
+    "created": "2025-02-20 17:22:40 +0000",
+    "source": "tgabs7",
+    "expires": "forever",
+    "reason": "conta duplicada"
+  },
+  {
+    "uuid": "fe6da93d-e9c8-33b8-8407-ffb6e18228de",
+    "name": "reorbrine",
+    "created": "2025-02-20 17:22:59 +0000",
+    "source": "tgabs7",
+    "expires": "forever",
+    "reason": "conta duplicada"
+  },
+  {
+    "uuid": "6e18e4cf-7f9d-3618-8506-d8ac2fe7afd1",
+    "name": "nomecriativo4217",
+    "created": "2025-02-20 17:40:11 +0000",
+    "source": "tgabs7",
+    "expires": "forever",
+    "reason": "conta duplicada"
+  },
+  {
+    "uuid": "88ae4e78-8184-3ab6-a8d6-cbeba2cb3d8f",
+    "name": "Husk8",
+    "created": "2025-02-20 17:23:45 +0000",
+    "source": "tgabs7",
+    "expires": "forever",
+    "reason": "contac duplicada"
+  }
+]
