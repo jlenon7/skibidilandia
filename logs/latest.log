@@ -1,317 +1,236 @@
-[16:37:13] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-124.04.1; Ubuntu null) on Linux 6.8.0-1021-aws (amd64)
-[16:37:13] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
-[16:37:13] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[16:37:15] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins/AuthMe-5.6.0.jar'...
-[16:37:23] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins/AuthMe-5.6.0.jar' in 7576ms.
-[16:37:23] [ServerMain/INFO]: [PluginInitializerManager] Initialized 7 plugins
-[16:37:23] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (7):
+[18:08:40] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-124.04.1; Ubuntu null) on Linux 6.8.0-1021-aws (amd64)
+[18:08:40] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
+[18:08:40] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[18:08:42] [ServerMain/INFO]: [PluginInitializerManager] Initialized 7 plugins
+[18:08:42] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (7):
  - AuthMe (5.6.0-bCUSTOM), DropHeads (3.9.11), PlasmoVoice (2.1.2), SkibCommon (1.0), ViaBackwards (5.2.1), ViaVersion (5.2.1), mcMMO (2.2.030)
-[16:37:32] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[16:37:35] [ServerMain/INFO]: Loaded 1290 recipes
-[16:37:35] [ServerMain/INFO]: Loaded 1399 advancements
-[16:37:35] [Server thread/INFO]: Starting minecraft server version 1.21
-[16:37:35] [Server thread/INFO]: Loading properties
-[16:37:36] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
-[16:37:37] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[16:37:37] [Server thread/INFO]: Using 4 threads for Netty based IO
-[16:37:37] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[16:37:39] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[16:37:39] [Server thread/INFO]: Default game type: SURVIVAL
-[16:37:39] [Server thread/INFO]: Generating keypair
-[16:37:39] [Server thread/INFO]: Starting Minecraft server on *:25565
-[16:37:39] [Server thread/INFO]: Using epoll channel type
-[16:37:39] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[16:37:39] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
-[16:37:42] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
-[16:37:42] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
-[16:37:45] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[16:37:46] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[16:37:49] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[16:37:49] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[16:37:52] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.1
-[16:37:52] [Server thread/INFO]: [PlasmoVoice] Loading server plugin PlasmoVoice v2.1.2
-[16:37:52] [Server thread/INFO]: [AuthMe] Loading server plugin AuthMe v5.6.0-bCUSTOM
-[16:37:52] [Server thread/INFO]: [DropHeads] Loading server plugin DropHeads v3.9.11
-[16:37:52] [Server thread/INFO]: [SkibCommon] Loading server plugin SkibCommon v1.0
-[16:37:52] [Server thread/INFO]: [mcMMO] Loading server plugin mcMMO v2.2.030
-[16:37:52] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[16:37:52] [Server thread/INFO]: [PlasmoVoice] Enabling PlasmoVoice v2.1.2
-[16:37:56] [Server thread/INFO]: [PlasmoVoice] UDP server is started on /[0:0:0:0:0:0:0:0]:25565
-[16:37:56] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[16:37:56] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[16:37:56] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[16:37:56] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[16:37:56] [Server thread/INFO]: Preparing level "world"
-[16:37:56] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[16:37:59] [Server thread/INFO]: Time elapsed: 2706 ms
-[16:37:59] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[16:38:00] [Server thread/INFO]: Time elapsed: 716 ms
-[16:38:00] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[16:38:00] [Server thread/INFO]: Time elapsed: 338 ms
-[16:38:00] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
-[16:38:00] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
-[16:38:01] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
-[16:38:01] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-bCUSTOM
-[16:38:02] [Server thread/INFO]: [AuthMe] Created column 'regdate' and set the current timestamp, 1740069482419, to all 0 rows
-[16:38:02] [Server thread/INFO]: [AuthMe] SQLite Setup finished
-[16:38:02] [Server thread/INFO]: [AuthMe] No supported permissions system found! Permissions are disabled!
-[16:38:04] [Server thread/WARN]: [AuthMe] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
-[16:38:04] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
-[16:38:04] [Server thread/INFO]: [DropHeads] Enabling DropHeads v3.9.11
-[16:38:06] [Server thread/INFO]: [SkibCommon] Enabling SkibCommon v1.0
-[16:38:06] [Server thread/INFO]: [mcMMO] Enabling mcMMO v2.2.030
-[16:38:08] [Server thread/INFO]: [mcMMO] Loaded 229 Alchemy potions, skipped 0.
-[16:38:14] [Server thread/INFO]: [spark] Starting background profiler...
-[16:38:14] [Server thread/INFO]: Done preparing level "world" (18.645s)
-[16:38:14] [Server thread/INFO]: Running delayed init tasks
-[16:38:14] [Server thread/INFO]: Done (63.040s)! For help, type "help"
-[16:38:14] [Server thread/INFO]: Timings Reset
-[16:38:14] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[16:38:14] [Craft Scheduler Thread - 7 - AuthMe/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
-[16:38:14] [Craft Scheduler Thread - 7 - AuthMe/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
-[16:38:14] [Craft Scheduler Thread - 7 - AuthMe/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
-[16:38:14] [Craft Scheduler Thread - 7 - AuthMe/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
-[16:38:15] [User Authenticator #0/INFO]: UUID of player felps is 66b64998-f9f7-3a02-9f1c-ff1e2e7fe8bb
-[16:38:16] [Server thread/INFO]: felps joined the game
-[16:38:17] [Server thread/INFO]: felps[/187.65.213.129:57851] logged in with entity id 103 at ([world]1812.699999988079, 69.72128329654329, 604.3088226767089)
-[16:38:18] [User Authenticator #0/INFO]: UUID of player tgabs7 is 8e329d5d-479f-3c71-a6b3-600853fa1711
-[16:38:19] [Server thread/INFO]: tgabs7 joined the game
-[16:38:19] [Server thread/INFO]: tgabs7[/177.73.98.71:58820] logged in with entity id 240 at ([world]878.9951184179037, 120.0, 1202.0320426782894)
-[16:38:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2542ms or 50 ticks behind
-[16:38:38] [Server thread/INFO]: [AuthMe] felps registered 187.65.213.129
-[16:38:38] [Craft Scheduler Thread - 4 - AuthMe/INFO]: [AuthMe] felps logged in 187.65.213.129
-[16:38:50] [Server thread/INFO]: tgabs7 lost connection: Login timeout exceeded, you have been kicked from the server, please try again!
-[16:38:50] [Server thread/INFO]: tgabs7 left the game
-[16:40:12] [User Authenticator #1/INFO]: UUID of player TharekoGameplays is 3431c0dc-f53a-3ee2-90ee-a98ec816d9c1
-[16:40:13] [Server thread/INFO]: TharekoGameplays joined the game
-[16:40:13] [Server thread/INFO]: TharekoGameplays[/177.73.98.39:1283] logged in with entity id 799 at ([world]744.9001555210583, 49.0, 1099.232914038496)
-[16:40:43] [Server thread/INFO]: TharekoGameplays lost connection: Login timeout exceeded, you have been kicked from the server, please try again!
-[16:40:43] [Server thread/INFO]: TharekoGameplays left the game
-[16:40:48] [User Authenticator #1/INFO]: UUID of player TharekoGameplays is 3431c0dc-f53a-3ee2-90ee-a98ec816d9c1
-[16:40:48] [Server thread/INFO]: TharekoGameplays joined the game
-[16:40:48] [Server thread/INFO]: TharekoGameplays[/177.73.98.39:1288] logged in with entity id 1065 at ([world]744.9905177081516, 49.0, 1099.1810373787512)
-[16:41:00] [User Authenticator #1/INFO]: UUID of player tgabs7 is 8e329d5d-479f-3c71-a6b3-600853fa1711
-[16:41:00] [Server thread/INFO]: tgabs7 joined the game
-[16:41:00] [Server thread/INFO]: tgabs7[/177.73.98.71:58864] logged in with entity id 1193 at ([world]878.8776941424711, 120.0, 1202.0741160224848)
-[16:41:15] [Server thread/INFO]: [AuthMe] tgabs7 registered 177.73.98.71
-[16:41:15] [Craft Scheduler Thread - 18 - AuthMe/INFO]: [AuthMe] tgabs7 logged in 177.73.98.71
-[16:41:18] [Server thread/INFO]: TharekoGameplays lost connection: Login timeout exceeded, you have been kicked from the server, please try again!
-[16:41:18] [Server thread/INFO]: TharekoGameplays left the game
-[16:42:03] [User Authenticator #2/INFO]: UUID of player TharekoGameplays is 3431c0dc-f53a-3ee2-90ee-a98ec816d9c1
-[16:42:04] [Server thread/INFO]: TharekoGameplays joined the game
-[16:42:04] [Server thread/INFO]: TharekoGameplays[/177.73.98.39:1305] logged in with entity id 1557 at ([world]744.9905177081516, 49.0, 1099.1810373787512)
-[16:42:08] [Server thread/INFO]: [AuthMe] TharekoGameplays registered 177.73.98.39
-[16:42:08] [Craft Scheduler Thread - 23 - AuthMe/INFO]: [AuthMe] TharekoGameplays logged in 177.73.98.39
-[16:42:41] [Server thread/INFO]: Made tgabs7 a server operator
-[16:42:57] [Server thread/INFO]: tgabs7 issued server command: /teleport TharekoGameplays
-[16:42:57] [Server thread/INFO]: [tgabs7: Teleported tgabs7 to TharekoGameplays]
-[16:43:34] [Server thread/INFO]: tgabs7 issued server command: /teleport felps
-[16:43:34] [Server thread/INFO]: [tgabs7: Teleported tgabs7 to felps]
-[16:44:05] [Server thread/INFO]: tgabs7 lost connection: Disconnected
-[16:44:05] [Server thread/INFO]: tgabs7 left the game
-[16:51:46] [Server thread/INFO]: felps issued server command: /g thareko vm dormir?
-[16:51:46] [Server thread/INFO]: [Global] felps: thareko vm dormir?
-[16:52:12] [Server thread/INFO]: felps issued server command: /g esquece
-[16:52:12] [Server thread/INFO]: [Global] felps: esquece
-[17:05:10] [Server thread/INFO]: TharekoGameplays lost connection: Disconnected
-[17:05:10] [Server thread/INFO]: TharekoGameplays left the game
-[17:07:35] [User Authenticator #3/INFO]: UUID of player TharekoGameplays is 3431c0dc-f53a-3ee2-90ee-a98ec816d9c1
-[17:07:38] [Server thread/INFO]: TharekoGameplays joined the game
-[17:07:38] [Server thread/INFO]: TharekoGameplays[/177.73.98.39:1482] logged in with entity id 8043 at ([world]743.3711185960279, 49.0, 1099.5857592895716)
-[17:07:56] [Craft Scheduler Thread - 39 - AuthMe/INFO]: [AuthMe] TharekoGameplays logged in 177.73.98.39
-[17:14:41] [Server thread/INFO]: TharekoGameplays lost connection: Disconnected
-[17:14:41] [Server thread/INFO]: TharekoGameplays left the game
-[17:15:13] [User Authenticator #4/INFO]: UUID of player Joao2025 is ac078e57-4562-3b85-add2-506580ef5885
-[17:15:16] [Server thread/INFO]: Joao2025 joined the game
-[17:15:16] [Server thread/INFO]: Joao2025[/149.19.165.11:48370] logged in with entity id 10034 at ([world]-117.38293115752758, -4.0, 1267.699999988079)
-[17:15:42] [Server thread/INFO]: Joao2025 lost connection: Disconnected
-[17:15:42] [Server thread/INFO]: Joao2025 left the game
-[17:17:04] [User Authenticator #5/INFO]: UUID of player TharekoGameplays is 3431c0dc-f53a-3ee2-90ee-a98ec816d9c1
-[17:17:05] [Server thread/INFO]: TharekoGameplays joined the game
-[17:17:05] [Server thread/INFO]: TharekoGameplays[/177.73.98.39:1424] logged in with entity id 10673 at ([world]741.542222034564, 48.0, 1101.4630156853736)
-[17:17:21] [Craft Scheduler Thread - 52 - AuthMe/INFO]: [AuthMe] TharekoGameplays logged in 177.73.98.39
-[17:18:35] [Server thread/INFO]: TharekoGameplays lost connection: Disconnected
-[17:18:35] [Server thread/INFO]: TharekoGameplays left the game
-[17:20:47] [User Authenticator #6/INFO]: UUID of player tgabs7 is 8e329d5d-479f-3c71-a6b3-600853fa1711
-[17:20:48] [Server thread/INFO]: tgabs7 joined the game
-[17:20:48] [Server thread/INFO]: tgabs7[/177.73.98.71:58980] logged in with entity id 11546 at ([world]1816.8610713989785, 73.0, 589.2164930019366)
-[17:20:53] [User Authenticator #6/INFO]: UUID of player TharekoGameplays is 3431c0dc-f53a-3ee2-90ee-a98ec816d9c1
-[17:20:53] [Server thread/INFO]: TharekoGameplays joined the game
-[17:20:53] [Server thread/INFO]: TharekoGameplays[/177.73.98.39:1248] logged in with entity id 11581 at ([world]745.3338537579026, 49.0, 1099.4057339753897)
-[17:21:00] [Server thread/INFO]: TharekoGameplays lost connection: Disconnected
-[17:21:00] [Server thread/INFO]: TharekoGameplays left the game
-[17:21:01] [Craft Scheduler Thread - 59 - AuthMe/INFO]: [AuthMe] tgabs7 logged in 177.73.98.71
-[17:22:22] [Server thread/INFO]: tgabs7 issued server command: /ban hust2 conta duplicada
-[17:22:22] [Server thread/INFO]: [tgabs7: Banned hust2: conta duplicada]
-[17:22:33] [Server thread/INFO]: tgabs7 issued server command: /ban messifome conta duplicada
-[17:22:33] [Server thread/INFO]: [tgabs7: Banned messifome: conta duplicada]
-[17:22:40] [Server thread/INFO]: tgabs7 issued server command: /ban hurst conta duplicada
-[17:22:40] [Server thread/INFO]: [tgabs7: Banned hurst: conta duplicada]
-[17:22:59] [Server thread/INFO]: tgabs7 issued server command: /ban reorbrine conta duplicada
-[17:22:59] [Server thread/INFO]: [tgabs7: Banned reorbrine: conta duplicada]
-[17:23:21] [Server thread/INFO]: tgabs7 issued server command: /ban skibiri conta duplicada
-[17:23:21] [Server thread/INFO]: [tgabs7: Banned skibiri: conta duplicada]
-[17:23:40] [Server thread/INFO]: tgabs7 issued server command: /ban rust8 conta duplicada
-[17:23:40] [Server thread/INFO]: [tgabs7: Banned rust8: conta duplicada]
-[17:23:45] [Server thread/INFO]: tgabs7 issued server command: /ban Husk8 contac duplicada
-[17:23:45] [Server thread/INFO]: [tgabs7: Banned Husk8: contac duplicada]
-[17:24:21] [Server thread/INFO]: tgabs7 lost connection: Disconnected
-[17:24:21] [Server thread/INFO]: tgabs7 left the game
-[17:24:47] [User Authenticator #7/INFO]: UUID of player Joao2025 is ac078e57-4562-3b85-add2-506580ef5885
-[17:24:49] [Server thread/INFO]: Joao2025 joined the game
-[17:24:49] [Server thread/INFO]: Joao2025[/149.19.165.11:30471] logged in with entity id 12489 at ([world]-117.46696671666713, -4.0, 1267.7957984837099)
-[17:25:19] [Server thread/INFO]: Joao2025 lost connection: Login timeout exceeded, you have been kicked from the server, please try again!
-[17:25:19] [Server thread/INFO]: Joao2025 left the game
-[17:25:22] [User Authenticator #7/INFO]: UUID of player Joao2025 is ac078e57-4562-3b85-add2-506580ef5885
-[17:25:22] [Server thread/INFO]: Joao2025 joined the game
-[17:25:22] [Server thread/INFO]: Joao2025[/149.19.165.11:8382] logged in with entity id 12941 at ([world]-117.46696671666713, -4.0, 1267.7957984837099)
-[17:25:53] [Server thread/INFO]: Joao2025 lost connection: Login timeout exceeded, you have been kicked from the server, please try again!
-[17:25:53] [Server thread/INFO]: Joao2025 left the game
-[17:25:56] [User Authenticator #7/INFO]: UUID of player Joao2025 is ac078e57-4562-3b85-add2-506580ef5885
-[17:25:57] [Server thread/INFO]: Joao2025 joined the game
-[17:25:57] [Server thread/INFO]: Joao2025[/149.19.165.11:61171] logged in with entity id 13178 at ([world]-117.46696671666713, -4.0, 1267.7957984837099)
-[17:26:05] [Server thread/INFO]: Joao2025 issued server command: /
-[17:26:27] [Server thread/INFO]: Joao2025 lost connection: Login timeout exceeded, you have been kicked from the server, please try again!
-[17:26:27] [Server thread/INFO]: Joao2025 left the game
-[17:26:37] [User Authenticator #7/INFO]: UUID of player Joao2025 is ac078e57-4562-3b85-add2-506580ef5885
-[17:26:38] [Server thread/INFO]: Joao2025 joined the game
-[17:26:38] [Server thread/INFO]: Joao2025[/149.19.165.11:58371] logged in with entity id 13409 at ([world]-117.46696671666713, -4.0, 1267.7957984837099)
-[17:27:08] [Server thread/INFO]: Joao2025 lost connection: Login timeout exceeded, you have been kicked from the server, please try again!
-[17:27:08] [Server thread/INFO]: Joao2025 left the game
-[17:27:11] [User Authenticator #7/INFO]: UUID of player Joao2025 is ac078e57-4562-3b85-add2-506580ef5885
-[17:27:12] [Server thread/INFO]: Joao2025 joined the game
-[17:27:12] [Server thread/INFO]: Joao2025[/149.19.165.11:44535] logged in with entity id 13832 at ([world]-117.46696671666713, -4.0, 1267.7957984837099)
-[17:27:30] [User Authenticator #7/INFO]: UUID of player tgabs7 is 8e329d5d-479f-3c71-a6b3-600853fa1711
-[17:27:31] [Server thread/INFO]: tgabs7 joined the game
-[17:27:31] [Server thread/INFO]: tgabs7[/177.73.98.71:59441] logged in with entity id 14009 at ([world]1812.644246012615, 73.0, 586.444209965425)
-[17:27:42] [Server thread/INFO]: Joao2025 lost connection: Login timeout exceeded, you have been kicked from the server, please try again!
-[17:27:42] [Server thread/INFO]: Joao2025 left the game
-[17:27:47] [Server thread/INFO]: tgabs7 lost connection: Disconnected
-[17:27:47] [Server thread/INFO]: tgabs7 left the game
-[17:27:54] [User Authenticator #7/INFO]: UUID of player Joao2025 is ac078e57-4562-3b85-add2-506580ef5885
-[17:27:55] [Server thread/INFO]: Joao2025 joined the game
-[17:27:55] [Server thread/INFO]: Joao2025[/149.19.165.11:45580] logged in with entity id 14053 at ([world]-117.46696671666713, -4.0, 1267.7957984837099)
-[17:28:11] [Server thread/INFO]: [AuthMe] Joao2025 registered 149.19.165.11
-[17:28:11] [Craft Scheduler Thread - 85 - AuthMe/INFO]: [AuthMe] Joao2025 logged in 149.19.165.11
-[17:31:45] [Server thread/INFO]: (mcMMO) felps has reached a Power level of 100!
-[17:35:47] [User Authenticator #8/INFO]: UUID of player tgabs7 is 8e329d5d-479f-3c71-a6b3-600853fa1711
-[17:35:48] [Server thread/INFO]: tgabs7 joined the game
-[17:35:48] [Server thread/INFO]: tgabs7[/177.73.98.71:58725] logged in with entity id 17669 at ([world]1812.644246012615, 73.0, 586.444209965425)
-[17:35:55] [Craft Scheduler Thread - 91 - AuthMe/INFO]: [AuthMe] tgabs7 used the wrong password
-[17:35:55] [Server thread/INFO]: tgabs7 lost connection: Wrong password!
-[17:35:55] [Server thread/INFO]: tgabs7 left the game
-[17:35:58] [User Authenticator #8/INFO]: UUID of player tgabs7 is 8e329d5d-479f-3c71-a6b3-600853fa1711
-[17:35:59] [Server thread/INFO]: tgabs7 joined the game
-[17:35:59] [Server thread/INFO]: tgabs7[/177.73.98.71:59363] logged in with entity id 17801 at ([world]1812.644246012615, 73.0, 586.444209965425)
-[17:36:07] [Craft Scheduler Thread - 91 - AuthMe/INFO]: [AuthMe] tgabs7 logged in 177.73.98.71
-[17:36:31] [Server thread/INFO]: tgabs7 issued server command: /ban nomecriativo4217
-[17:36:31] [Server thread/INFO]: [tgabs7: Banned nomecriativo4217: Banned by an operator.]
-[17:38:15] [Server thread/INFO]: tgabs7 issued server command: /
-[17:38:43] [Server thread/INFO]: tgabs7 issued server command: /pardon messifome
-[17:38:43] [Server thread/INFO]: [tgabs7: Unbanned messifome]
-[17:38:52] [Server thread/INFO]: tgabs7 issued server command: /pardon
-[17:38:57] [Server thread/INFO]: tgabs7 issued server command: /pardon nomecriativo4217
-[17:38:57] [Server thread/INFO]: [tgabs7: Unbanned nomecriativo4217]
-[17:40:11] [Server thread/INFO]: tgabs7 issued server command: /ban nomecriativo4217 conta duplicada
-[17:40:11] [Server thread/INFO]: [tgabs7: Banned nomecriativo4217: conta duplicada]
-[17:40:34] [Server thread/INFO]: tgabs7 lost connection: Disconnected
-[17:40:34] [Server thread/INFO]: tgabs7 left the game
-[17:46:13] [Server thread/INFO]: Joao2025 issued server command: /g 1186 841
-[17:46:13] [Server thread/INFO]: [Global] Joao2025: 1186 841
-[17:52:00] [Server thread/INFO]: Joao2025 lost connection: Disconnected
-[17:52:00] [Server thread/INFO]: Joao2025 left the game
-[17:52:26] [User Authenticator #9/INFO]: UUID of player Joao2025 is ac078e57-4562-3b85-add2-506580ef5885
-[17:52:27] [Server thread/INFO]: Joao2025 joined the game
-[17:52:27] [Server thread/INFO]: Joao2025[/149.19.165.11:50081] logged in with entity id 25248 at ([world]1753.917426908469, 72.0, 543.6194777411484)
-[17:52:48] [Craft Scheduler Thread - 106 - AuthMe/INFO]: [AuthMe] Joao2025 logged in 149.19.165.11
-[17:54:35] [User Authenticator #10/INFO]: UUID of player augustomessias21 is f4f61770-20e2-38c2-9083-af70cd16eb0a
-[17:54:37] [Server thread/INFO]: augustomessias21 joined the game
-[17:54:37] [Server thread/INFO]: augustomessias21[/179.113.188.95:59089] logged in with entity id 25705 at ([world]-122.71717183306136, -4.5, 1252.9814124778895)
-[17:55:07] [Server thread/INFO]: augustomessias21 lost connection: Login timeout exceeded, you have been kicked from the server, please try again!
-[17:55:07] [Server thread/INFO]: augustomessias21 left the game
-[17:55:14] [User Authenticator #10/INFO]: UUID of player augustomessias21 is f4f61770-20e2-38c2-9083-af70cd16eb0a
-[17:55:15] [Server thread/INFO]: augustomessias21 joined the game
-[17:55:15] [Server thread/INFO]: augustomessias21[/179.113.188.95:59094] logged in with entity id 26088 at ([world]-122.71717183306136, -5.0, 1252.9814124778895)
-[17:55:19] [Server thread/INFO]: Joao2025 issued server command: /g man
-[17:55:19] [Server thread/INFO]: [Global] Joao2025: man
-[17:55:24] [Server thread/INFO]: [AuthMe] augustomessias21 registered 179.113.188.95
-[17:55:24] [Craft Scheduler Thread - 113 - AuthMe/INFO]: [AuthMe] augustomessias21 logged in 179.113.188.95
-[17:55:25] [Server thread/INFO]: Joao2025 issued server command: /g posso ir mais call n
-[17:55:25] [Server thread/INFO]: [Global] Joao2025: posso ir mais call n
-[17:55:29] [Server thread/INFO]: Joao2025 issued server command: /g pai fico bravo aq
-[17:55:29] [Server thread/INFO]: [Global] Joao2025: pai fico bravo aq
-[17:55:35] [Server thread/INFO]: Joao2025 issued server command: /g so vou poder ouvir vcs
-[17:55:35] [Server thread/INFO]: [Global] Joao2025: so vou poder ouvir vcs
-[17:55:56] [Server thread/INFO]: Joao2025 issued server command: /g seis viu
-[17:55:56] [Server thread/INFO]: [Global] Joao2025: seis viu
-[17:56:44] [Server thread/INFO]: Joao2025 issued server command: /g n posso falar só ouvir
-[17:56:44] [Server thread/INFO]: [Global] Joao2025: n posso falar só ouvir
-[17:56:56] [Server thread/INFO]: Joao2025 issued server command: /g pode falar que to ouvindo
-[17:56:56] [Server thread/INFO]: [Global] Joao2025: pode falar que to ouvindo
-[17:57:08] [Server thread/INFO]: Joao2025 issued server command: /tell felps pain fico bravo
-[17:57:16] [Server thread/INFO]: Joao2025 has made the advancement [We Need to Go Deeper]
-[17:57:59] [Server thread/INFO]: felps issued server command: /tell augustomessias21 1819 73 587
-[17:58:08] [User Authenticator #11/INFO]: UUID of player TharekoGameplays is 3431c0dc-f53a-3ee2-90ee-a98ec816d9c1
-[17:58:09] [Server thread/INFO]: TharekoGameplays joined the game
-[17:58:09] [Server thread/INFO]: TharekoGameplays[/177.73.98.39:1470] logged in with entity id 27629 at ([world]745.3338537579026, 49.0, 1099.4057339753897)
-[17:58:20] [Server thread/INFO]: Joao2025 issued server command: /g eae therik traidor
-[17:58:20] [Server thread/INFO]: [Global] Joao2025: eae therik traidor
-[17:58:24] [Craft Scheduler Thread - 118 - AuthMe/INFO]: [AuthMe] TharekoGameplays logged in 177.73.98.39
-[18:00:02] [Server thread/INFO]: [Not Secure] [Server] Servidor será reiniciado em 5 minutos!
-[18:01:20] [Server thread/INFO]: Joao2025 issued server command: /g ss
-[18:01:20] [Server thread/INFO]: [Global] Joao2025: ss
-[18:01:27] [Server thread/INFO]: Joao2025 issued server command: /g n posso falar só ouvir
-[18:01:27] [Server thread/INFO]: [Global] Joao2025: n posso falar só ouvir
-[18:01:40] [Server thread/INFO]: Joao2025 issued server command: /tell felps vou atras da netherita
-[18:02:00] [Server thread/INFO]: Joao2025 issued server command: /tell felps PODE FALAR EU TO OUVINDO ANIMAL
-[18:02:14] [Server thread/INFO]: Joao2025 issued server command: /tell felps n prescisa escrever
-[18:04:01] [Server thread/INFO]: [Not Secure] [Server] Servidor será reiniciado em 1 minuto!
-[18:04:50] [Server thread/INFO]: Joao2025 has made the advancement [Hidden in the Depths]
-[18:05:01] [Server thread/INFO]: [Not Secure] [Server] Reiniciando servidor!
-[18:05:06] [Server thread/INFO]: Saving the game (this may take a moment!)
-[18:05:08] [Server thread/INFO]: Saved the game
-[18:05:08] [Server thread/INFO]: Stopping the server
-[18:05:08] [Server thread/INFO]: Stopping server
-[18:05:08] [Server thread/INFO]: [mcMMO] Disabling mcMMO v2.2.030
-[18:05:08] [Server thread/INFO]: [mcMMO] Server shutdown has been executed, saving and cleaning up data...
-[18:05:08] [Server thread/INFO]: [mcMMO] Saving mcMMOPlayers... (4)
-[18:05:08] [Server thread/INFO]: [mcMMO] Finished save operation for 4 players!
-[18:05:08] [Server thread/INFO]: [SkibCommon] Disabling SkibCommon v1.0
-[18:05:08] [Server thread/INFO]: [DropHeads] Disabling DropHeads v3.9.11
-[18:05:08] [Server thread/INFO]: [AuthMe] Disabling AuthMe v5.6.0-bCUSTOM
-[18:05:08] [Server thread/INFO]: [AuthMe] Waiting for 0 tasks to finish
-[18:05:08] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-bCUSTOM disabled!
-[18:05:08] [Server thread/INFO]: [PlasmoVoice] Disabling PlasmoVoice v2.1.2
-[18:05:08] [Server thread/INFO]: [PlasmoVoice] UDP server is stopped
-[18:05:08] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.2.1
-[18:05:08] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.2.1
-[18:05:08] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[18:05:08] [Server thread/INFO]: Saving players
-[18:05:08] [Server thread/INFO]: felps lost connection: Server closed
-[18:05:08] [Server thread/INFO]: felps left the game
-[18:05:08] [Server thread/INFO]: Joao2025 lost connection: Server closed
-[18:05:08] [Server thread/INFO]: Joao2025 left the game
-[18:05:08] [Server thread/INFO]: augustomessias21 lost connection: Server closed
-[18:05:08] [Server thread/INFO]: augustomessias21 left the game
-[18:05:08] [Server thread/INFO]: TharekoGameplays lost connection: Server closed
-[18:05:08] [Server thread/INFO]: TharekoGameplays left the game
-[18:05:08] [Server thread/INFO]: Saving worlds
-[18:05:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[18:05:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[18:05:08] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[18:05:08] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[18:05:10] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 798 entity chunks, 0 poi chunks in world 'world' in 1.22s
-[18:05:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[18:05:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[18:05:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[18:05:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[18:05:10] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 215 entity chunks, 0 poi chunks in world 'world_nether' in 0.07s
-[18:05:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[18:05:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[18:05:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[18:05:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[18:05:10] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[18:05:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[18:05:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18:05:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[18:05:10] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[18:08:50] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[18:08:54] [ServerMain/INFO]: Loaded 1290 recipes
+[18:08:54] [ServerMain/INFO]: Loaded 1399 advancements
+[18:08:55] [Server thread/INFO]: Starting minecraft server version 1.21
+[18:08:55] [Server thread/INFO]: Loading properties
+[18:08:55] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[18:08:56] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[18:08:56] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:08:56] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:08:58] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[18:08:58] [Server thread/INFO]: Default game type: SURVIVAL
+[18:08:58] [Server thread/INFO]: Generating keypair
+[18:08:58] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:08:58] [Server thread/INFO]: Using epoll channel type
+[18:08:58] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[18:08:58] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[18:09:02] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
+[18:09:02] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
+[18:09:05] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[18:09:05] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[18:09:08] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[18:09:08] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[18:09:10] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.1
+[18:09:10] [Server thread/INFO]: [PlasmoVoice] Loading server plugin PlasmoVoice v2.1.2
+[18:09:10] [Server thread/INFO]: [AuthMe] Loading server plugin AuthMe v5.6.0-bCUSTOM
+[18:09:10] [Server thread/INFO]: [DropHeads] Loading server plugin DropHeads v3.9.11
+[18:09:10] [Server thread/INFO]: [SkibCommon] Loading server plugin SkibCommon v1.0
+[18:09:10] [Server thread/INFO]: [mcMMO] Loading server plugin mcMMO v2.2.030
+[18:09:10] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:09:10] [Server thread/INFO]: [PlasmoVoice] Enabling PlasmoVoice v2.1.2
+[18:09:14] [Server thread/INFO]: [PlasmoVoice] UDP server is started on /[0:0:0:0:0:0:0:0]:25565
+[18:09:14] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:09:14] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:09:14] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:09:14] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:09:14] [Server thread/INFO]: Preparing level "world"
+[18:09:15] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:09:17] [Server thread/INFO]: Time elapsed: 2527 ms
+[18:09:17] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[18:09:18] [Server thread/INFO]: Time elapsed: 644 ms
+[18:09:18] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[18:09:18] [Server thread/INFO]: Time elapsed: 285 ms
+[18:09:18] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
+[18:09:18] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+[18:09:18] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
+[18:09:18] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-bCUSTOM
+[18:09:19] [Server thread/INFO]: [AuthMe] SQLite Setup finished
+[18:09:20] [Server thread/INFO]: [AuthMe] No supported permissions system found! Permissions are disabled!
+[18:09:21] [Server thread/WARN]: [AuthMe] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[18:09:22] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[18:09:22] [Server thread/INFO]: [DropHeads] Enabling DropHeads v3.9.11
+[18:09:23] [Server thread/INFO]: [SkibCommon] Enabling SkibCommon v1.0
+[18:09:23] [Server thread/INFO]: [mcMMO] Enabling mcMMO v2.2.030
+[18:09:26] [Server thread/INFO]: [mcMMO] Loaded 229 Alchemy potions, skipped 0.
+[18:09:30] [Server thread/INFO]: [spark] Starting background profiler...
+[18:09:31] [Server thread/INFO]: Done preparing level "world" (17.238s)
+[18:09:31] [Server thread/INFO]: Running delayed init tasks
+[18:09:31] [Server thread/INFO]: Done (52.476s)! For help, type "help"
+[18:09:31] [Server thread/INFO]: Timings Reset
+[18:09:31] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[18:09:31] [Craft Scheduler Thread - 7 - AuthMe/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[18:09:31] [Craft Scheduler Thread - 7 - AuthMe/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[18:09:31] [Craft Scheduler Thread - 7 - AuthMe/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[18:09:31] [Craft Scheduler Thread - 7 - AuthMe/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[18:10:27] [User Authenticator #0/INFO]: UUID of player TharekoGameplays is 3431c0dc-f53a-3ee2-90ee-a98ec816d9c1
+[18:10:28] [Server thread/INFO]: TharekoGameplays joined the game
+[18:10:29] [Server thread/INFO]: TharekoGameplays[/177.73.98.39:1468] logged in with entity id 67 at ([world]652.7365550926409, 76.0, 1088.4722667437559)
+[18:10:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2555ms or 51 ticks behind
+[18:10:33] [User Authenticator #0/INFO]: UUID of player Joao2025 is ac078e57-4562-3b85-add2-506580ef5885
+[18:10:36] [Server thread/INFO]: Joao2025 joined the game
+[18:10:36] [Server thread/INFO]: Joao2025[/149.19.165.11:62271] logged in with entity id 345 at ([world_nether]304.11045534051675, 11.0, 77.04141257892158)
+[18:10:45] [Craft Scheduler Thread - 11 - AuthMe/INFO]: [AuthMe] TharekoGameplays logged in 177.73.98.39
+[18:10:50] [Craft Scheduler Thread - 11 - AuthMe/INFO]: [AuthMe] Joao2025 logged in 149.19.165.11
+[18:10:53] [Server thread/INFO]: Joao2025 issued server command: /login
+[18:11:05] [User Authenticator #0/INFO]: UUID of player felps is 66b64998-f9f7-3a02-9f1c-ff1e2e7fe8bb
+[18:11:06] [Server thread/INFO]: felps joined the game
+[18:11:06] [Server thread/INFO]: felps[/187.65.213.129:58006] logged in with entity id 755 at ([world]1831.3867822097059, 73.17675927506424, 572.7311555530539)
+[18:11:18] [Craft Scheduler Thread - 14 - AuthMe/INFO]: [AuthMe] felps logged in 187.65.213.129
+[18:11:51] [User Authenticator #0/INFO]: UUID of player augustomessias21 is f4f61770-20e2-38c2-9083-af70cd16eb0a
+[18:11:52] [Server thread/INFO]: augustomessias21 joined the game
+[18:11:52] [Server thread/INFO]: augustomessias21[/179.113.188.95:59177] logged in with entity id 1396 at ([world]607.5972209373491, 63.0, 1401.6499922353441)
+[18:11:58] [Server thread/INFO]: Joao2025 issued server command: /tell felps man presciso de farme de ovelhas, se tem sementa pa emprestar?
+[18:12:03] [Craft Scheduler Thread - 17 - AuthMe/INFO]: [AuthMe] augustomessias21 logged in 179.113.188.95
+[18:12:05] [Server thread/INFO]: TharekoGameplays lost connection: Disconnected
+[18:12:05] [Server thread/INFO]: TharekoGameplays left the game
+[18:16:21] [Server thread/INFO]: Joao2025 issued server command: /tell felps onde era a base
+[18:17:01] [Server thread/INFO]: Joao2025 issued server command: /tell felps blz mais vou esperar ficar de dia pra nasce ovelha
+[18:17:56] [Server thread/INFO]: Joao2025 issued server command: /g bl
+[18:17:56] [Server thread/INFO]: [Global] Joao2025: bl
+[18:20:53] [Server thread/INFO]: Joao2025 issued server command: /tell augustomessias21 to atras de netherite
+[18:21:10] [Server thread/INFO]: Joao2025 issued server command: /tell augustomessias21 blz
+[18:21:16] [Server thread/INFO]: Joao2025 issued server command: /tell felps blz
+[18:22:07] [User Authenticator #1/INFO]: UUID of player jlenon7 is 6a6dc5c5-65d3-3c55-8a13-d79183ef3ef4
+[18:22:08] [Server thread/INFO]: jlenon7 joined the game
+[18:22:08] [Server thread/INFO]: jlenon7[/177.73.98.71:59445] logged in with entity id 8406 at ([world]877.3161407755944, 120.0, 1199.1776322470123)
+[18:22:09] [Server thread/INFO]: Joao2025 lost connection: Disconnected
+[18:22:09] [Server thread/INFO]: Joao2025 left the game
+[18:22:38] [Server thread/INFO]: jlenon7 lost connection: Login timeout exceeded, you have been kicked from the server, please try again!
+[18:22:38] [Server thread/INFO]: jlenon7 left the game
+[18:25:05] [User Authenticator #2/INFO]: UUID of player messifome is 7c594d31-4405-349c-b112-f62e6d44b660
+[18:25:07] [Server thread/INFO]: messifome joined the game
+[18:25:07] [Server thread/INFO]: messifome[/177.37.149.55:15319] logged in with entity id 9588 at ([world_the_end]1916.3178107728138, 143.0, -868.4403913483243)
+[18:25:37] [Server thread/INFO]: messifome lost connection: Login timeout exceeded, you have been kicked from the server, please try again!
+[18:25:37] [Server thread/INFO]: messifome left the game
+[18:25:40] [User Authenticator #2/INFO]: UUID of player messifome is 7c594d31-4405-349c-b112-f62e6d44b660
+[18:25:41] [Server thread/INFO]: messifome joined the game
+[18:25:41] [Server thread/INFO]: messifome[/177.37.149.55:23613] logged in with entity id 9865 at ([world_the_end]1916.3178107728138, 143.0, -868.4403913483243)
+[18:25:53] [Server thread/INFO]: [AuthMe] messifome registered 177.37.149.55
+[18:25:53] [Craft Scheduler Thread - 35 - AuthMe/INFO]: [AuthMe] messifome logged in 177.37.149.55
+[18:27:30] [Server thread/INFO]: messifome has reached the goal [Sky's the Limit]
+[18:29:01] [User Authenticator #3/INFO]: UUID of player Joao2025 is ac078e57-4562-3b85-add2-506580ef5885
+[18:29:02] [Server thread/INFO]: Joao2025 joined the game
+[18:29:02] [Server thread/INFO]: Joao2025[/149.19.165.11:28124] logged in with entity id 10901 at ([world_nether]330.0575699070805, 15.609398857061853, 78.69999998807907)
+[18:29:06] [Server thread/INFO]: Joao2025 lost connection: Disconnected
+[18:29:06] [Server thread/INFO]: Joao2025 left the game
+[18:29:17] [Server thread/INFO]: Unknown or incomplete command, see below for error
+/authme register jlenon7 Aa1335280400*<--[HERE]
+[18:29:26] [Craft Scheduler Thread - 39 - AuthMe/INFO]: Successfully registered!
+[18:29:26] [Craft Scheduler Thread - 39 - AuthMe/INFO]: [AuthMe] CONSOLE registered jlenon7
+[18:29:31] [User Authenticator #3/INFO]: UUID of player jlenon7 is 6a6dc5c5-65d3-3c55-8a13-d79183ef3ef4
+[18:29:31] [Server thread/INFO]: jlenon7 joined the game
+[18:29:31] [Server thread/INFO]: jlenon7[/177.73.98.71:58561] logged in with entity id 11068 at ([world]877.3161407755944, 120.0, 1199.1776322470123)
+[18:29:40] [Craft Scheduler Thread - 41 - AuthMe/INFO]: [AuthMe] The user jlenon7 has 2 accounts:
+[18:29:40] [Craft Scheduler Thread - 41 - AuthMe/INFO]: [AuthMe] §7tgabs7, §ajlenon7§7.
+[18:29:40] [Craft Scheduler Thread - 41 - AuthMe/INFO]: [AuthMe] jlenon7 logged in 177.73.98.71
+[18:30:02] [User Authenticator #3/INFO]: UUID of player Joao2025 is ac078e57-4562-3b85-add2-506580ef5885
+[18:30:03] [Server thread/INFO]: Joao2025 joined the game
+[18:30:03] [Server thread/INFO]: Joao2025[/149.19.165.11:17816] logged in with entity id 11399 at ([world_nether]330.0575699070805, 15.06683948058053, 78.69999998807907)
+[18:30:18] [Craft Scheduler Thread - 44 - AuthMe/INFO]: [AuthMe] Joao2025 logged in 149.19.165.11
+[18:30:52] [Server thread/INFO]: jlenon7 lost connection: Disconnected
+[18:30:52] [Server thread/INFO]: jlenon7 left the game
+[18:30:54] [User Authenticator #3/INFO]: UUID of player jlenon7 is 6a6dc5c5-65d3-3c55-8a13-d79183ef3ef4
+[18:30:55] [Server thread/INFO]: jlenon7 joined the game
+[18:30:55] [Server thread/INFO]: jlenon7[/177.73.98.71:58724] logged in with entity id 11773 at ([world]854.9870753650689, 120.9375, 1186.8721959974596)
+[18:31:05] [Server thread/INFO]: felps issued server command: /tell jlenon7 chega aq em cassa
+[18:31:06] [Craft Scheduler Thread - 48 - AuthMe/INFO]: [AuthMe] The user jlenon7 has 2 accounts:
+[18:31:06] [Craft Scheduler Thread - 48 - AuthMe/INFO]: [AuthMe] §7tgabs7, §ajlenon7§7.
+[18:31:06] [Craft Scheduler Thread - 48 - AuthMe/INFO]: [AuthMe] jlenon7 logged in 177.73.98.71
+[18:31:20] [Server thread/INFO]: jlenon7 issued server command: /tell felps já vou pera ai
+[18:31:26] [Server thread/INFO]: felps issued server command: /party
+[18:31:48] [Server thread/INFO]: felps issued server command: /tell jlenon7 quer lock
+[18:33:30] [Server thread/INFO]: jlenon7 lost connection: Disconnected
+[18:33:30] [Server thread/INFO]: jlenon7 left the game
+[18:33:31] [User Authenticator #4/INFO]: UUID of player jlenon7 is 6a6dc5c5-65d3-3c55-8a13-d79183ef3ef4
+[18:33:32] [Server thread/INFO]: jlenon7 joined the game
+[18:33:32] [Server thread/INFO]: jlenon7[/177.73.98.71:58958] logged in with entity id 13218 at ([world]884.815831970594, 122.0, 1177.2698565890055)
+[18:33:34] [Craft Scheduler Thread - 52 - AuthMe/INFO]: [AuthMe] jlenon7 used the wrong password
+[18:33:35] [Server thread/INFO]: jlenon7 lost connection: Wrong password!
+[18:33:35] [Server thread/INFO]: jlenon7 left the game
+[18:34:32] [Server thread/INFO]: Joao2025 issued server command: /g dorme ae
+[18:34:32] [Server thread/INFO]: [Global] Joao2025: dorme ae
+[18:34:56] [Server thread/INFO]: Named entity Spider['Spider'/13596, uuid='3e7b1887-9f2b-404a-a7e0-f5a0a268851f', l='ServerLevel[world]', x=1939.89, y=72.00, z=544.82, cpos=[121, 34], tl=617, v=true] died: Spider was slain by felps
+[18:35:13] [Server thread/INFO]: Joao2025 issued server command: /g DORMEEEEEEEEEE
+[18:35:13] [Server thread/INFO]: [Global] Joao2025: DORMEEEEEEEEEE
+[18:35:24] [Server thread/INFO]: Named entity Shulker['Shulker'/9653, uuid='335af467-6702-41ef-b1d3-858101b6435c', l='ServerLevel[world_the_end]', x=1973.50, y=113.00, z=-868.50, cpos=[123, -55], tl=18505, v=true] died: Shulker was slain by Shulker
+[18:35:27] [Server thread/INFO]: [Not Secure] [Server] Servidor será reiniciado em 5 minutos!
+[18:35:30] [User Authenticator #5/INFO]: UUID of player jlenon7 is 6a6dc5c5-65d3-3c55-8a13-d79183ef3ef4
+[18:35:30] [Server thread/INFO]: jlenon7 joined the game
+[18:35:30] [Server thread/INFO]: jlenon7[/177.73.98.71:59273] logged in with entity id 14149 at ([world]884.815831970594, 122.0, 1177.2698565890055)
+[18:35:37] [Craft Scheduler Thread - 56 - AuthMe/INFO]: [AuthMe] jlenon7 used the wrong password
+[18:35:37] [Server thread/INFO]: jlenon7 lost connection: Wrong password!
+[18:35:37] [Server thread/INFO]: jlenon7 left the game
+[18:35:39] [User Authenticator #5/INFO]: UUID of player jlenon7 is 6a6dc5c5-65d3-3c55-8a13-d79183ef3ef4
+[18:35:39] [Server thread/INFO]: jlenon7 joined the game
+[18:35:39] [Server thread/INFO]: jlenon7[/177.73.98.71:59067] logged in with entity id 14306 at ([world]884.815831970594, 122.0, 1177.2698565890055)
+[18:35:44] [Craft Scheduler Thread - 55 - AuthMe/INFO]: [AuthMe] The user jlenon7 has 2 accounts:
+[18:35:44] [Craft Scheduler Thread - 55 - AuthMe/INFO]: [AuthMe] §7tgabs7, §ajlenon7§7.
+[18:35:44] [Craft Scheduler Thread - 55 - AuthMe/INFO]: [AuthMe] jlenon7 logged in 177.73.98.71
+[18:37:30] [Server thread/INFO]: Joao2025 lost connection: Disconnected
+[18:37:30] [Server thread/INFO]: Joao2025 left the game
+[18:37:45] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[18:37:49] [User Authenticator #6/INFO]: UUID of player Joao2025 is ac078e57-4562-3b85-add2-506580ef5885
+[18:37:49] [Server thread/INFO]: Joao2025 joined the game
+[18:37:49] [Server thread/INFO]: Joao2025[/149.19.165.11:61618] logged in with entity id 15570 at ([world]1872.699999988079, 67.07438153763698, 582.3000000119209)
+[18:37:56] [Server thread/INFO]: Named entity Shulker['Shulker'/9667, uuid='501a7ba0-8325-4ecf-a9d5-738183304ad4', l='ServerLevel[world_the_end]', x=1960.50, y=93.00, z=-900.50, cpos=[122, -57], tl=21477, v=true] died: Shulker was slain by ❤❤❤❤❤❤❤❤❤❤
+[18:38:01] [Craft Scheduler Thread - 62 - AuthMe/INFO]: [AuthMe] Joao2025 logged in 149.19.165.11
+[18:38:19] [Server thread/INFO]: Named entity Shulker['Shulker'/15576, uuid='eb8829f7-78a0-43f2-b094-a9459ff895f7', l='ServerLevel[world_the_end]', x=1960.50, y=93.00, z=-897.50, cpos=[122, -57], tl=601, v=true] died: Shulker was slain by Shulker
+[18:38:21] [Server thread/INFO]: Joao2025 issued server command: /g socorro
+[18:38:21] [Server thread/INFO]: [Global] Joao2025: socorro
+[18:39:27] [Server thread/INFO]: [Not Secure] [Server] Servidor será reiniciado em 1 minuto!
+[18:40:27] [Server thread/INFO]: [Not Secure] [Server] Reiniciando servidor!
+[18:40:32] [Server thread/INFO]: Saving the game (this may take a moment!)
+[18:40:33] [Server thread/INFO]: Saved the game
+[18:40:33] [Server thread/INFO]: Stopping the server
+[18:40:33] [Server thread/INFO]: Stopping server
+[18:40:33] [Server thread/INFO]: [mcMMO] Disabling mcMMO v2.2.030
+[18:40:33] [Server thread/INFO]: [mcMMO] Server shutdown has been executed, saving and cleaning up data...
+[18:40:33] [Server thread/INFO]: [mcMMO] Saving mcMMOPlayers... (5)
+[18:40:33] [Server thread/INFO]: [mcMMO] Finished save operation for 5 players!
+[18:40:33] [Server thread/INFO]: [SkibCommon] Disabling SkibCommon v1.0
+[18:40:33] [Server thread/INFO]: [DropHeads] Disabling DropHeads v3.9.11
+[18:40:33] [Server thread/INFO]: [AuthMe] Disabling AuthMe v5.6.0-bCUSTOM
+[18:40:33] [Server thread/INFO]: [AuthMe] Waiting for 0 tasks to finish
+[18:40:33] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-bCUSTOM disabled!
+[18:40:33] [Server thread/INFO]: [PlasmoVoice] Disabling PlasmoVoice v2.1.2
+[18:40:33] [Server thread/INFO]: [PlasmoVoice] UDP server is stopped
+[18:40:33] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.2.1
+[18:40:33] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.2.1
+[18:40:33] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[18:40:33] [Server thread/INFO]: Saving players
+[18:40:33] [Server thread/INFO]: felps lost connection: Server closed
+[18:40:33] [Server thread/INFO]: felps left the game
+[18:40:33] [Server thread/INFO]: augustomessias21 lost connection: Server closed
+[18:40:33] [Server thread/INFO]: augustomessias21 left the game
+[18:40:33] [Server thread/INFO]: messifome lost connection: Server closed
+[18:40:33] [Server thread/INFO]: messifome left the game
+[18:40:33] [Server thread/INFO]: jlenon7 lost connection: Server closed
+[18:40:33] [Server thread/INFO]: jlenon7 left the game
+[18:40:33] [Server thread/INFO]: Joao2025 lost connection: Server closed
+[18:40:33] [Server thread/INFO]: Joao2025 left the game
+[18:40:33] [Server thread/INFO]: Saving worlds
+[18:40:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:40:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[18:40:33] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[18:40:33] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[18:40:33] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 756 entity chunks, 0 poi chunks in world 'world' in 0.15s
+[18:40:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[18:40:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[18:40:33] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[18:40:33] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[18:40:34] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 144 entity chunks, 0 poi chunks in world 'world_nether' in 0.04s
+[18:40:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[18:40:34] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[18:40:34] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[18:40:34] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[18:40:34] [Server thread/INFO]: [ChunkHolderManager] Saved 668 block chunks, 67 entity chunks, 0 poi chunks in world 'world_the_end' in 0.28s
+[18:40:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:40:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:40:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:40:34] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

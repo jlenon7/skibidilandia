@@ -41,3 +41,48 @@
 [02-20 17:55:24]: [FINE] augustomessias21 logged in 179.113.188.95
 [02-20 17:58:24]: [FINE] TharekoGameplays logged in 177.73.98.39
 [02-20 18:05:08]: [INFO] AuthMe 5.6.0-bCUSTOM disabled!
+[02-20 18:09:19]: [INFO] SQLite Setup finished
+[02-20 18:09:20]: [INFO] No supported permissions system found! Permissions are disabled!
+[02-20 18:09:21]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[02-20 18:09:22]: [INFO] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[02-20 18:09:31]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[02-20 18:09:31]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[02-20 18:09:31]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[02-20 18:09:31]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[02-20 18:09:31]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at AuthMe-5.6.0.jar//fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at AuthMe-5.6.0.jar//fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at AuthMe-5.6.0.jar//fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:179)
+	at AuthMe-5.6.0.jar//fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86)
+	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[02-20 18:10:45]: [FINE] TharekoGameplays logged in 177.73.98.39
+[02-20 18:10:50]: [FINE] Joao2025 logged in 149.19.165.11
+[02-20 18:11:18]: [FINE] felps logged in 187.65.213.129
+[02-20 18:12:03]: [FINE] augustomessias21 logged in 179.113.188.95
+[02-20 18:25:53]: [FINE] messifome registered 177.37.149.55
+[02-20 18:25:53]: [FINE] messifome logged in 177.37.149.55
+[02-20 18:29:26]: [INFO] CONSOLE registered jlenon7
+[02-20 18:29:40]: [FINE] The user jlenon7 has 2 accounts:
+[02-20 18:29:40]: [FINE] §7tgabs7, §ajlenon7§7.
+[02-20 18:29:40]: [FINE] jlenon7 logged in 177.73.98.71
+[02-20 18:30:18]: [FINE] Joao2025 logged in 149.19.165.11
+[02-20 18:31:06]: [FINE] The user jlenon7 has 2 accounts:
+[02-20 18:31:06]: [FINE] §7tgabs7, §ajlenon7§7.
+[02-20 18:31:06]: [FINE] jlenon7 logged in 177.73.98.71
+[02-20 18:33:34]: [FINE] jlenon7 used the wrong password
+[02-20 18:35:37]: [FINE] jlenon7 used the wrong password
+[02-20 18:35:44]: [FINE] The user jlenon7 has 2 accounts:
+[02-20 18:35:44]: [FINE] §7tgabs7, §ajlenon7§7.
+[02-20 18:35:44]: [FINE] jlenon7 logged in 177.73.98.71
+[02-20 18:38:01]: [FINE] Joao2025 logged in 149.19.165.11
+[02-20 18:40:33]: [INFO] AuthMe 5.6.0-bCUSTOM disabled!
