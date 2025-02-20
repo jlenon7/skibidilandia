@@ -15,7 +15,7 @@ worlds:
 	cp -r skibidilandia_world/world_the_end ./world_the_end
 	rm -rf skibidilandia_world
 
-update-worlds:
+sync:
 	rm -rf skibidilandia_world
 	git clone git@github.com:jlenon7/skibidilandia_world.git
 	rm -rf skibidilandia_world/world skibidilandia_world/world_nether skibidilandia_world/world_the_end
@@ -24,6 +24,7 @@ update-worlds:
 	cp -r world_the_end skibidilandia_world/world_the_end
 	cd skibidilandia_world && git add -A && git commit -m "feat: server restart" && git push
 	rm -rf skibidilandia_world
+	git add -A && git commit -m "feat: server restart" && git push
 
 restart:
 	screen -S minecraft -X stuff "say Servidor será reiniciado em 5 minutos!\n"
@@ -35,7 +36,7 @@ restart:
 	screen -S minecraft -X stuff "save-all\n"
 	screen -S minecraft -X stuff "stop\n"
 	sleep 10
-	$(MAKE) update-worlds && sudo reboot
+	$(MAKE) sync && sudo reboot
 
 screen-start:
 	screen -dmS minecraft $(MAKE) start
