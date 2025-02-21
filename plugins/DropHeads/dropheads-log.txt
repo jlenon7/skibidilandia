@@ -2,3 +2,6 @@
 1739827993107,mob decapitated,Pig,TharekoGameplays,§f[Stone Axe]
 1739838205238,mob decapitated,Wither Skeleton,jv501m,§f[Diamond Sword]
 1740076665635,mob decapitated,Shulker,messifome,§b[Iron Sword]
+1740088184325,mob decapitated,Cow,felps,§f[Diamond Axe]
+1740092697736,mob decapitated,Zombie Villager,Joao2025,§f[Diamond Sword]
+1740093962076,mob decapitated,Magma Cube,messifome,§f[Diamond Axe]
