@@ -1,423 +1,126 @@
-[16:16:46] [ServerMain/INFO]: [bootstrap] Running Java 21 (Java HotSpot(TM) 64-Bit Server VM 21.0.6+8-LTS-188; Oracle Corporation null) on Mac OS X 15.1.1 (aarch64)
-[16:16:46] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
-[16:16:47] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[16:16:47] [ServerMain/INFO]: [PluginInitializerManager] Initialized 7 plugins
-[16:16:47] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (7):
+[14:54:08] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-124.04.1; Ubuntu null) on Linux 6.8.0-1021-aws (amd64)
+[14:54:08] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
+[14:54:09] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[14:54:11] [ServerMain/INFO]: [PluginInitializerManager] Initialized 7 plugins
+[14:54:11] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (7):
  - AuthMe (5.6.0-bCUSTOM), DropHeads (3.9.11), PlasmoVoice (2.1.2), SkibCommon (1.0), ViaBackwards (5.2.1), ViaVersion (5.2.1), mcMMO (2.2.030)
-[16:16:49] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[16:16:49] [ServerMain/INFO]: Found non-pack entry './world/datapacks/tick.mcfunction', ignoring
-[16:16:50] [ServerMain/INFO]: Loaded 1290 recipes
-[16:16:50] [ServerMain/INFO]: Loaded 1399 advancements
-[16:16:50] [Server thread/INFO]: Starting minecraft server version 1.21
-[16:16:50] [Server thread/INFO]: Loading properties
-[16:16:50] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
-[16:16:50] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[16:16:50] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[16:16:50] [Server thread/INFO]: Using 4 threads for Netty based IO
-[16:16:51] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 2 worker threads, and population gen parallelism of 2 threads
-[16:16:51] [Server thread/INFO]: Default game type: SURVIVAL
-[16:16:51] [Server thread/INFO]: Generating keypair
-[16:16:51] [Server thread/INFO]: Starting Minecraft server on *:25565
-[16:16:51] [Server thread/INFO]: Using default channel type
-[16:16:51] [Server thread/INFO]: Paper: Using libdeflate (macOS ARM64 / Apple Silicon) compression from Velocity.
-[16:16:51] [Server thread/INFO]: Paper: Using native (macOS ARM64 / Apple Silicon) cipher from Velocity.
-[16:16:52] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
-[16:16:52] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
-[16:16:53] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[16:16:53] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[16:16:54] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[16:16:54] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[16:16:54] [Server thread/INFO]: [PlasmoVoice] Loading server plugin PlasmoVoice v2.1.2
-[16:16:54] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.1
-[16:16:54] [Server thread/INFO]: [mcMMO] Loading server plugin mcMMO v2.2.030
-[16:16:54] [Server thread/INFO]: [SkibCommon] Loading server plugin SkibCommon v1.0
-[16:16:54] [Server thread/INFO]: [DropHeads] Loading server plugin DropHeads v3.9.11
-[16:16:54] [Server thread/INFO]: [AuthMe] Loading server plugin AuthMe v5.6.0-bCUSTOM
-[16:16:54] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[16:16:54] [Server thread/INFO]: [PlasmoVoice] Enabling PlasmoVoice v2.1.2
-[16:16:55] [Server thread/INFO]: [PlasmoVoice] UDP server is started on /[0:0:0:0:0:0:0:0]:25565
-[16:16:55] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[16:16:55] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[16:16:55] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[16:16:55] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[16:16:55] [Server thread/INFO]: Preparing level "world"
-[16:16:55] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[16:16:56] [Server thread/INFO]: Time elapsed: 338 ms
-[16:16:56] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[16:16:58] [Server thread/INFO]: Time elapsed: 1927 ms
-[16:16:58] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[16:16:58] [Server thread/INFO]: Time elapsed: 30 ms
-[16:16:58] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
-[16:16:58] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
-[16:16:58] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
-[16:16:58] [Server thread/INFO]: [mcMMO] Enabling mcMMO v2.2.030
-[16:16:58] [Server thread/INFO]: [mcMMO] Loaded 229 Alchemy potions, skipped 0.
-[16:16:59] [Server thread/INFO]: [SkibCommon] Enabling SkibCommon v1.0
-[16:16:59] [Server thread/INFO]: [DropHeads] Enabling DropHeads v3.9.11
-[16:16:59] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-bCUSTOM
-[16:17:00] [Server thread/INFO]: [AuthMe] SQLite Setup finished
-[16:17:00] [Server thread/INFO]: [AuthMe] No supported permissions system found! Permissions are disabled!
-[16:17:00] [Server thread/WARN]: [AuthMe] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
-[16:17:00] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
-[16:17:00] [Server thread/INFO]: [spark] Starting background profiler...
-[16:17:01] [Server thread/INFO]: Done preparing level "world" (5.892s)
-[16:17:01] [Server thread/INFO]: Running delayed init tasks
-[16:17:01] [Server thread/INFO]: Done (16.278s)! For help, type "help"
-[16:17:01] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[16:17:01] [Craft Scheduler Thread - 4 - AuthMe/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
-[16:17:01] [Server thread/INFO]: Timings Reset
-[16:17:01] [Craft Scheduler Thread - 4 - AuthMe/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
-[16:17:01] [Craft Scheduler Thread - 4 - AuthMe/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
-[16:17:01] [Craft Scheduler Thread - 4 - AuthMe/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
-[16:17:01] [User Authenticator #0/INFO]: UUID of player jlenon7 is 6a6dc5c5-65d3-3c55-8a13-d79183ef3ef4
-[16:17:02] [Server thread/INFO]: jlenon7 joined the game
-[16:17:02] [Server thread/INFO]: jlenon7[/[0:0:0:0:0:0:0:1]:57602] logged in with entity id 131 at ([world]-72.5, 163.1, 843.5)
-[16:17:09] [Craft Scheduler Thread - 3 - AuthMe/INFO]: [AuthMe] The user jlenon7 has 2 accounts:
-[16:17:09] [Craft Scheduler Thread - 3 - AuthMe/INFO]: [AuthMe] §7§ajlenon7§7, hbplayone1.
-[16:17:09] [Craft Scheduler Thread - 3 - AuthMe/INFO]: [AuthMe] jlenon7 logged in 0:0:0:0:0:0:0:1
-[16:17:34] [Server thread/INFO]: jlenon7 issued server command: /teleport -1822 ~ -2390
-[16:17:34] [Server thread/INFO]: [jlenon7: Teleported jlenon7 to -1821.500000, 166.293296, -2389.500000]
-[16:18:00] [User Authenticator #0/INFO]: UUID of player HBplayOne1 is 31b4fb0d-13b9-3e7b-be11-c92abdbc0abc
-[16:18:01] [Server thread/INFO]: HBplayOne1 joined the game
-[16:18:01] [Server thread/INFO]: HBplayOne1[/[0:0:0:0:0:0:0:1]:57641] logged in with entity id 506 at ([world]-65.79893979797252, 161.0, 832.8332962099502)
-[16:18:09] [Craft Scheduler Thread - 8 - AuthMe/INFO]: [AuthMe] The user HBplayOne1 has 2 accounts:
-[16:18:09] [Craft Scheduler Thread - 8 - AuthMe/INFO]: [AuthMe] §7§ajlenon7§7, §aHBplayOne1§7.
-[16:18:09] [Craft Scheduler Thread - 8 - AuthMe/INFO]: [AuthMe] HBplayOne1 logged in 0:0:0:0:0:0:0:1
-[16:18:30] [Server thread/INFO]: HBplayOne1 issued server command: /gamemode spectator
-[16:18:30] [Server thread/INFO]: [HBplayOne1: Set own game mode to Spectator Mode]
-[16:18:47] [Server thread/INFO]: HBplayOne1 issued server command: /tag HBplayOne1 add adm
-[16:18:47] [Server thread/INFO]: [HBplayOne1: Added tag 'adm' to HBplayOne1]
-[16:18:53] [Server thread/INFO]: HBplayOne1 issued server command: /gamemode creative
-[16:18:53] [Server thread/INFO]: [HBplayOne1: Set own game mode to Creative Mode]
-[16:19:03] [Server thread/INFO]: HBplayOne1 issued server command: /tp -2327 111 -879
-[16:19:03] [Server thread/INFO]: [HBplayOne1: Teleported HBplayOne1 to -2326.500000, 111.000000, -878.500000]
-[16:19:09] [Server thread/INFO]: HBplayOne1 issued server command: /gamemode spectator
-[16:19:09] [Server thread/INFO]: [HBplayOne1: Set own game mode to Spectator Mode]
-[16:19:13] [Server thread/INFO]: HBplayOne1 issued server command: /gamemode creative
-[16:19:13] [Server thread/INFO]: [HBplayOne1: Set own game mode to Creative Mode]
-[16:19:50] [Server thread/INFO]: jlenon7 issued server command: /kill jlenon7
-[16:19:50] [Server thread/INFO]: [jlenon7: Killed jlenon7]
-[16:19:57] [Server thread/INFO]: HBplayOne1 issued server command: /gamemode creative
-[16:19:57] [Server thread/INFO]: [HBplayOne1: Set own game mode to Creative Mode]
-[16:20:10] [Server thread/INFO]: HBplayOne1 issued server command: /tag HBplayOne1 add adm
-[16:20:18] [Server thread/INFO]: HBplayOne1 issued server command: /tag HBplayOne1 list
-[16:20:25] [Server thread/INFO]: HBplayOne1 issued server command: /gamemode creative
-[16:20:25] [Server thread/INFO]: [HBplayOne1: Set own game mode to Creative Mode]
-[16:20:32] [Server thread/INFO]: HBplayOne1 issued server command: /fill -2330 99 -875 air
-[16:20:36] [Server thread/INFO]: HBplayOne1 issued server command: /fill -2330 99 -875 -2330 99 -875 air
-[16:20:36] [Server thread/INFO]: [HBplayOne1: Successfully filled 1 block(s)]
-[16:20:40] [Server thread/INFO]: HBplayOne1 issued server command: /gamemode creative
-[16:20:40] [Server thread/INFO]: [HBplayOne1: Set own game mode to Creative Mode]
-[16:21:31] [Server thread/INFO]: HBplayOne1 issued server command: /tag HBplayOne1 remove adm
-[16:21:31] [Server thread/INFO]: [HBplayOne1: Removed tag 'adm' from HBplayOne1]
-[16:21:46] [Server thread/INFO]: HBplayOne1 issued server command: /tag HBplayOne1 add adm
-[16:21:46] [Server thread/INFO]: [HBplayOne1: Added tag 'adm' to HBplayOne1]
-[16:21:51] [Server thread/INFO]: HBplayOne1 issued server command: /gamemode spectator
-[16:21:51] [Server thread/INFO]: [HBplayOne1: Set own game mode to Spectator Mode]
-[16:21:53] [Server thread/INFO]: HBplayOne1 issued server command: /gamemode adventure
-[16:21:53] [Server thread/INFO]: [HBplayOne1: Set own game mode to Adventure Mode]
-[16:21:57] [Server thread/INFO]: HBplayOne1 issued server command: /gamemode spectator
-[16:21:57] [Server thread/INFO]: [HBplayOne1: Set own game mode to Spectator Mode]
-[16:21:57] [Server thread/INFO]: HBplayOne1 issued server command: /gamemode adventure
-[16:21:57] [Server thread/INFO]: [HBplayOne1: Set own game mode to Adventure Mode]
-[16:21:58] [Server thread/INFO]: HBplayOne1 issued server command: /gamemode spectator
-[16:21:58] [Server thread/INFO]: [HBplayOne1: Set own game mode to Spectator Mode]
-[16:21:58] [Server thread/INFO]: HBplayOne1 issued server command: /gamemode adventure
-[16:21:58] [Server thread/INFO]: [HBplayOne1: Set own game mode to Adventure Mode]
-[16:21:58] [Server thread/INFO]: HBplayOne1 issued server command: /gamemode spectator
-[16:21:58] [Server thread/INFO]: [HBplayOne1: Set own game mode to Spectator Mode]
-[16:21:59] [Server thread/INFO]: HBplayOne1 issued server command: /gamemode adventure
-[16:21:59] [Server thread/INFO]: [HBplayOne1: Set own game mode to Adventure Mode]
-[16:22:20] [Server thread/INFO]: HBplayOne1 issued server command: /gamemode creative
-[16:22:20] [Server thread/INFO]: [HBplayOne1: Set own game mode to Creative Mode]
-[16:22:42] [Server thread/INFO]: jlenon7 issued server command: /reload
-[16:22:42] [Server thread/INFO]: jlenon7: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
-[16:22:50] [Server thread/INFO]: jlenon7 issued server command: /reload confirm
-[16:22:50] [Server thread/INFO]: jlenon7: Please note that this command is not supported and may cause issues when using some plugins.
-[16:22:50] [Server thread/INFO]: jlenon7: If you encounter any issues please use the /stop command to restart your server.
-[16:22:50] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[16:22:50] [Server thread/INFO]: Using 4 threads for Netty based IO
-[16:22:50] [Server thread/INFO]: [AuthMe] Disabling AuthMe v5.6.0-bCUSTOM
-[16:22:50] [Server thread/INFO]: [AuthMe] Waiting for 0 tasks to finish
-[16:22:50] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-bCUSTOM disabled!
-[16:22:50] [Server thread/INFO]: [DropHeads] Disabling DropHeads v3.9.11
-[16:22:50] [Server thread/INFO]: [SkibCommon] Disabling SkibCommon v1.0
-[16:22:50] [Server thread/INFO]: [mcMMO] Disabling mcMMO v2.2.030
-[16:22:50] [Server thread/INFO]: [mcMMO] Server shutdown has been executed, saving and cleaning up data...
-[16:22:50] [Server thread/INFO]: [mcMMO] Saving mcMMOPlayers... (2)
-[16:22:50] [Server thread/INFO]: [mcMMO] Finished save operation for 2 players!
-[16:22:50] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.2.1
-[16:22:50] [Server thread/INFO]: [PlasmoVoice] Disabling PlasmoVoice v2.1.2
-[16:22:50] [Server thread/INFO]: [PlasmoVoice] UDP server is stopped
-[16:22:50] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.2.1
-[16:22:50] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling. If this is a reload and you experience issues, please reboot instead.
-[16:22:50] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[16:22:51] [Server thread/INFO]: Loaded 1290 recipes
-[16:22:51] [Server thread/INFO]: Loaded 1399 advancements
-[16:22:51] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
-[16:22:51] [Paper Async Command Builder Thread Pool - 2/ERROR]: Caught previously unhandled exception :
-[16:22:51] [Paper Async Command Builder Thread Pool - 2/ERROR]: Paper Async Command Builder Thread Pool - 2
-java.util.ConcurrentModificationException: null
-	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1023) ~[?:?]
-	at java.base/java.util.LinkedHashMap$LinkedValueIterator.next(LinkedHashMap.java:1052) ~[?:?]
-	at net.minecraft.commands.Commands.fillUsableCommands(Commands.java:537) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.commands.Commands.sendAsync(Commands.java:496) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.commands.Commands.lambda$sendCommands$6(Commands.java:475) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[16:22:51] [Server thread/INFO]: [PluginInitializerManager] Initialized 7 plugins
-[16:22:51] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (7):
- - AuthMe (5.6.0-bCUSTOM), DropHeads (3.9.11), PlasmoVoice (2.1.2), SkibCommon (1.0), ViaBackwards (5.2.1), ViaVersion (5.2.1), mcMMO (2.2.030)
-[16:22:52] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
-[16:22:52] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
-[16:22:52] [Server thread/ERROR]: [ViaVersion] ViaVersion is already loaded, this should work fine. If you get any console errors, try rebooting.
-[16:22:52] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[16:22:52] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[16:22:53] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[16:22:53] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[16:22:54] [Server thread/INFO]: [PlasmoVoice] Loading server plugin PlasmoVoice v2.1.2
-[16:22:54] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.1
-[16:22:54] [Server thread/INFO]: [mcMMO] Loading server plugin mcMMO v2.2.030
-[16:22:54] [Server thread/INFO]: [SkibCommon] Loading server plugin SkibCommon v1.0
-[16:22:54] [Server thread/INFO]: [DropHeads] Loading server plugin DropHeads v3.9.11
-[16:22:54] [Server thread/INFO]: [AuthMe] Loading server plugin AuthMe v5.6.0-bCUSTOM
-[16:22:54] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[16:22:54] [Server thread/INFO]: [PlasmoVoice] Enabling PlasmoVoice v2.1.2
-[16:22:55] [Server thread/INFO]: [PlasmoVoice] UDP server is started on /[0:0:0:0:0:0:0:0]:25565
-[16:22:55] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
-[16:22:55] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
-[16:22:55] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
-[16:22:55] [Server thread/INFO]: [mcMMO] Enabling mcMMO v2.2.030
-[16:22:55] [Server thread/INFO]: [mcMMO] Loaded 229 Alchemy potions, skipped 0.
-[16:22:56] [Server thread/INFO]: [SkibCommon] Enabling SkibCommon v1.0
-[16:22:56] [Server thread/INFO]: [DropHeads] Enabling DropHeads v3.9.11
-[16:22:56] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-bCUSTOM
-[16:22:57] [Server thread/INFO]: [AuthMe] SQLite Setup finished
-[16:22:57] [Server thread/INFO]: [AuthMe] No supported permissions system found! Permissions are disabled!
-[16:22:57] [Server thread/WARN]: [AuthMe] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
-[16:22:57] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
-[16:22:57] [Server thread/INFO]: jlenon7: Reload complete.
-[16:22:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6666ms or 133 ticks behind
-[16:22:57] [Server thread/INFO]: Timings Reset
-[16:22:57] [Craft Scheduler Thread - 11 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[16:22:57] [Craft Scheduler Thread - 12 - AuthMe/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
-[16:22:57] [Craft Scheduler Thread - 12 - AuthMe/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
-[16:22:57] [Craft Scheduler Thread - 12 - AuthMe/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
-[16:22:57] [Craft Scheduler Thread - 12 - AuthMe/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
-[16:23:07] [Craft Scheduler Thread - 11 - AuthMe/INFO]: [AuthMe] The user jlenon7 has 2 accounts:
-[16:23:07] [Craft Scheduler Thread - 11 - AuthMe/INFO]: [AuthMe] §7§ajlenon7§7, §aHBplayOne1§7.
-[16:23:07] [Craft Scheduler Thread - 11 - AuthMe/INFO]: [AuthMe] jlenon7 logged in 0:0:0:0:0:0:0:1
-[16:23:16] [Server thread/INFO]: jlenon7 issued server command: /teleport -1822 ~ -2390
-[16:23:16] [Server thread/INFO]: [jlenon7: Teleported jlenon7 to -1821.500000, 189.186401, -2389.500000]
-[16:23:18] [Craft Scheduler Thread - 11 - AuthMe/INFO]: [AuthMe] The user HBplayOne1 has 2 accounts:
-[16:23:18] [Craft Scheduler Thread - 11 - AuthMe/INFO]: [AuthMe] §7§ajlenon7§7, §aHBplayOne1§7.
-[16:23:18] [Craft Scheduler Thread - 11 - AuthMe/INFO]: [AuthMe] HBplayOne1 logged in 0:0:0:0:0:0:0:1
-[16:23:30] [Server thread/INFO]: HBplayOne1 issued server command: /tag HBplayOne1 remove adm
-[16:23:30] [Server thread/INFO]: [HBplayOne1: Removed tag 'adm' from HBplayOne1]
-[16:23:35] [Server thread/INFO]: HBplayOne1 issued server command: /gamemode spectator
-[16:23:35] [Server thread/INFO]: [HBplayOne1: Set own game mode to Spectator Mode]
-[16:23:49] [Server thread/INFO]: HBplayOne1 issued server command: /tag HBplayOne1 add adm
-[16:23:49] [Server thread/INFO]: [HBplayOne1: Added tag 'adm' to HBplayOne1]
-[16:23:53] [Server thread/INFO]: HBplayOne1 issued server command: /gamemode spectator
-[16:23:53] [Server thread/INFO]: [HBplayOne1: Set own game mode to Spectator Mode]
-[16:23:55] [Server thread/INFO]: HBplayOne1 issued server command: /gamemode adventure
-[16:23:55] [Server thread/INFO]: [HBplayOne1: Set own game mode to Adventure Mode]
-[16:23:58] [Server thread/INFO]: HBplayOne1 issued server command: /gamemode creative
-[16:23:58] [Server thread/INFO]: [HBplayOne1: Set own game mode to Creative Mode]
-[16:24:02] [Server thread/INFO]: HBplayOne1 issued server command: /gamemode spectator
-[16:24:02] [Server thread/INFO]: [HBplayOne1: Set own game mode to Spectator Mode]
-[16:24:10] [Server thread/INFO]: jlenon7 issued server command: /datapack list
-[16:24:32] [Server thread/INFO]: jlenon7 issued server command: /datapack enable file/nether_datapack
-[16:24:33] [Server thread/INFO]: HBplayOne1 issued server command: /tag HBplayOne1 remove adm
-[16:24:33] [Server thread/INFO]: [HBplayOne1: Removed tag 'adm' from HBplayOne1]
-[16:24:41] [Server thread/INFO]: jlenon7 issued server command: /datapack enable "file/nether_datapack"
-[16:26:11] [Server thread/INFO]: jlenon7 issued server command: /execute as @e[type=minecraft:piglin] run data merge entity @s {TimeInOverworld:0}
-[16:26:11] [Server thread/INFO]: [Piglin: Modified entity data of Piglin]
-[16:26:23] [Server thread/INFO]: HBplayOne1 issued server command: /tag HBplayOne1 add adm
-[16:26:23] [Server thread/INFO]: [HBplayOne1: Added tag 'adm' to HBplayOne1]
-[16:26:27] [Server thread/INFO]: HBplayOne1 issued server command: /gamemode spectator
-[16:26:27] [Server thread/INFO]: [HBplayOne1: Set own game mode to Spectator Mode]
-[16:26:59] [Server thread/INFO]: HBplayOne1 issued server command: /gamemode creative
-[16:26:59] [Server thread/INFO]: [HBplayOne1: Set own game mode to Creative Mode]
-[16:27:31] [Server thread/INFO]: jlenon7 issued server command: /summon minecraft:piglin ~ ~ ~ {Brain:{memories:{"minecraft:player_hurt":{value:0}}}, PersistenceRequired:1b}
-[16:27:31] [Server thread/ERROR]: Unknown registry key in ResourceKey[minecraft:root / minecraft:memory_module_type]: minecraft:player_hurt
-[16:27:31] [Server thread/INFO]: [jlenon7: Summoned new Piglin]
-[16:27:42] [Server thread/INFO]: jlenon7 issued server command: /summon minecraft:piglin ~ ~ ~ {Brain:{memories:{"minecraft:player_hurt":{value:0}}}, PersistenceRequired:1b}
-[16:27:42] [Server thread/ERROR]: Unknown registry key in ResourceKey[minecraft:root / minecraft:memory_module_type]: minecraft:player_hurt
-[16:27:42] [Server thread/INFO]: [jlenon7: Summoned new Piglin]
-[16:28:01] [Server thread/INFO]: jlenon7 issued server command: /time set day
-[16:28:01] [Server thread/INFO]: [jlenon7: Set the time to 1000]
-[16:28:08] [Server thread/INFO]: HBplayOne1 issued server command: /gamemode spectator
-[16:28:08] [Server thread/INFO]: [HBplayOne1: Set own game mode to Spectator Mode]
-[16:28:17] [Server thread/INFO]: jlenon7 lost connection: Internal Exception: io.netty.handler.codec.DecoderException: java.lang.IllegalStateException: zip file closed
-[16:28:17] [Server thread/INFO]: jlenon7 left the game
-[16:28:26] [User Authenticator #1/INFO]: UUID of player jlenon7 is 6a6dc5c5-65d3-3c55-8a13-d79183ef3ef4
-[16:28:26] [Server thread/INFO]: jlenon7 joined the game
-[16:28:26] [Server thread/INFO]: jlenon7[/[0:0:0:0:0:0:0:1]:58002] logged in with entity id 4514 at ([world]-1755.0707630684092, 117.20987553255318, -2502.909591849693)
-[16:28:33] [Craft Scheduler Thread - 19 - AuthMe/INFO]: [AuthMe] The user jlenon7 has 2 accounts:
-[16:28:33] [Craft Scheduler Thread - 19 - AuthMe/INFO]: [AuthMe] §7§ajlenon7§7, §aHBplayOne1§7.
-[16:28:33] [Craft Scheduler Thread - 19 - AuthMe/INFO]: [AuthMe] jlenon7 logged in 0:0:0:0:0:0:0:1
-[16:29:42] [Server thread/INFO]: HBplayOne1 issued server command: /gamemode creative
-[16:29:42] [Server thread/INFO]: [HBplayOne1: Set own game mode to Creative Mode]
-[16:30:26] [Server thread/INFO]: HBplayOne1 issued server command: /tp -73 179 843
-[16:30:26] [Server thread/INFO]: [HBplayOne1: Teleported HBplayOne1 to -72.500000, 179.000000, 843.500000]
-[16:30:38] [Server thread/INFO]: HBplayOne1 issued server command: /tag HBplayOne1 remove adm
-[16:30:38] [Server thread/INFO]: [HBplayOne1: Removed tag 'adm' from HBplayOne1]
-[16:30:59] [Server thread/INFO]: HBplayOne1 issued server command: /tag HBplayOne1 add adm
-[16:30:59] [Server thread/INFO]: [HBplayOne1: Added tag 'adm' to HBplayOne1]
-[16:31:04] [Server thread/INFO]: HBplayOne1 issued server command: /gamemode spectator
-[16:31:04] [Server thread/INFO]: [HBplayOne1: Set own game mode to Spectator Mode]
-[16:31:07] [Server thread/INFO]: HBplayOne1 issued server command: /gamemode survival
-[16:31:07] [Server thread/INFO]: [HBplayOne1: Set own game mode to Survival Mode]
-[16:31:12] [Server thread/INFO]: HBplayOne1 issued server command: /gamemode spectator
-[16:31:12] [Server thread/INFO]: [HBplayOne1: Set own game mode to Spectator Mode]
-[16:31:14] [Server thread/INFO]: HBplayOne1 issued server command: /gamemode survival
-[16:31:14] [Server thread/INFO]: [HBplayOne1: Set own game mode to Survival Mode]
-[16:31:16] [Server thread/INFO]: HBplayOne1 issued server command: /gamemode creative
-[16:31:16] [Server thread/INFO]: [HBplayOne1: Set own game mode to Creative Mode]
-[16:32:40] [Server thread/INFO]: HBplayOne1 issued server command: /tp -2327 111 -879
-[16:32:40] [Server thread/INFO]: [HBplayOne1: Teleported HBplayOne1 to -2326.500000, 111.000000, -878.500000]
-[16:32:55] [Server thread/INFO]: HBplayOne1 issued server command: /fill -2318 94 -888
-[16:33:18] [Server thread/INFO]: HBplayOne1 issued server command: /fill -2318 94 -888 -2336 129 -870 air
-[16:33:18] [Server thread/INFO]: [HBplayOne1: Successfully filled 5412 block(s)]
-[16:33:55] [Server thread/INFO]: HBplayOne1 issued server command: /fill -2337 103 -871
-[16:34:08] [Server thread/INFO]: HBplayOne1 issued server command: /fill -2337 103 -871 -2318 105 -888 minecraft:grass_block
-[16:34:08] [Server thread/INFO]: [HBplayOne1: Successfully filled 1077 block(s)]
-[16:35:13] [Server thread/INFO]: HBplayOne1 issued server command: /tp -73 176 843
-[16:35:13] [Server thread/INFO]: [HBplayOne1: Teleported HBplayOne1 to -72.500000, 176.000000, 843.500000]
-[16:35:38] [Server thread/INFO]: HBplayOne1 issued server command: /gamemode spectator
-[16:35:38] [Server thread/INFO]: [HBplayOne1: Set own game mode to Spectator Mode]
-[16:35:41] [Server thread/INFO]: HBplayOne1 issued server command: /gamemode creative
-[16:35:41] [Server thread/INFO]: [HBplayOne1: Set own game mode to Creative Mode]
-[16:37:22] [Server thread/INFO]: jlenon7 issued server command: /time set day
-[16:37:22] [Server thread/INFO]: [jlenon7: Set the time to 1000]
-[16:37:45] [Server thread/INFO]: HBplayOne1 issued server command: /gamemode spectator
-[16:37:45] [Server thread/INFO]: [HBplayOne1: Set own game mode to Spectator Mode]
-[16:37:48] [Server thread/INFO]: HBplayOne1 issued server command: /gamemode creative
-[16:37:48] [Server thread/INFO]: [HBplayOne1: Set own game mode to Creative Mode]
-[16:37:50] [Server thread/INFO]: jlenon7 issued server command: /
-[16:37:54] [Server thread/INFO]: HBplayOne1 issued server command: /gamemode survival
-[16:37:54] [Server thread/INFO]: [HBplayOne1: Set own game mode to Survival Mode]
-[16:37:55] [Server thread/INFO]: jlenon7 issued server command: /kill jlenon7
-[16:37:55] [Server thread/INFO]: [jlenon7: Killed jlenon7]
-[16:38:09] [Server thread/INFO]: HBplayOne1 issued server command: /tag HBplayOne1 remove adm
-[16:38:09] [Server thread/INFO]: [HBplayOne1: Removed tag 'adm' from HBplayOne1]
-[16:38:44] [Server thread/INFO]: HBplayOne1 issued server command: /gamemode spectator
-[16:38:44] [Server thread/INFO]: [HBplayOne1: Set own game mode to Spectator Mode]
-[16:38:52] [Server thread/INFO]: HBplayOne1 issued server command: /tag HBplayOne1 add adm
-[16:38:52] [Server thread/INFO]: [HBplayOne1: Added tag 'adm' to HBplayOne1]
-[16:38:53] [Server thread/INFO]: HBplayOne1 issued server command: /gamemode spectator
-[16:38:53] [Server thread/INFO]: [HBplayOne1: Set own game mode to Spectator Mode]
-[16:39:40] [Server thread/INFO]: HBplayOne1 issued server command: /gamemode creative
-[16:39:40] [Server thread/INFO]: [HBplayOne1: Set own game mode to Creative Mode]
-[16:43:05] [Server thread/INFO]: HBplayOne1 issued server command: /gamemode spectator
-[16:43:05] [Server thread/INFO]: [HBplayOne1: Set own game mode to Spectator Mode]
-[16:43:09] [Server thread/INFO]: HBplayOne1 issued server command: /gamemode creative
-[16:43:09] [Server thread/INFO]: [HBplayOne1: Set own game mode to Creative Mode]
-[16:43:34] [Server thread/INFO]: HBplayOne1 issued server command: /gamemode spectator
-[16:43:34] [Server thread/INFO]: [HBplayOne1: Set own game mode to Spectator Mode]
-[16:43:39] [Server thread/INFO]: HBplayOne1 issued server command: /gamemode creative
-[16:43:39] [Server thread/INFO]: [HBplayOne1: Set own game mode to Creative Mode]
-[16:45:07] [Server thread/INFO]: HBplayOne1 issued server command: /clear
-[16:45:07] [Server thread/INFO]: [HBplayOne1: Removed 102 item(s) from player HBplayOne1]
-[16:45:11] [Server thread/INFO]: HBplayOne1 issued server command: /gamemode spectator
-[16:45:11] [Server thread/INFO]: [HBplayOne1: Set own game mode to Spectator Mode]
-[16:45:15] [Server thread/INFO]: HBplayOne1 issued server command: /gamemode creative
-[16:45:15] [Server thread/INFO]: [HBplayOne1: Set own game mode to Creative Mode]
-[16:46:12] [Server thread/INFO]: HBplayOne1 issued server command: /tag HBplayOne1 remove adm
-[16:46:12] [Server thread/INFO]: [HBplayOne1: Removed tag 'adm' from HBplayOne1]
-[16:46:17] [Server thread/INFO]: jlenon7 issued server command: /time set day
-[16:46:17] [Server thread/INFO]: [jlenon7: Set the time to 1000]
-[16:46:59] [Server thread/INFO]: HBplayOne1 issued server command: /gamemode spectator
-[16:46:59] [Server thread/INFO]: [HBplayOne1: Set own game mode to Spectator Mode]
-[16:47:11] [Server thread/INFO]: HBplayOne1 issued server command: /tag HBplayOne1 add adm
-[16:47:11] [Server thread/INFO]: [HBplayOne1: Added tag 'adm' to HBplayOne1]
-[16:47:14] [Server thread/INFO]: HBplayOne1 issued server command: /gamemode spectator
-[16:47:14] [Server thread/INFO]: [HBplayOne1: Set own game mode to Spectator Mode]
-[16:48:00] [Server thread/INFO]: HBplayOne1 issued server command: /gamemode creative
-[16:48:00] [Server thread/INFO]: [HBplayOne1: Set own game mode to Creative Mode]
-[16:48:00] [Server thread/INFO]: jlenon7 issued server command: /kill jlenon7
-[16:48:00] [Server thread/INFO]: [jlenon7: Killed jlenon7]
-[16:48:12] [Server thread/INFO]: HBplayOne1 issued server command: /gamemode spectator
-[16:48:12] [Server thread/INFO]: [HBplayOne1: Set own game mode to Spectator Mode]
-[16:48:14] [Server thread/INFO]: HBplayOne1 issued server command: /gamemode creative
-[16:48:14] [Server thread/INFO]: [HBplayOne1: Set own game mode to Creative Mode]
-[16:48:42] [Server thread/INFO]: jlenon7 issued server command: /teleport HBplayOne1
-[16:48:42] [Server thread/INFO]: [jlenon7: Teleported jlenon7 to HBplayOne1]
-[16:49:03] [Server thread/INFO]: HBplayOne1 issued server command: /tp jlenon7
-[16:49:03] [Server thread/INFO]: [HBplayOne1: Teleported HBplayOne1 to jlenon7]
-[16:49:43] [Server thread/WARN]: jlenon7 was kicked for floating a vehicle too long!
-[16:49:43] [Server thread/INFO]: jlenon7 lost connection: Flying is not enabled on this server
-[16:49:43] [Server thread/INFO]: jlenon7 left the game
-[16:49:56] [User Authenticator #2/INFO]: UUID of player jlenon7 is 6a6dc5c5-65d3-3c55-8a13-d79183ef3ef4
-[16:49:56] [Server thread/INFO]: jlenon7 joined the game
-[16:49:56] [Server thread/INFO]: jlenon7[/[0:0:0:0:0:0:0:1]:58791] logged in with entity id 45795 at ([world]-372.7519172730992, 149.74250000000077, 812.858255926006)
-[16:50:07] [Craft Scheduler Thread - 31 - AuthMe/INFO]: [AuthMe] The user jlenon7 has 2 accounts:
-[16:50:07] [Craft Scheduler Thread - 31 - AuthMe/INFO]: [AuthMe] §7§ajlenon7§7, §aHBplayOne1§7.
-[16:50:07] [Craft Scheduler Thread - 31 - AuthMe/INFO]: [AuthMe] jlenon7 logged in 0:0:0:0:0:0:0:1
-[16:50:38] [Server thread/INFO]: HBplayOne1 issued server command: /tp jlenon7
-[16:50:38] [Server thread/INFO]: [HBplayOne1: Teleported HBplayOne1 to jlenon7]
-[16:50:49] [Server thread/INFO]: jlenon7 has made the advancement [Ice Bucket Challenge]
-[16:50:54] [Server thread/INFO]: HBplayOne1 has made the advancement [Ice Bucket Challenge]
-[16:51:08] [Server thread/INFO]: HBplayOne1 has made the advancement [We Need to Go Deeper]
-[16:51:09] [Server thread/INFO]: jlenon7 has made the advancement [We Need to Go Deeper]
-[16:51:13] [Server thread/INFO]: HBplayOne1 issued server command: /gamemode spectator
-[16:51:13] [Server thread/INFO]: [HBplayOne1: Set own game mode to Spectator Mode]
-[16:51:34] [Server thread/INFO]: jlenon7 issued server command: /gamemode spectator
-[16:51:34] [Server thread/INFO]: [jlenon7: Set own game mode to Spectator Mode]
-[16:52:14] [Server thread/INFO]: jlenon7 issued server command: /gamemode creative
-[16:52:15] [Server thread/INFO]: [jlenon7: Set own game mode to Creative Mode]
-[16:52:29] [Server thread/INFO]: HBplayOne1 issued server command: /tp jlenon7
-[16:52:29] [Server thread/INFO]: [HBplayOne1: Teleported HBplayOne1 to jlenon7]
-[16:52:32] [Server thread/WARN]: jlenon7 moved too quickly! 0.0,-13.64662813930785,0.0
-[16:52:35] [Server thread/INFO]: HBplayOne1 issued server command: /gamemode creative
-[16:52:35] [Server thread/INFO]: [HBplayOne1: Set own game mode to Creative Mode]
-[16:52:48] [Server thread/INFO]: HBplayOne1 issued server command: /tp jlenon7
-[16:52:48] [Server thread/INFO]: [HBplayOne1: Teleported HBplayOne1 to jlenon7]
-[16:52:56] [Server thread/INFO]: jlenon7 lost connection: Disconnected
-[16:52:56] [Server thread/INFO]: jlenon7 left the game
-[16:52:58] [Server thread/INFO]: HBplayOne1 issued server command: /gamemode survival
-[16:52:58] [Server thread/INFO]: [HBplayOne1: Set own game mode to Survival Mode]
-[16:53:08] [Server thread/INFO]: Made jlenon7 no longer a server operator
-[16:53:17] [Server thread/INFO]: HBplayOne1 lost connection: Disconnected
-[16:53:17] [Server thread/INFO]: HBplayOne1 left the game
-[16:54:22] [Server thread/INFO]: Made HBplayOne1 no longer a server operator
-[16:54:34] [Server thread/INFO]: Nothing changed. The player already is an operator
-[16:54:36] [Server thread/INFO]: Stopping the server
-[16:54:36] [Server thread/INFO]: Stopping server
-[16:54:36] [Server thread/INFO]: [AuthMe] Disabling AuthMe v5.6.0-bCUSTOM
-[16:54:36] [Server thread/INFO]: [AuthMe] Waiting for 0 tasks to finish
-[16:54:36] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-bCUSTOM disabled!
-[16:54:36] [Server thread/INFO]: [DropHeads] Disabling DropHeads v3.9.11
-[16:54:36] [Server thread/INFO]: [SkibCommon] Disabling SkibCommon v1.0
-[16:54:36] [Server thread/INFO]: [mcMMO] Disabling mcMMO v2.2.030
-[16:54:36] [Server thread/INFO]: [mcMMO] Server shutdown has been executed, saving and cleaning up data...
-[16:54:36] [Server thread/INFO]: [mcMMO] Saving mcMMOPlayers... (0)
-[16:54:36] [Server thread/INFO]: [mcMMO] Finished save operation for 0 players!
-[16:54:36] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.2.1
-[16:54:36] [Server thread/INFO]: [PlasmoVoice] Disabling PlasmoVoice v2.1.2
-[16:54:36] [Server thread/INFO]: [PlasmoVoice] UDP server is stopped
-[16:54:36] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.2.1
-[16:54:36] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[16:54:36] [Server thread/INFO]: Saving players
-[16:54:37] [Server thread/INFO]: Saving worlds
-[16:54:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[16:54:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[16:54:37] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[16:54:37] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[16:54:38] [Server thread/INFO]: [ChunkHolderManager] Saved 310 block chunks, 440 entity chunks, 0 poi chunks in world 'world' in 1.02s
-[16:54:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[16:54:38] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[16:54:38] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[16:54:38] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[16:54:39] [Server thread/INFO]: [ChunkHolderManager] Saved 793 block chunks, 741 entity chunks, 1 poi chunks in world 'world_nether' in 0.90s
-[16:54:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[16:54:39] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[16:54:39] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[16:54:39] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[16:54:39] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[16:54:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[16:54:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[16:54:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[16:54:39] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[14:54:19] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14:54:23] [ServerMain/INFO]: Loaded 1290 recipes
+[14:54:23] [ServerMain/INFO]: Loaded 1399 advancements
+[14:54:24] [Server thread/INFO]: Starting minecraft server version 1.21
+[14:54:24] [Server thread/INFO]: Loading properties
+[14:54:24] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[14:54:25] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[14:54:25] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:54:25] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:54:27] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[14:54:27] [Server thread/INFO]: Default game type: SURVIVAL
+[14:54:27] [Server thread/INFO]: Generating keypair
+[14:54:27] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:54:27] [Server thread/INFO]: Using epoll channel type
+[14:54:27] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[14:54:27] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[14:54:31] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
+[14:54:31] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
+[14:54:34] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[14:54:35] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[14:54:37] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[14:54:37] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[14:54:39] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.1
+[14:54:39] [Server thread/INFO]: [PlasmoVoice] Loading server plugin PlasmoVoice v2.1.2
+[14:54:39] [Server thread/INFO]: [AuthMe] Loading server plugin AuthMe v5.6.0-bCUSTOM
+[14:54:39] [Server thread/INFO]: [DropHeads] Loading server plugin DropHeads v3.9.11
+[14:54:39] [Server thread/INFO]: [SkibCommon] Loading server plugin SkibCommon v1.0
+[14:54:39] [Server thread/INFO]: [mcMMO] Loading server plugin mcMMO v2.2.030
+[14:54:39] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:54:39] [Server thread/INFO]: [PlasmoVoice] Enabling PlasmoVoice v2.1.2
+[14:54:43] [Server thread/INFO]: [PlasmoVoice] UDP server is started on /[0:0:0:0:0:0:0:0]:25565
+[14:54:43] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:54:43] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:54:43] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:54:43] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:54:43] [Server thread/INFO]: Preparing level "world"
+[14:54:43] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:54:45] [Server thread/INFO]: Time elapsed: 1404 ms
+[14:54:45] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[14:54:46] [Server thread/INFO]: Time elapsed: 991 ms
+[14:54:46] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[14:54:46] [Server thread/INFO]: Time elapsed: 116 ms
+[14:54:46] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
+[14:54:46] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+[14:54:46] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
+[14:54:46] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-bCUSTOM
+[14:54:47] [Server thread/INFO]: [AuthMe] SQLite Setup finished
+[14:54:47] [Server thread/INFO]: [AuthMe] No supported permissions system found! Permissions are disabled!
+[14:54:48] [Server thread/WARN]: [AuthMe] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[14:54:48] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[14:54:48] [Server thread/INFO]: [DropHeads] Enabling DropHeads v3.9.11
+[14:54:49] [Server thread/INFO]: [SkibCommon] Enabling SkibCommon v1.0
+[14:54:49] [Server thread/INFO]: [mcMMO] Enabling mcMMO v2.2.030
+[14:54:50] [Server thread/INFO]: [mcMMO] Loaded 229 Alchemy potions, skipped 0.
+[14:54:53] [Server thread/INFO]: [spark] Starting background profiler...
+[14:54:54] [Server thread/INFO]: Done preparing level "world" (10.863s)
+[14:54:54] [Server thread/INFO]: Running delayed init tasks
+[14:54:54] [Server thread/INFO]: Done (47.554s)! For help, type "help"
+[14:54:54] [Server thread/INFO]: Timings Reset
+[14:54:54] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[14:54:54] [Craft Scheduler Thread - 7 - AuthMe/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[14:54:54] [Craft Scheduler Thread - 7 - AuthMe/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[14:54:54] [Craft Scheduler Thread - 7 - AuthMe/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[14:54:54] [Craft Scheduler Thread - 7 - AuthMe/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[14:58:26] [User Authenticator #0/INFO]: UUID of player tgabs7 is 8e329d5d-479f-3c71-a6b3-600853fa1711
+[14:58:28] [Server thread/INFO]: tgabs7 joined the game
+[14:58:29] [Server thread/INFO]: tgabs7[/177.73.98.91:33226] logged in with entity id 152 at ([world]-76.46250530698228, 158.0, 842.1760998099139)
+[14:58:37] [Craft Scheduler Thread - 11 - AuthMe/INFO]: [AuthMe] The user tgabs7 has 2 accounts:
+[14:58:37] [Craft Scheduler Thread - 11 - AuthMe/INFO]: [AuthMe] §7§atgabs7§7, jlenon7.
+[14:58:37] [Craft Scheduler Thread - 11 - AuthMe/INFO]: [AuthMe] tgabs7 logged in 177.73.98.91
+[14:58:43] [Server thread/INFO]: tgabs7 issued server command: /kill jlenon7
+[14:58:48] [Server thread/INFO]: tgabs7 issued server command: /kill tgabs7
+[14:58:48] [Server thread/INFO]: [tgabs7: Killed tgabs7]
+[14:59:54] [Server thread/INFO]: tgabs7 issued server command: /setworldspawn -72.5 163 843.5
+[15:00:01] [Server thread/INFO]: tgabs7 issued server command: /setworldspawn -72.5 163 843.5
+[15:00:01] [Server thread/INFO]: [Not Secure] [Server] Servidor será reiniciado em 5 minutos!
+[15:00:06] [Server thread/INFO]: tgabs7 issued server command: /setworldspawn -72.5 163 843.5
+[15:00:13] [Server thread/INFO]: tgabs7 lost connection: Disconnected
+[15:00:13] [Server thread/INFO]: tgabs7 left the game
+[15:04:01] [Server thread/INFO]: [Not Secure] [Server] Servidor será reiniciado em 1 minuto!
+[15:05:01] [Server thread/INFO]: [Not Secure] [Server] Reiniciando servidor!
+[15:05:06] [Server thread/INFO]: Saving the game (this may take a moment!)
+[15:05:06] [Server thread/INFO]: Saved the game
+[15:05:06] [Server thread/INFO]: Stopping the server
+[15:05:06] [Server thread/INFO]: Stopping server
+[15:05:06] [Server thread/INFO]: [mcMMO] Disabling mcMMO v2.2.030
+[15:05:06] [Server thread/INFO]: [mcMMO] Server shutdown has been executed, saving and cleaning up data...
+[15:05:06] [Server thread/INFO]: [mcMMO] Saving mcMMOPlayers... (0)
+[15:05:06] [Server thread/INFO]: [mcMMO] Finished save operation for 0 players!
+[15:05:06] [Server thread/INFO]: [SkibCommon] Disabling SkibCommon v1.0
+[15:05:06] [Server thread/INFO]: [DropHeads] Disabling DropHeads v3.9.11
+[15:05:06] [Server thread/INFO]: [AuthMe] Disabling AuthMe v5.6.0-bCUSTOM
+[15:05:06] [Server thread/INFO]: [AuthMe] Waiting for 0 tasks to finish
+[15:05:06] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-bCUSTOM disabled!
+[15:05:06] [Server thread/INFO]: [PlasmoVoice] Disabling PlasmoVoice v2.1.2
+[15:05:06] [Server thread/INFO]: [PlasmoVoice] UDP server is stopped
+[15:05:06] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.2.1
+[15:05:06] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.2.1
+[15:05:06] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[15:05:06] [Server thread/INFO]: Saving players
+[15:05:06] [Server thread/INFO]: Saving worlds
+[15:05:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[15:05:06] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[15:05:06] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[15:05:06] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[15:05:06] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 175 entity chunks, 0 poi chunks in world 'world' in 0.06s
+[15:05:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[15:05:06] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[15:05:06] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[15:05:06] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[15:05:06] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 15 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
+[15:05:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[15:05:06] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[15:05:06] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[15:05:06] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[15:05:06] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[15:05:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:05:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:05:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:05:06] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
