@@ -511,3 +511,51 @@
 [02-23 17:45:30]: [FINE] gabi logged in 177.73.98.91
 [02-23 17:50:23]: [FINE] HBplayOne1 logged in 177.73.101.219
 [02-23 18:05:08]: [INFO] AuthMe 5.6.0-bCUSTOM disabled!
+[02-23 18:12:16]: [INFO] SQLite Setup finished
+[02-23 18:12:17]: [INFO] No supported permissions system found! Permissions are disabled!
+[02-23 18:12:17]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[02-23 18:12:18]: [INFO] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[02-23 18:12:23]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[02-23 18:12:23]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[02-23 18:12:23]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[02-23 18:12:24]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[02-23 18:12:24]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at AuthMe-5.6.0.jar//fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at AuthMe-5.6.0.jar//fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at AuthMe-5.6.0.jar//fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:179)
+	at AuthMe-5.6.0.jar//fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86)
+	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[02-23 18:13:25]: [FINE] The user gabi has 3 accounts:
+[02-23 18:13:25]: [FINE] §7tgabs7, jlenon7, §agabi§7.
+[02-23 18:13:25]: [FINE] gabi logged in 177.73.98.91
+[02-23 18:14:03]: [FINE] HBplayOne1 logged in 177.73.101.219
+[02-23 18:14:56]: [FINE] The user jlenon7 has 3 accounts:
+[02-23 18:14:56]: [FINE] §7tgabs7, §ajlenon7§7, §agabi§7.
+[02-23 18:14:56]: [FINE] jlenon7 logged in 177.73.98.91
+[02-23 18:43:54]: [FINE] HBplayOne1 logged in 177.73.101.219
+[02-23 18:56:19]: [FINE] ItsMatt_ logged in 177.73.98.255
+[02-23 19:00:06]: [FINE] HBplayOne1 logged in 177.73.101.219
+[02-23 19:01:59]: [FINE] HBplayOne1 logged in 177.73.101.219
+[02-23 19:02:43]: [FINE] ItsMatt_ logged in 177.73.98.255
+[02-23 19:36:16]: [FINE] HBplayOne1 logged in 177.73.101.219
+[02-23 19:59:28]: [FINE] HBplayOne1 logged in 177.73.101.219
+[02-23 20:00:40]: [FINE] The user gabi has 3 accounts:
+[02-23 20:00:40]: [FINE] §7tgabs7, §ajlenon7§7, §agabi§7.
+[02-23 20:00:40]: [FINE] gabi logged in 177.73.98.91
+[02-23 20:08:44]: [FINE] The user gabi has 3 accounts:
+[02-23 20:08:44]: [FINE] §7tgabs7, §ajlenon7§7, §agabi§7.
+[02-23 20:08:44]: [FINE] gabi logged in 177.73.98.91
+[02-23 20:13:57]: [FINE] The user gabi has 3 accounts:
+[02-23 20:13:57]: [FINE] §7tgabs7, §ajlenon7§7, §agabi§7.
+[02-23 20:13:57]: [FINE] gabi logged in 177.73.98.91
+[02-23 21:05:07]: [INFO] AuthMe 5.6.0-bCUSTOM disabled!

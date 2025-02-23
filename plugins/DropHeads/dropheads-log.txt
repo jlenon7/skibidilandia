@@ -5,3 +5,4 @@
 1740088184325,mob decapitated,Cow,felps,§f[Diamond Axe]
 1740092697736,mob decapitated,Zombie Villager,Joao2025,§f[Diamond Sword]
 1740093962076,mob decapitated,Magma Cube,messifome,§f[Diamond Axe]
+1740340260065,mob decapitated,Creeper,HBplayOne1,§b[Diamond Sword]
