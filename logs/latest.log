@@ -1,196 +1,44 @@
-[19:51:01] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-124.04.1; Ubuntu null) on Linux 6.8.0-1021-aws (amd64)
-[19:51:01] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
-[19:51:01] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[19:51:03] [ServerMain/INFO]: [PluginInitializerManager] Initialized 7 plugins
-[19:51:03] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (7):
- - AuthMe (5.6.0-bCUSTOM), DropHeads (3.9.11), PlasmoVoice (2.1.2), SkibCommon (1.0), ViaBackwards (5.2.1), ViaVersion (5.2.1), mcMMO (2.2.030)
-[19:51:12] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[19:51:15] [ServerMain/INFO]: Loaded 1290 recipes
-[19:51:16] [ServerMain/INFO]: Loaded 1399 advancements
-[19:51:16] [Server thread/INFO]: Starting minecraft server version 1.21
-[19:51:16] [Server thread/INFO]: Loading properties
-[19:51:16] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
-[19:51:18] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[19:51:18] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:51:18] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:51:20] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[19:51:20] [Server thread/INFO]: Default game type: SURVIVAL
-[19:51:20] [Server thread/INFO]: Generating keypair
-[19:51:20] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:51:20] [Server thread/INFO]: Using epoll channel type
-[19:51:20] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[19:51:20] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
-[19:51:24] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
-[19:51:24] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
-[19:51:26] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[19:51:27] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[19:51:29] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[19:51:29] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[19:51:31] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.1
-[19:51:31] [Server thread/INFO]: [PlasmoVoice] Loading server plugin PlasmoVoice v2.1.2
-[19:51:31] [Server thread/INFO]: [AuthMe] Loading server plugin AuthMe v5.6.0-bCUSTOM
-[19:51:31] [Server thread/INFO]: [DropHeads] Loading server plugin DropHeads v3.9.11
-[19:51:31] [Server thread/INFO]: [SkibCommon] Loading server plugin SkibCommon v1.0
-[19:51:31] [Server thread/INFO]: [mcMMO] Loading server plugin mcMMO v2.2.030
-[19:51:31] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:51:31] [Server thread/INFO]: [PlasmoVoice] Enabling PlasmoVoice v2.1.2
-[19:51:34] [Server thread/INFO]: [PlasmoVoice] UDP server is started on /[0:0:0:0:0:0:0:0]:25565
-[19:51:34] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:51:34] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[19:51:34] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:51:34] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:51:34] [Server thread/INFO]: Preparing level "world"
-[19:51:35] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:51:36] [Server thread/INFO]: Time elapsed: 1415 ms
-[19:51:36] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[19:51:37] [Server thread/INFO]: Time elapsed: 822 ms
-[19:51:37] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[19:51:37] [Server thread/INFO]: Time elapsed: 110 ms
-[19:51:37] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
-[19:51:37] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
-[19:51:37] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
-[19:51:37] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-bCUSTOM
-[19:51:38] [Server thread/INFO]: [AuthMe] SQLite Setup finished
-[19:51:38] [Server thread/INFO]: [AuthMe] No supported permissions system found! Permissions are disabled!
-[19:51:39] [Server thread/WARN]: [AuthMe] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
-[19:51:39] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
-[19:51:39] [Server thread/INFO]: [DropHeads] Enabling DropHeads v3.9.11
-[19:51:40] [Server thread/INFO]: [SkibCommon] Enabling SkibCommon v1.0
-[19:51:40] [Server thread/INFO]: [mcMMO] Enabling mcMMO v2.2.030
-[19:51:42] [Server thread/INFO]: [mcMMO] Loaded 229 Alchemy potions, skipped 0.
-[19:51:45] [Server thread/INFO]: [spark] Starting background profiler...
-[19:51:45] [Server thread/INFO]: Done preparing level "world" (10.491s)
-[19:51:45] [Server thread/INFO]: Running delayed init tasks
-[19:51:45] [Server thread/INFO]: Done (45.575s)! For help, type "help"
-[19:51:45] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[19:51:45] [Craft Scheduler Thread - 0 - AuthMe/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
-[19:51:45] [Craft Scheduler Thread - 0 - AuthMe/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
-[19:51:45] [Craft Scheduler Thread - 0 - AuthMe/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
-[19:51:45] [Server thread/INFO]: Timings Reset
-[19:51:45] [Craft Scheduler Thread - 0 - AuthMe/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
-[19:52:45] [User Authenticator #0/INFO]: UUID of player TharekoGameplays is 3431c0dc-f53a-3ee2-90ee-a98ec816d9c1
-[19:52:51] [Server thread/INFO]: TharekoGameplays joined the game
-[19:52:51] [Server thread/INFO]: TharekoGameplays[/177.73.98.39:1546] logged in with entity id 101 at ([world]-294.0632969566495, 61.23164491174935, 575.6262307025858)
-[19:53:03] [Craft Scheduler Thread - 7 - AuthMe/INFO]: [AuthMe] TharekoGameplays logged in 177.73.98.39
-[19:54:08] [User Authenticator #1/INFO]: UUID of player Joao2025 is ac078e57-4562-3b85-add2-506580ef5885
-[19:54:10] [Server thread/INFO]: Joao2025 joined the game
-[19:54:10] [Server thread/INFO]: Joao2025[/200.189.29.133:19440] logged in with entity id 685 at ([world]-355.5646527747778, 167.0, 724.1481813436302)
-[19:54:21] [Craft Scheduler Thread - 10 - AuthMe/INFO]: [AuthMe] Joao2025 used the wrong password
-[19:54:24] [Craft Scheduler Thread - 11 - AuthMe/INFO]: [AuthMe] Joao2025 logged in 200.189.29.133
-[19:54:28] [Server thread/INFO]: Joao2025 issued server command: /tpisland
-[19:56:26] [User Authenticator #2/INFO]: UUID of player HBplayOne1 is 31b4fb0d-13b9-3e7b-be11-c92abdbc0abc
-[19:56:26] [Server thread/INFO]: HBplayOne1 joined the game
-[19:56:26] [Server thread/INFO]: HBplayOne1[/177.73.101.219:20581] logged in with entity id 1817 at ([world]8.67856676649578, 138.23152379758702, 692.5926632103551)
-[19:56:38] [Craft Scheduler Thread - 14 - AuthMe/INFO]: [AuthMe] HBplayOne1 logged in 177.73.101.219
-[19:56:43] [Server thread/INFO]: Named entity Spider['Spider'/1600, uuid='4a69302f-057a-4a33-8233-1efe2d7d72d2', l='ServerLevel[world]', x=-364.40, y=38.40, z=682.31, cpos=[-23, 42], tl=1326, v=true] died: Spider was shot by Skeleton
-[19:57:17] [Server thread/INFO]: HBplayOne1 has made the advancement [Stone Age]
-[19:57:25] [Server thread/INFO]: Villager Villager['Villager'/1866, uuid='c7667a98-78eb-4a37-ab71-467c1d7fbadb', l='ServerLevel[world]', x=23.70, y=126.00, z=643.70, cpos=[1, 40], tl=14640, v=true] died, message: 'Villager was slain by Zombie'
-[19:57:37] [Server thread/INFO]: Villager Villager['Weaponsmith'/1867, uuid='656fd01d-888b-4607-9ee3-92813b23c792', l='ServerLevel[world]', x=18.48, y=126.00, z=647.70, cpos=[1, 40], tl=14867, v=true] died, message: 'Weaponsmith was slain by Zombie Villager'
-[19:57:44] [Server thread/INFO]: Villager Villager['Villager'/1875, uuid='977d8a20-dbb7-4184-95ff-6d9e512755d3', l='ServerLevel[world]', x=67.30, y=148.00, z=741.01, cpos=[4, 46], tl=22000, v=true] died, message: 'Villager was slain by Zombie'
-[19:58:13] [Server thread/INFO]: HBplayOne1 has made the advancement [Getting an Upgrade]
-[20:00:35] [Server thread/INFO]: Joao2025 issued server command: /g eae ber
-[20:00:35] [Server thread/INFO]: [Global] Joao2025: eae ber
-[20:01:02] [Server thread/INFO]: TharekoGameplays lost connection: Disconnected
-[20:01:02] [Server thread/INFO]: TharekoGameplays left the game
-[20:09:03] [Server thread/INFO]: HBplayOne1 has made the advancement [Acquire Hardware]
-[20:09:10] [Server thread/INFO]: HBplayOne1 has made the advancement [Suit Up]
-[20:10:31] [Server thread/INFO]: HBplayOne1 has made the advancement [Isn't It Iron Pick]
-[20:12:44] [Server thread/INFO]: Joao2025 lost connection: Disconnected
-[20:12:44] [Server thread/INFO]: Joao2025 left the game
-[20:12:52] [User Authenticator #3/INFO]: UUID of player Joao2025 is ac078e57-4562-3b85-add2-506580ef5885
-[20:12:52] [Server thread/INFO]: Joao2025 joined the game
-[20:12:52] [Server thread/INFO]: Joao2025[/200.189.29.133:13440] logged in with entity id 9975 at ([world]-400.30000001192093, 47.27518401044941, 722.4204516777717)
-[20:13:06] [Server thread/INFO]: Joao2025 issued server command: /gamemode survival
-[20:13:14] [Craft Scheduler Thread - 28 - AuthMe/INFO]: [AuthMe] Joao2025 logged in 200.189.29.133
-[20:13:46] [Server thread/INFO]: HBplayOne1 has made the advancement [Not Today, Thank You]
-[20:15:45] [Server thread/INFO]: HBplayOne1 issued server command: /mctop
-[20:16:36] [Server thread/INFO]: (mcMMO) Joao2025 has reached level 100 in MINING!
-[20:17:20] [Server thread/INFO]: [Not Secure] [Server] chamem a galera pra jogar
-[20:17:39] [Server thread/INFO]: Named entity Skeleton['Skeleton'/11233, uuid='90f1a991-1587-4ad8-ab67-35c78956461f', l='ServerLevel[world]', x=-386.87, y=10.00, z=741.40, cpos=[-25, 46], tl=2441, v=true] died: Skeleton was slain by Spider
-[20:18:47] [Server thread/INFO]: (mcMMO) HBplayOne1 has reached a Power level of 100!
-[20:19:35] [Server thread/INFO]: Joao2025 issued server command: /g ber, pq n tem a bedrockk?
-[20:19:35] [Server thread/INFO]: [Global] Joao2025: ber, pq n tem a bedrockk?
-[20:20:43] [Server thread/INFO]: HBplayOne1 issued server command: /mctop
-[20:21:01] [Server thread/INFO]: Unknown or incomplete command, see below for error
-/tell HBPlayOne1 ta vendo a msg do Joao?<--[HERE]
-[20:21:12] [Server thread/INFO]: Este comando só pode ser usado por jogadores.
-[20:21:20] [Server thread/INFO]: Named entity Skeleton['Skeleton'/13393, uuid='bd9325bf-4394-4e60-9a01-6469138e6701', l='ServerLevel[world]', x=139.46, y=51.00, z=717.97, cpos=[8, 44], tl=939, v=true] died: Skeleton was shot by Skeleton
-[20:22:57] [Server thread/INFO]: HBplayOne1 has made the advancement [Diamonds!]
-[20:23:53] [Server thread/INFO]: Named entity Zombie['Zombie'/14021, uuid='dff885dc-2200-4a8d-a209-e933da968e1f', l='ServerLevel[world]', x=-481.70, y=126.00, z=867.70, cpos=[-31, 54], tl=1622, v=true] died: Zombie was slain by Joao2025
-[20:28:02] [Server thread/INFO]: Joao2025 lost connection: Disconnected
-[20:28:02] [Server thread/INFO]: Joao2025 left the game
-[20:28:15] [User Authenticator #4/INFO]: UUID of player Joao2025 is ac078e57-4562-3b85-add2-506580ef5885
-[20:28:17] [Server thread/INFO]: Joao2025 joined the game
-[20:28:17] [Server thread/INFO]: Joao2025[/200.189.29.133:29307] logged in with entity id 17672 at ([world]-708.9744297030421, 160.375, 672.0718734995609)
-[20:28:25] [Craft Scheduler Thread - 39 - AuthMe/INFO]: [AuthMe] Joao2025 logged in 200.189.29.133
-[20:31:39] [Server thread/INFO]: Joao2025 lost connection: Disconnected
-[20:31:39] [Server thread/INFO]: Joao2025 left the game
-[20:37:11] [Server thread/INFO]: (mcMMO) HBplayOne1 has reached level 100 in MINING!
-[20:41:28] [User Authenticator #5/INFO]: UUID of player Joao2025 is ac078e57-4562-3b85-add2-506580ef5885
-[20:41:29] [Server thread/INFO]: Joao2025 joined the game
-[20:41:29] [Server thread/INFO]: Joao2025[/200.189.29.133:36507] logged in with entity id 23378 at ([world]-1211.5778570071323, 93.125, 1086.153715421088)
-[20:41:48] [Craft Scheduler Thread - 48 - AuthMe/INFO]: [AuthMe] Joao2025 logged in 200.189.29.133
-[20:42:19] [Server thread/INFO]: HBplayOne1 issued server command: /mctop
-[20:42:27] [Server thread/INFO]: Joao2025 issued server command: /tpisland
-[20:42:36] [Server thread/INFO]: Joao2025 issued server command: /tpisland deserto
-[20:42:59] [Server thread/INFO]: Joao2025 lost connection: Disconnected
-[20:42:59] [Server thread/INFO]: Joao2025 left the game
-[20:43:10] [User Authenticator #6/INFO]: UUID of player Joao2025 is ac078e57-4562-3b85-add2-506580ef5885
-[20:43:11] [Server thread/INFO]: Joao2025 joined the game
-[20:43:11] [Server thread/INFO]: Joao2025[/200.189.29.133:10974] logged in with entity id 25436 at ([world]2354.012499988079, 197.0, -1647.4967192111203)
-[20:43:20] [Craft Scheduler Thread - 53 - AuthMe/INFO]: [AuthMe] Joao2025 logged in 200.189.29.133
-[20:44:56] [Server thread/INFO]: (mcMMO) HBplayOne1 has reached a Power level of 200!
-[20:45:39] [Server thread/INFO]: Joao2025 issued server command: /tpisland p_altas
-[20:46:21] [Server thread/INFO]: HBplayOne1 lost connection: Disconnected
-[20:46:21] [Server thread/INFO]: HBplayOne1 left the game
-[20:47:54] [Server thread/INFO]: Joao2025 issued server command: /tpisland p_altas
-[20:51:28] [Server thread/INFO]: Joao2025 lost connection: Disconnected
-[20:51:28] [Server thread/INFO]: Joao2025 left the game
-[21:00:01] [Server thread/INFO]: [Not Secure] [Server] Servidor será reiniciado em 5 minutos!
-[21:03:10] [User Authenticator #7/INFO]: UUID of player Joao2025 is ac078e57-4562-3b85-add2-506580ef5885
-[21:03:12] [Server thread/INFO]: Joao2025 joined the game
-[21:03:12] [Server thread/INFO]: Joao2025[/200.189.29.133:14083] logged in with entity id 31178 at ([world]-2557.300000011921, 143.0, 1473.3218315548872)
-[21:03:23] [Craft Scheduler Thread - 64 - AuthMe/INFO]: [AuthMe] Joao2025 logged in 200.189.29.133
-[21:04:01] [Server thread/INFO]: [Not Secure] [Server] Servidor será reiniciado em 1 minuto!
-[21:05:01] [Server thread/INFO]: [Not Secure] [Server] Reiniciando servidor!
-[21:05:06] [Server thread/INFO]: Saving the game (this may take a moment!)
-[21:05:06] [Server thread/INFO]: Saved the game
-[21:05:06] [Server thread/INFO]: Stopping the server
-[21:05:06] [Server thread/INFO]: Stopping server
-[21:05:06] [Server thread/INFO]: [mcMMO] Disabling mcMMO v2.2.030
-[21:05:06] [Server thread/INFO]: [mcMMO] Server shutdown has been executed, saving and cleaning up data...
-[21:05:06] [Server thread/INFO]: [mcMMO] Saving mcMMOPlayers... (1)
-[21:05:06] [Server thread/INFO]: [mcMMO] Finished save operation for 1 players!
-[21:05:06] [Server thread/INFO]: [SkibCommon] Disabling SkibCommon v1.0
-[21:05:06] [Server thread/INFO]: [DropHeads] Disabling DropHeads v3.9.11
-[21:05:06] [Server thread/INFO]: [AuthMe] Disabling AuthMe v5.6.0-bCUSTOM
-[21:05:06] [Server thread/INFO]: [AuthMe] Waiting for 0 tasks to finish
-[21:05:06] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-bCUSTOM disabled!
-[21:05:06] [Server thread/INFO]: [PlasmoVoice] Disabling PlasmoVoice v2.1.2
-[21:05:06] [Server thread/INFO]: [PlasmoVoice] UDP server is stopped
-[21:05:07] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.2.1
-[21:05:07] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.2.1
-[21:05:07] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[21:05:07] [Server thread/INFO]: Saving players
-[21:05:07] [Server thread/INFO]: Joao2025 lost connection: Server closed
-[21:05:07] [Server thread/INFO]: Joao2025 left the game
-[21:05:07] [Server thread/INFO]: Saving worlds
-[21:05:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[21:05:07] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[21:05:07] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[21:05:07] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[21:05:07] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 478 entity chunks, 0 poi chunks in world 'world' in 0.71s
-[21:05:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[21:05:07] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[21:05:07] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[21:05:07] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[21:05:07] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 15 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
-[21:05:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[21:05:07] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[21:05:07] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[21:05:07] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[21:05:07] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[21:05:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[21:05:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:05:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[21:05:07] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:00:01] [Server thread/INFO]: [Not Secure] [Server] Servidor será reiniciado em 5 minutos!
+[00:04:01] [Server thread/INFO]: [Not Secure] [Server] Servidor será reiniciado em 1 minuto!
+[00:04:10] [Server thread/INFO]: TharekoGameplays lost connection: Disconnected
+[00:04:10] [Server thread/INFO]: TharekoGameplays left the game
+[00:05:01] [Server thread/INFO]: [Not Secure] [Server] Reiniciando servidor!
+[00:05:06] [Server thread/INFO]: Saving the game (this may take a moment!)
+[00:05:06] [Server thread/INFO]: Saved the game
+[00:05:06] [Server thread/INFO]: Stopping the server
+[00:05:06] [Server thread/INFO]: Stopping server
+[00:05:06] [Server thread/INFO]: [mcMMO] Disabling mcMMO v2.2.030
+[00:05:06] [Server thread/INFO]: [mcMMO] Server shutdown has been executed, saving and cleaning up data...
+[00:05:06] [Server thread/INFO]: [mcMMO] Saving mcMMOPlayers... (0)
+[00:05:06] [Server thread/INFO]: [mcMMO] Finished save operation for 0 players!
+[00:05:06] [Server thread/INFO]: [SkibCommon] Disabling SkibCommon v1.0
+[00:05:06] [Server thread/INFO]: [DropHeads] Disabling DropHeads v3.9.11
+[00:05:06] [Server thread/INFO]: [AuthMe] Disabling AuthMe v5.6.0-bCUSTOM
+[00:05:06] [Server thread/INFO]: [AuthMe] Waiting for 0 tasks to finish
+[00:05:06] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-bCUSTOM disabled!
+[00:05:06] [Server thread/INFO]: [PlasmoVoice] Disabling PlasmoVoice v2.1.2
+[00:05:06] [Server thread/INFO]: [PlasmoVoice] UDP server is stopped
+[00:05:06] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.2.1
+[00:05:06] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.2.1
+[00:05:06] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[00:05:06] [Server thread/INFO]: Saving players
+[00:05:07] [Server thread/INFO]: Saving worlds
+[00:05:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[00:05:07] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[00:05:07] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[00:05:07] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[00:05:07] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 74 entity chunks, 0 poi chunks in world 'world' in 0.04s
+[00:05:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[00:05:07] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[00:05:07] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[00:05:07] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[00:05:07] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 15 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
+[00:05:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[00:05:07] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[00:05:07] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[00:05:07] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[00:05:07] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[00:05:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:05:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:05:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:05:07] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
