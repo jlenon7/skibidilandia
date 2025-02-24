@@ -1,70 +1,201 @@
-[13:01:04] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-124.04.1; Ubuntu null) on Linux 6.8.0-1021-aws (amd64)
-[13:01:04] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
-[13:01:04] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[13:01:06] [ServerMain/INFO]: [PluginInitializerManager] Initialized 7 plugins
-[13:01:06] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (7):
- - AuthMe (5.6.0-bCUSTOM), DropHeads (3.9.11), PlasmoVoice (2.1.2), SkibCommon (1.0), ViaBackwards (5.2.1), ViaVersion (5.2.1), mcMMO (2.2.030)
-[13:01:14] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[13:01:18] [ServerMain/INFO]: Loaded 1290 recipes
-[13:01:18] [ServerMain/INFO]: Loaded 1399 advancements
-[13:01:19] [Server thread/INFO]: Starting minecraft server version 1.21
-[13:01:19] [Server thread/INFO]: Loading properties
-[13:01:19] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
-[13:01:20] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[13:01:20] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[13:01:20] [Server thread/INFO]: Using 4 threads for Netty based IO
-[13:01:22] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[13:01:23] [Server thread/INFO]: Default game type: SURVIVAL
-[13:01:23] [Server thread/INFO]: Generating keypair
-[13:01:23] [Server thread/INFO]: Starting Minecraft server on *:25565
-[13:01:23] [Server thread/INFO]: Using epoll channel type
-[13:01:23] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[13:01:23] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
-[13:01:27] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
-[13:01:27] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
-[13:01:29] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[13:01:30] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[13:01:32] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[13:01:32] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[13:01:36] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.1
-[13:01:36] [Server thread/INFO]: [PlasmoVoice] Loading server plugin PlasmoVoice v2.1.2
-[13:01:36] [Server thread/INFO]: [AuthMe] Loading server plugin AuthMe v5.6.0-bCUSTOM
-[13:01:36] [Server thread/INFO]: [DropHeads] Loading server plugin DropHeads v3.9.11
-[13:01:36] [Server thread/INFO]: [SkibCommon] Loading server plugin SkibCommon v1.0
-[13:01:36] [Server thread/INFO]: [mcMMO] Loading server plugin mcMMO v2.2.030
-[13:01:36] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[13:01:36] [Server thread/INFO]: [PlasmoVoice] Enabling PlasmoVoice v2.1.2
-[13:01:39] [Server thread/INFO]: [PlasmoVoice] UDP server is started on /[0:0:0:0:0:0:0:0]:25565
-[13:01:39] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[13:01:39] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[13:01:39] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[13:01:39] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[13:01:39] [Server thread/INFO]: Preparing level "world"
-[13:01:40] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[13:01:41] [Server thread/INFO]: Time elapsed: 1425 ms
-[13:01:41] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[13:01:42] [Server thread/INFO]: Time elapsed: 1208 ms
-[13:01:42] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[13:01:42] [Server thread/INFO]: Time elapsed: 119 ms
-[13:01:42] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
-[13:01:42] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
-[13:01:43] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
-[13:01:43] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-bCUSTOM
-[13:01:43] [Server thread/INFO]: [AuthMe] SQLite Setup finished
-[13:01:44] [Server thread/INFO]: [AuthMe] No supported permissions system found! Permissions are disabled!
-[13:01:44] [Server thread/WARN]: [AuthMe] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
-[13:01:45] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
-[13:01:45] [Server thread/INFO]: [DropHeads] Enabling DropHeads v3.9.11
-[13:01:46] [Server thread/INFO]: [SkibCommon] Enabling SkibCommon v1.0
-[13:01:46] [Server thread/INFO]: [mcMMO] Enabling mcMMO v2.2.030
-[13:01:47] [Server thread/INFO]: [mcMMO] Loaded 229 Alchemy potions, skipped 0.
-[13:01:50] [Server thread/INFO]: [spark] Starting background profiler...
-[13:01:50] [Server thread/INFO]: Done preparing level "world" (11.317s)
-[13:01:50] [Server thread/INFO]: Running delayed init tasks
-[13:01:50] [Server thread/INFO]: Done (49.726s)! For help, type "help"
-[13:01:50] [Server thread/INFO]: Timings Reset
-[13:01:50] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[13:01:50] [Craft Scheduler Thread - 7 - AuthMe/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
-[13:01:50] [Craft Scheduler Thread - 7 - AuthMe/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
-[13:01:50] [Craft Scheduler Thread - 7 - AuthMe/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
-[13:01:50] [Craft Scheduler Thread - 7 - AuthMe/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[15:16:20] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-124.04.1; Ubuntu null) on Linux 6.8.0-1021-aws (amd64)
+[15:16:20] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
+[15:16:20] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[15:16:22] [ServerMain/INFO]: [PluginInitializerManager] Initialized 11 plugins
+[15:16:22] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (11):
+ - AuthMe (5.6.0-bCUSTOM), DropHeads (3.9.11), GrimAC (2.3.69), InteractionVisualizer (1.18.13.0), PlasmoVoice (2.1.2), ProtocolLib (5.3.0), SkibCommon (1.0), TimeManager (1.10.1-b), ViaBackwards (5.2.1), ViaVersion (5.2.1), mcMMO (2.2.030)
+[15:16:30] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[15:16:33] [ServerMain/INFO]: Loaded 1290 recipes
+[15:16:33] [ServerMain/INFO]: Loaded 1399 advancements
+[15:16:34] [Server thread/INFO]: Starting minecraft server version 1.21
+[15:16:34] [Server thread/INFO]: Loading properties
+[15:16:34] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[15:16:35] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[15:16:35] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:16:35] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:16:37] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[15:16:37] [Server thread/INFO]: Default game type: SURVIVAL
+[15:16:37] [Server thread/INFO]: Generating keypair
+[15:16:37] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:16:37] [Server thread/INFO]: Using epoll channel type
+[15:16:37] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[15:16:37] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[15:16:41] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
+[15:16:41] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
+[15:16:44] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[15:16:45] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[15:16:47] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[15:16:47] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[15:16:49] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.3.0
+[15:16:50] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.1
+[15:16:50] [Server thread/INFO]: [PlasmoVoice] Loading server plugin PlasmoVoice v2.1.2
+[15:16:50] [Server thread/INFO]: [AuthMe] Loading server plugin AuthMe v5.6.0-bCUSTOM
+[15:16:50] [Server thread/INFO]: [InteractionVisualizer] Loading server plugin InteractionVisualizer v1.18.13.0
+[15:16:50] [Server thread/INFO]: [DropHeads] Loading server plugin DropHeads v3.9.11
+[15:16:50] [Server thread/INFO]: [SkibCommon] Loading server plugin SkibCommon v1.0
+[15:16:50] [Server thread/INFO]: [TimeManager] Loading server plugin TimeManager v1.10.1-b
+[15:16:50] [Server thread/INFO]: [GrimAC] Loading server plugin GrimAC v2.3.69
+[15:16:51] [Server thread/INFO]: [GrimAC] Loading PacketEvents...
+[15:16:59] [Server thread/INFO]: [mcMMO] Loading server plugin mcMMO v2.2.030
+[15:16:59] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:16:59] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0
+[15:16:59] [Server thread/INFO]: [PlasmoVoice] Enabling PlasmoVoice v2.1.2
+[15:17:03] [Server thread/INFO]: [PlasmoVoice] UDP server is started on /[0:0:0:0:0:0:0:0]:25565
+[15:17:03] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:17:03] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:17:03] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:17:03] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:17:03] [Server thread/INFO]: Preparing level "world"
+[15:17:03] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:17:05] [Server thread/INFO]: Time elapsed: 1347 ms
+[15:17:05] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[15:17:06] [Server thread/INFO]: Time elapsed: 875 ms
+[15:17:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[15:17:06] [Server thread/INFO]: Time elapsed: 182 ms
+[15:17:06] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
+[15:17:06] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+[15:17:06] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
+[15:17:06] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-bCUSTOM
+[15:17:07] [Server thread/INFO]: [AuthMe] SQLite Setup finished
+[15:17:07] [Server thread/INFO]: [AuthMe] No supported permissions system found! Permissions are disabled!
+[15:17:08] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[15:17:08] [Server thread/INFO]: [InteractionVisualizer] Enabling InteractionVisualizer v1.18.13.0
+[15:17:13] [Server thread/INFO]: [InteractionVisualizer] Opened Sqlite database successfully
+[15:17:16] [Server thread/INFO]: [InteractionVisualizer] InteractionVisualizer has been enabled!
+[15:17:16] [Server thread/INFO]: [DropHeads] Enabling DropHeads v3.9.11
+[15:17:17] [Server thread/INFO]: [SkibCommon] Enabling SkibCommon v1.0
+[15:17:17] [Server thread/INFO]: [TimeManager] Enabling TimeManager v1.10.1-b
+[15:17:17] [Server thread/INFO]: [TimeManager] The configuration file already exists.
+[15:17:18] [Server thread/INFO]: [TimeManager] The worlds list was actualized.
+[15:17:18] [Server thread/INFO]: [TimeManager] Enabled config.yml v1.10.1-b.
+[15:17:18] [Server thread/INFO]: [TimeManager] The language file already exists.
+[15:17:18] [Server thread/INFO]: [TimeManager] Default translation is actually set to default.
+[15:17:18] [Server thread/INFO]: [TimeManager] default exists in lang.yml, keep it as default translation.
+[15:17:18] [Server thread/INFO]: [TimeManager] Multilanguage support is disable.
+[15:17:18] [Server thread/INFO]: [TimeManager] Enabled lang.yml v1.10.1-b.
+[15:17:18] [Server thread/INFO]: [TimeManager] The language file already exists.
+[15:17:18] [Server thread/INFO]: [TimeManager] The commands scheduler is disable.
+[15:17:18] [Server thread/INFO]: [TimeManager] Enabled cmds.yml v1.10.1-b.
+[15:17:18] [Server thread/INFO]: [TimeManager] The plugin is now enabled, timers will be initialized when all the other plugins are loaded.
+[15:17:18] [Server thread/INFO]: [GrimAC] Enabling GrimAC v2.3.69
+[15:17:18] [Server thread/INFO]: [GrimAC] Registering singular bukkit event... (PistonEvent)
+[15:17:18] [Server thread/INFO]: [GrimAC] Registering packets...
+[15:17:18] [Server thread/INFO]: [GrimAC] Registering tick schedulers...
+[15:17:19] [Server thread/INFO]: [GrimAC] [ACF] Enabled Asynchronous Tab Completion Support!
+[15:17:20] [Server thread/INFO]: Grim Version: 2.3.69
+[15:17:20] [Server thread/ERROR]: [GrimAC] GrimAC has detected that you are using ViaVersion with the `fix-1_21-placement-rotation` option enabled.
+[15:17:20] [Server thread/ERROR]: [GrimAC] This option is known to cause issues with GrimAC and may result in false positives and bypasses.
+[15:17:20] [Server thread/ERROR]: [GrimAC] Please disable this option in your ViaVersion configuration to prevent these issues.
+[15:17:20] [Server thread/INFO]: [mcMMO] Enabling mcMMO v2.2.030
+[15:17:20] [Server thread/INFO]: [mcMMO] Loaded 229 Alchemy potions, skipped 0.
+[15:17:23] [Server thread/INFO]: [spark] Starting background profiler...
+[15:17:23] [Server thread/INFO]: Done preparing level "world" (20.532s)
+[15:17:23] [Server thread/INFO]: Running delayed init tasks
+[15:17:23] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[15:17:23] [Craft Scheduler Thread - 7 - AuthMe/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[15:17:23] [Craft Scheduler Thread - 7 - AuthMe/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[15:17:23] [Craft Scheduler Thread - 7 - AuthMe/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[15:17:23] [Server thread/INFO]: Done (67.485s)! For help, type "help"
+[15:17:23] [Craft Scheduler Thread - 5 - InteractionVisualizer/INFO]: [InteractionVisualizer] Downloading and extracting latest Language files...
+[15:17:23] [Server thread/INFO]: Timings Reset
+[15:17:23] [Server thread/INFO]: [TimeManager] The server's initial tick was set in the config.yml.
+[15:17:23] [Server thread/INFO]: [TimeManager] The server's initial tick is #1100876 (15:17:23 UTC).
+[15:17:23] [Server thread/INFO]: [TimeManager] The server's current tick is #1100876 (15:17:23 UTC).
+[15:17:23] [Server thread/INFO]: [TimeManager] The world world had its time resynchronized to the server time.
+[15:17:23] [Craft Scheduler Thread - 7 - AuthMe/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[15:17:23] [Server thread/INFO]: [TimeManager] The world world is running since 76 whole day(s) (0001-03-18).
+[15:17:23] [Server thread/INFO]: [TimeManager] The world world starts at 6:00:00 (+0 ticks).
+[15:17:23] [Server thread/INFO]: [TimeManager] The world world's current time is 6:00:00 (#0).
+[15:17:23] [Server thread/INFO]: [TimeManager] The world world's current day speed is 0.722222222.
+[15:17:23] [Server thread/INFO]: [TimeManager] The world world's current night speed is 1.833333333.
+[15:17:23] [Server thread/INFO]: [TimeManager] The world world_nether had its time resynchronized to the server time.
+[15:17:23] [Server thread/INFO]: [TimeManager] The world world_nether is running since 95 whole day(s) (0001-04-06).
+[15:17:23] [Server thread/INFO]: [TimeManager] The world world_nether starts at 6:00:00 (+0 ticks).
+[15:17:23] [Server thread/INFO]: [TimeManager] The world world_nether's current time is 6:00:00 (#0).
+[15:17:23] [Server thread/INFO]: [TimeManager] The world world_nether's current day speed is 1.0.
+[15:17:23] [Server thread/INFO]: [TimeManager] The world world_nether's current night speed is 1.833333333.
+[15:17:23] [Server thread/INFO]: [TimeManager] The world world_the_end had its time resynchronized to the server time.
+[15:17:23] [Server thread/INFO]: [TimeManager] The world world_the_end is running since 95 whole day(s) (0001-04-06).
+[15:17:23] [Server thread/INFO]: [TimeManager] The world world_the_end starts at 6:00:00 (+0 ticks).
+[15:17:23] [Server thread/INFO]: [TimeManager] The world world_the_end's current time is 6:00:00 (#0).
+[15:17:23] [Server thread/INFO]: [TimeManager] The world world_the_end's current day speed is 1.0.
+[15:17:23] [Server thread/INFO]: [TimeManager] The world world_the_end's current night speed is 1.833333333.
+[15:17:24] [Server thread/INFO]: [TimeManager] All worlds have been syncronized to the server time. If you want to keep them synchronized, set their 'sync' option to true.
+[15:17:24] [Craft Scheduler Thread - 5 - InteractionVisualizer/INFO]: [InteractionVisualizer] Sucessfully downloaded the latest Language files!
+[15:17:24] [Craft Scheduler Thread - 12 - GrimAC/INFO]: New GrimAC version found! Version 2.3.70 is available to be downloaded here: https://modrinth.com/plugin/grimac
+[15:54:25] [User Authenticator #0/INFO]: UUID of player jlenon7 is 6a6dc5c5-65d3-3c55-8a13-d79183ef3ef4
+[15:54:29] [Server thread/INFO]: jlenon7 joined the game
+[15:54:31] [Server thread/INFO]: jlenon7[/177.73.101.175:4292] logged in with entity id 99 at ([world]-1813.7442290475265, 197.0, 1726.92598737532)
+[15:54:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2581ms or 51 ticks behind
+[15:54:44] [Craft Scheduler Thread - 64 - AuthMe/INFO]: [AuthMe] jlenon7 logged in 177.73.101.175
+[15:56:37] [Server thread/INFO]: jlenon7 lost connection: Disconnected
+[15:56:37] [Server thread/INFO]: jlenon7 left the game
+[16:01:24] [User Authenticator #1/INFO]: UUID of player jlenon7 is 6a6dc5c5-65d3-3c55-8a13-d79183ef3ef4
+[16:01:25] [Server thread/INFO]: jlenon7 joined the game
+[16:01:25] [Server thread/INFO]: jlenon7[/177.73.101.175:4096] logged in with entity id 466 at ([world]-1815.4859105356984, 197.0, 1726.5872721568649)
+[16:01:36] [Craft Scheduler Thread - 83 - AuthMe/INFO]: [AuthMe] jlenon7 used the wrong password
+[16:01:41] [Craft Scheduler Thread - 92 - AuthMe/INFO]: [AuthMe] jlenon7 logged in 177.73.101.175
+[17:40:46] [User Authenticator #2/INFO]: UUID of player HBplayOne1 is 31b4fb0d-13b9-3e7b-be11-c92abdbc0abc
+[17:40:47] [Server thread/INFO]: HBplayOne1 joined the game
+[17:40:47] [Server thread/INFO]: HBplayOne1[/177.73.101.219:20536] logged in with entity id 7919 at ([world]-1816.3259089036742, 197.0, 1727.4270554398008)
+[17:40:57] [Craft Scheduler Thread - 390 - AuthMe/INFO]: [AuthMe] HBplayOne1 logged in 177.73.101.219
+[17:41:28] [Server thread/INFO]: HBplayOne1 lost connection: Disconnected
+[17:41:28] [Server thread/INFO]: HBplayOne1 left the game
+[17:47:03] [Server thread/INFO]: jlenon7 lost connection: Disconnected
+[17:47:03] [Server thread/INFO]: jlenon7 left the game
+[17:49:09] [User Authenticator #3/INFO]: UUID of player HBplayOne1 is 31b4fb0d-13b9-3e7b-be11-c92abdbc0abc
+[17:49:10] [Server thread/INFO]: HBplayOne1 joined the game
+[17:49:10] [Server thread/INFO]: HBplayOne1[/177.73.101.219:20195] logged in with entity id 8351 at ([world]-1816.22186269475, 197.0, 1727.9522965954911)
+[17:49:40] [Craft Scheduler Thread - 421 - AuthMe/INFO]: [AuthMe] HBplayOne1 logged in 177.73.101.219
+[17:50:53] [Server thread/INFO]: HBplayOne1 lost connection: Disconnected
+[17:50:53] [Server thread/INFO]: HBplayOne1 left the game
+[18:00:01] [Server thread/INFO]: [Not Secure] [Server] Servidor será reiniciado em 5 minutos!
+[18:04:01] [Server thread/INFO]: [Not Secure] [Server] Servidor será reiniciado em 1 minuto!
+[18:05:01] [Server thread/INFO]: [Not Secure] [Server] Reiniciando servidor!
+[18:05:06] [Server thread/INFO]: Saving the game (this may take a moment!)
+[18:05:06] [Server thread/INFO]: Saved the game
+[18:05:06] [Server thread/INFO]: Stopping the server
+[18:05:06] [Server thread/INFO]: Stopping server
+[18:05:06] [Server thread/INFO]: [mcMMO] Disabling mcMMO v2.2.030
+[18:05:06] [Server thread/INFO]: [mcMMO] Server shutdown has been executed, saving and cleaning up data...
+[18:05:06] [Server thread/INFO]: [mcMMO] Saving mcMMOPlayers... (0)
+[18:05:06] [Server thread/INFO]: [mcMMO] Finished save operation for 0 players!
+[18:05:06] [Server thread/INFO]: [GrimAC] Disabling GrimAC v2.3.69
+[18:05:06] [Server thread/INFO]: [GrimAC] Terminating PacketEvents...
+[18:05:06] [Server thread/INFO]: [TimeManager] Disabling TimeManager v1.10.1-b
+[18:05:06] [Server thread/INFO]: [TimeManager] The plugin is now disabled.
+[18:05:06] [Server thread/INFO]: [SkibCommon] Disabling SkibCommon v1.0
+[18:05:06] [Server thread/INFO]: [DropHeads] Disabling DropHeads v3.9.11
+[18:05:06] [Server thread/INFO]: [InteractionVisualizer] Disabling InteractionVisualizer v1.18.13.0
+[18:05:06] [Server thread/INFO]: [InteractionVisualizer] Saving player preferences bitmask index, do not halt the server.
+[18:05:06] [Server thread/INFO]: [InteractionVisualizer] InteractionVisualizer has been disabled!
+[18:05:06] [Server thread/INFO]: [AuthMe] Disabling AuthMe v5.6.0-bCUSTOM
+[18:05:06] [Server thread/INFO]: [AuthMe] Waiting for 0 tasks to finish
+[18:05:06] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-bCUSTOM disabled!
+[18:05:06] [Server thread/INFO]: [PlasmoVoice] Disabling PlasmoVoice v2.1.2
+[18:05:06] [Server thread/INFO]: [PlasmoVoice] UDP server is stopped
+[18:05:06] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.2.1
+[18:05:06] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.3.0
+[18:05:06] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.2.1
+[18:05:06] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[18:05:06] [Server thread/INFO]: Saving players
+[18:05:06] [Server thread/INFO]: Saving worlds
+[18:05:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:05:06] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[18:05:06] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[18:05:06] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[18:05:06] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 21 entity chunks, 0 poi chunks in world 'world' in 0.02s
+[18:05:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[18:05:06] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[18:05:06] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[18:05:06] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[18:05:06] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 16 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
+[18:05:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[18:05:06] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[18:05:06] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[18:05:06] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[18:05:06] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[18:05:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:05:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:05:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:05:06] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
