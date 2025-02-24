@@ -1,2 +1,2 @@
 
-Bem vindo a Skibilândia {PLAYER}!
+Bem vindo a Skibidilândia {PLAYER}!
