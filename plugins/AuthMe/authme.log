@@ -802,3 +802,77 @@
 [02-25 01:00:41]: [FINE] HBplayOne1 logged in 177.73.101.219
 [02-25 01:46:24]: [FINE] jlenon7 logged in 177.73.101.175
 [02-25 03:05:06]: [INFO] AuthMe 5.6.0-bCUSTOM disabled!
+[02-25 03:12:04]: [INFO] SQLite Setup finished
+[02-25 03:12:04]: [INFO] No supported permissions system found! Permissions are disabled!
+[02-25 03:12:05]: [INFO] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[02-25 03:12:19]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[02-25 03:12:19]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[02-25 03:12:19]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[02-25 03:12:19]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[02-25 03:12:19]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at AuthMe-5.6.0.jar//fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at AuthMe-5.6.0.jar//fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at AuthMe-5.6.0.jar//fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:179)
+	at AuthMe-5.6.0.jar//fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86)
+	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[02-25 04:00:34]: [INFO] AuthMe 5.6.0-bCUSTOM disabled!
+[02-25 13:01:50]: [INFO] SQLite Setup finished
+[02-25 13:01:50]: [INFO] No supported permissions system found! Permissions are disabled!
+[02-25 13:01:51]: [INFO] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[02-25 13:02:06]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[02-25 13:02:06]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[02-25 13:02:06]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[02-25 13:02:06]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[02-25 13:02:06]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at AuthMe-5.6.0.jar//fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at AuthMe-5.6.0.jar//fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at AuthMe-5.6.0.jar//fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:179)
+	at AuthMe-5.6.0.jar//fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86)
+	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[02-25 14:27:05]: [FINE] jlenon7 logged in 177.73.101.175
+[02-25 14:35:37]: [INFO] AuthMe 5.6.0-bCUSTOM disabled!
+[02-25 14:36:57]: [INFO] SQLite Setup finished
+[02-25 14:36:57]: [INFO] No supported permissions system found! Permissions are disabled!
+[02-25 14:36:58]: [INFO] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[02-25 14:37:15]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[02-25 14:37:15]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[02-25 14:37:15]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[02-25 14:37:15]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[02-25 14:37:15]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at AuthMe-5.6.0.jar//fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at AuthMe-5.6.0.jar//fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at AuthMe-5.6.0.jar//fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:179)
+	at AuthMe-5.6.0.jar//fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86)
+	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[02-25 14:51:38]: [FINE] jlenon7 logged in 177.73.101.175
+[02-25 15:05:07]: [INFO] AuthMe 5.6.0-bCUSTOM disabled!
