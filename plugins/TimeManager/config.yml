@@ -117,7 +117,7 @@ worldsList:
 initialTick:
   useMySql: 'false'
   resetOnStartup: 'true'
-  initialTickNb: 938621
+  initialTickNb: 1094684
 mySql:
   dbPrefix: ''
   username: ''
