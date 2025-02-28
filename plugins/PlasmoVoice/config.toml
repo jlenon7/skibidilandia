@@ -7,8 +7,8 @@ use_crowdin_translations = true
 check_for_updates = true
 
 [host]
-ip = "0.0.0.0"
-port = 0
+ip = "147.185.221.26"
+port = 2550
 
 [voice]
 # Supported sample rates:
@@ -40,5 +40,3 @@ mode = "VOIP"
 bitrate = -1000
 
 [voice.weights]
-
-
