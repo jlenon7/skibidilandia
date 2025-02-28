@@ -44,7 +44,7 @@ restart:
 screen-start:
 	screen -dmS minecraft $(MAKE) start
 
-screen-playit
+screen-playit:
 	screen -dmS playit playit start
 
 screen-connect:
