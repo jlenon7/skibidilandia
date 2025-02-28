@@ -44,9 +44,6 @@ restart:
 screen-start:
 	screen -dmS minecraft $(MAKE) start
 
-screen-ngrok:
-	screen -dmS ngrok $(MAKE) ngrok
-
 screen-connect:
 	screen -r minecraft
 
