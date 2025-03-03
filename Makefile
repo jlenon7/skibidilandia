@@ -39,7 +39,10 @@ restart:
 	screen -S minecraft -X stuff "save-all\n"
 	screen -S minecraft -X stuff "stop\n"
 	sleep 10
-	$(MAKE) sync && sudo reboot
+	$(MAKE) sync
+
+full-restart:
+	$(MAKE) restart && $(MAKE) screen-start
 
 screen-start:
 	screen -dmS minecraft $(MAKE) start
