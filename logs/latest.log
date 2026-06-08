@@ -1,210 +1,225 @@
-[00:51:06] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.3+9-LTS; Eclipse Adoptium Temurin-25.0.3+9) on Windows 11 10.0 (amd64)
-[00:51:06] [ServerMain/INFO]: [bootstrap] Loading Paper 26.1.2-69-main@76d2ac7 (2026-06-03T17:32:02Z) for Minecraft 26.1.2
-[00:51:06] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[00:51:06] [ServerMain/INFO]: [PluginInitializerManager] Initialized 10 plugins
-[00:51:06] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (10):
- - Essentials (2.22.0), GrimAC (2.3.74-b2b2503), InteractionVisualizer (2026.1.1.0), PlasmoVoice (2.1.9), ProtocolLib (5.5.0-SNAPSHOT-b723ff3), SkibCommon (1.0), SkinsRestorer (15.12.1), Vault (2.19.1), ViaBackwards (5.9.2-SNAPSHOT), ViaVersion (5.9.2-SNAPSHOT)
-[00:51:09] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[00:51:10] [ServerMain/INFO]: Loaded 1515 recipes
-[00:51:10] [ServerMain/INFO]: Loaded 1617 advancements
-[00:51:10] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[00:51:11] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 233.5ms
-[00:51:11] [Server thread/INFO]: Starting minecraft server version 26.1.2
-[00:51:11] [Server thread/INFO]: Loading properties
-[00:51:11] [Server thread/INFO]: This server is running Paper version 26.1.2-69-main@76d2ac7 (2026-06-03T17:32:02Z) (Implementing API version 26.1.2.build.69-stable)
-[00:51:11] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[00:51:11] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[00:51:11] [Server thread/INFO]: Using 4 threads for Netty based IO
-[00:51:11] [Server thread/INFO]: [MoonriseCommon] Paper is using 4 worker threads, 1 I/O threads
-[00:51:12] [Server thread/INFO]: Default game type: SURVIVAL
-[00:51:12] [Server thread/INFO]: Generating keypair
-[00:51:12] [Server thread/INFO]: Starting Minecraft server on *:25565
-[00:51:12] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[00:51:12] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[00:51:12] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.9.2-SNAPSHOT
-[00:51:12] [Server thread/INFO]: [ViaVersion] ViaVersion 5.9.2-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
-[00:51:12] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading block connection mappings ...
-[00:51:13] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[00:51:13] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[00:51:13] [Server thread/INFO]: [Vault] Loading server plugin Vault v2.19.1
-[00:51:13] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.5.0-SNAPSHOT-b723ff3
-[00:51:13] [Server thread/WARN]: [ProtocolLib] Version (MC: 26.1.2) has not yet been tested! Proceed with caution.
-[00:51:13] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.9.2-SNAPSHOT
-[00:51:13] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.22.0
-[00:51:13] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.12.1
-[00:51:13] [Server thread/INFO]: [SkibCommon] Loading server plugin SkibCommon v1.0
-[00:51:13] [Server thread/INFO]: [PlasmoVoice] Loading server plugin PlasmoVoice v2.1.9
-[00:51:13] [Server thread/INFO]: [InteractionVisualizer] Loading server plugin InteractionVisualizer v2026.1.1.0
-[00:51:13] [Server thread/INFO]: [GrimAC] Loading server plugin GrimAC v2.3.74-b2b2503
-[00:51:13] [Server thread/ERROR]: [GrimAC] [STDERR] SLF4J(W): No SLF4J providers were found.
-[00:51:13] [Server thread/WARN]: Nag author(s): '[GrimAC]' of 'GrimAC v2.3.74-b2b2503' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
-[00:51:13] [Server thread/ERROR]: [GrimAC] [STDERR] SLF4J(W): Defaulting to no-operation (NOP) logger implementation
-[00:51:13] [Server thread/ERROR]: [GrimAC] [STDERR] SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
-[00:51:13] [Server thread/INFO]: [GrimAC] Loading PacketEvents...
-[00:51:13] [Server thread/INFO]: [packetevents] Loading packetevents...
-[00:51:14] [Server thread/INFO]: [packetevents] Loaded packetevents v2.12.3+e18eca8-SNAPSHOT for GrimAC
-[00:51:14] [pool-13-thread-1/INFO]: [packetevents] Loading block mappings for V_26_1/21...
-[00:51:14] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[00:51:14] [Server thread/INFO]: [Vault] Enabling Vault v2.19.1
-[00:51:14] [Server thread/INFO]: [Vault] Enabled Version 2.19.1
-[00:51:14] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.5.0-SNAPSHOT-b723ff3
-[00:51:14] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.12.1
-[00:51:14] [pool-13-thread-1/INFO]: [packetevents] Finished loading block mappings for V_26_1/21 in 194.5049ms
-[00:51:14] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 26.1.2.
-[00:51:15] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[00:51:15] [Server thread/INFO]: [PlasmoVoice] Enabling PlasmoVoice v2.1.9
-[00:51:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[00:51:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
-[00:51:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer   |
-[00:51:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |-------------------|
-[00:51:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode  |
-[00:51:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
-[00:51:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[00:51:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.12.1
-[00:51:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: f346e02
-[00:51:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[00:51:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[00:51:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[00:51:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer or receive priority support? Become a supporter: https://skinsrestorer.net/pricing
-[00:51:15] [Server thread/INFO]: [PlasmoVoice] NioDatagramChannel UDP server is started on /[0:0:0:0:0:0:0:0]:25565
-[00:51:15] [Server thread/INFO]: [PlasmoVoice] Spigot vanish PlayerHideEntityEvent/PlayerShowEntityEvent event listener attached
-[00:51:15] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[00:51:15] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[00:51:15] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[00:51:15] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[00:51:15] [Server thread/INFO]: Preparing level "world"
-[00:51:15] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
-[00:51:15] [Server thread/INFO]: Preparing spawn area: 100%
-[00:51:15] [Server thread/INFO]: Prepared spawn area in 2 ms
-[00:51:15] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
-[00:51:15] [Server thread/INFO]: Prepared spawn area in 1 ms
-[00:51:15] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
-[00:51:15] [Server thread/INFO]: Prepared spawn area in 2 ms
-[00:51:15] [Server thread/INFO]: Done preparing level "world" (0.342s)
-[00:51:15] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.9.2-SNAPSHOT
-[00:51:15] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 26.1-26.1.2 (775)
-[00:51:15] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.9.2-SNAPSHOT
-[00:51:15] [Server thread/INFO]: [Essentials] Enabling Essentials v2.22.0
-[00:51:15] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[00:51:15] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[00:51:16] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[00:51:16] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[00:51:16] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[00:51:16] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
-[00:51:16] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[00:51:16] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[00:51:16] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[00:51:16] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[00:51:16] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[00:51:16] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[00:51:16] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[00:51:16] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[00:51:16] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[00:51:16] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[00:51:16] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[00:51:16] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[00:51:16] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[00:51:16] [Server thread/INFO]: [Essentials] Selected Paper 1.13+ Tile Entity Provider as the provider for TileEntityProvider
-[00:51:16] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[00:51:16] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[00:51:16] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[00:51:16] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[00:51:16] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
-[00:51:16] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[00:51:16] [Server thread/INFO]: [Essentials] Loaded 46312 items from items.json.
-[00:51:16] [Server thread/INFO]: [Essentials] Using locale en_US
-[00:51:16] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[00:51:16] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[00:51:16] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[00:51:16] [Server thread/INFO]: [SkibCommon] Enabling SkibCommon v1.0
-[00:51:16] [Server thread/INFO]: [SkibCommon] Carregadas 2 mineradoras.
-[00:51:16] [Server thread/INFO]: [InteractionVisualizer] Enabling InteractionVisualizer v2026.1.1.0
-[00:51:20] [Server thread/INFO]: [InteractionVisualizer] Opened Sqlite database successfully
-[00:51:21] [Server thread/INFO]: [InteractionVisualizer] InteractionVisualizer has been enabled!
-[00:51:21] [Server thread/INFO]: [GrimAC] Enabling GrimAC v2.3.74-b2b2503
-[00:51:21] [Server thread/INFO]: [GrimAC] Registering packets...
-[00:51:21] [Server thread/INFO]: [GrimAC] Registering tick schedulers...
-[00:51:21] [Server thread/INFO]: Grim Version: 2.3.74-b2b2503
-[00:51:21] [Server thread/INFO]: [grim-datastore] [v2-bootstrap] grim:grim_violations (violations): 0 migration(s)
-[00:51:21] [Server thread/INFO]: [grim-datastore] [v2-bootstrap] grim:grim_settings (settings): 0 migration(s)
-[00:51:21] [Server thread/INFO]: [grim-datastore] [v2-bootstrap] grim:grim_sessions (sessions): 0 migration(s)
-[00:51:21] [Server thread/INFO]: [grim-datastore] [v2-bootstrap] grim:grim_players (players): 0 migration(s)
-[00:51:21] [Server thread/INFO]: [grim-datastore] [v2-bootstrap] grim:server_startups (server_startups): 0 migration(s)
-[00:51:21] [Server thread/INFO]: [grim-datastore] [grim-datastore] v2 cutover complete: 1 v2 backend(s), ac.grim.grimac.internal.storage.core.V2Routes@76599b0e routes installed, 0 legacy backends
-[00:51:21] [Server thread/WARN]: [grim-datastore] [grim-datastore] storage startup claimed: serverName='Prison' instanceId=8ce6820b-88ad-4038-8a70-5294046ce754 startupId=6dea8a83-b257-418a-9922-712eac0b4c08; recovered 0 previous open session(s).
-[00:51:21] [Server thread/WARN]: [GrimAC] GrimAC has detected that you have installed ViaBackwards on a 1.21.2+ server.
-[00:51:21] [Server thread/WARN]: [GrimAC] This setup is currently unsupported and you will experience issues with older clients using vehicles.
-[00:51:21] [Server thread/INFO]: [GrimAC] Registering singular bukkit event... (PistonEvent)
-[00:51:21] [Server thread/INFO]: [spark] Starting background profiler...
-[00:51:21] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[00:51:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[00:51:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[00:51:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[00:51:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[00:51:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:51:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[00:51:22] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[00:51:22] [Server thread/INFO]: Running delayed init tasks
-[00:51:22] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v2.19.1)!
-[00:51:22] [Craft Scheduler Thread - 2 - Essentials/INFO]: [Essentials] Fetching version information...
-[00:51:22] [Craft Scheduler Thread - 0 - InteractionVisualizer/INFO]: [InteractionVisualizer] Downloading and extracting latest Language files...
-[00:51:22] [Craft Scheduler Thread - 1 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[00:51:22] [Server thread/INFO]: Done (16.475s)! For help, type "help"
-[00:51:22] [Server thread/INFO]: [ViaVersion] You are running a development version of the plugin, please report any bugs to GitHub.
-[00:51:22] [Craft Scheduler Thread - 6 - GrimAC/INFO]: You are using the latest version of GrimAC
-[00:51:22] [Craft Scheduler Thread - 0 - InteractionVisualizer/INFO]: [InteractionVisualizer] Sucessfully downloaded the latest Language files!
-[00:51:25] [User Authenticator #0/INFO]: UUID of player jlenon7 is 6a6dc5c5-65d3-3c55-8a13-d79183ef3ef4
-[00:51:25] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [ProtocolLib]
-[00:51:26] [Server thread/INFO]: jlenon7 joined the game
-[00:51:26] [Server thread/INFO]: jlenon7[/[0:0:0:0:0:0:0:1]:57974] logged in with entity id 1 at ([minecraft:overworld]-20.38356868627316, 88.0, -58.27778676955254)
-[00:51:58] [Server thread/INFO]: jlenon7 issued server command: /stats
-[00:52:00] [Server thread/INFO]: jlenon7 issued server command: /skills
-[00:52:29] [Server thread/INFO]: jlenon7 lost connection: Disconnected
-[00:52:29] [Server thread/INFO]: jlenon7 left the game
-[00:52:34] [Server thread/INFO]: Stopping server
-[00:52:34] [Server thread/INFO]: [GrimAC] Disabling GrimAC v2.3.74-b2b2503
-[00:52:34] [Server thread/INFO]: [GrimAC] Terminating PacketEvents...
-[00:52:34] [Server thread/INFO]: [InteractionVisualizer] Disabling InteractionVisualizer v2026.1.1.0
-[00:52:34] [Server thread/INFO]: [InteractionVisualizer] Saving player preferences bitmask index, do not halt the server.
-[00:52:34] [Server thread/INFO]: [InteractionVisualizer] InteractionVisualizer has been disabled!
-[00:52:34] [Server thread/INFO]: [PlasmoVoice] Disabling PlasmoVoice v2.1.9
-[00:52:34] [Server thread/INFO]: [PlasmoVoice] UDP server is stopped
-[00:52:34] [Server thread/INFO]: [SkibCommon] Disabling SkibCommon v1.0
-[00:52:34] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.12.1
-[00:52:34] [Server thread/INFO]: [Essentials] Disabling Essentials v2.22.0
-[00:52:34] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.9.2-SNAPSHOT
-[00:52:34] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.5.0-SNAPSHOT-b723ff3
-[00:52:34] [Server thread/INFO]: [Vault] Disabling Vault v2.19.1
-[00:52:34] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.9.2-SNAPSHOT
-[00:52:34] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[00:52:34] [Server thread/INFO]: Saving players
-[00:52:34] [Server thread/INFO]: Saving worlds
-[00:52:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[00:52:34] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:overworld'
-[00:52:34] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:overworld'
-[00:52:34] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:overworld'
-[00:52:35] [Server thread/INFO]: [ChunkHolderManager] Saved 483 block chunks, 483 entity chunks, 0 poi chunks in world 'minecraft:overworld' in 0.29s
-[00:52:35] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:overworld'
-[00:52:35] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:overworld'
-[00:52:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[00:52:35] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_nether'
-[00:52:35] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_nether'
-[00:52:35] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_nether'
-[00:52:35] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_nether' in 0.00s
-[00:52:35] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_nether'
-[00:52:35] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_nether'
-[00:52:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[00:52:35] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_end'
-[00:52:35] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_end'
-[00:52:35] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_end'
-[00:52:35] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_end' in 0.00s
-[00:52:35] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_end'
-[00:52:35] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_end'
-[00:52:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[00:52:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:52:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[00:52:35] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[00:52:35] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[00:52:35] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[00:52:35] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[00:52:35] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[23:48:44] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.3+9-LTS; Eclipse Adoptium Temurin-25.0.3+9) on Windows 11 10.0 (amd64)
+[23:48:44] [ServerMain/INFO]: [bootstrap] Loading Paper 26.1.2-69-main@76d2ac7 (2026-06-03T17:32:02Z) for Minecraft 26.1.2
+[23:48:44] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[23:48:45] [ServerMain/INFO]: [PluginInitializerManager] Initialized 10 plugins
+[23:48:45] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (10):
+ - Essentials (2.22.0), GrimAC (2.3.74-b2b2503), InteractionVisualizer (2026.1.1.0), PlasmoVoice (2.1.9), ProtocolLib (5.5.0-SNAPSHOT-b723ff3), SkibCommon (1.0), SkinsRestorer (15.12.2), Vault (2.19.1), ViaBackwards (5.9.2-SNAPSHOT), ViaVersion (5.9.2-SNAPSHOT)
+[23:48:48] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[23:48:49] [ServerMain/INFO]: Loaded 1515 recipes
+[23:48:49] [ServerMain/INFO]: Loaded 1617 advancements
+[23:48:49] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[23:48:49] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 294.6ms
+[23:48:50] [Server thread/INFO]: Starting minecraft server version 26.1.2
+[23:48:50] [Server thread/INFO]: Loading properties
+[23:48:50] [Server thread/INFO]: This server is running Paper version 26.1.2-69-main@76d2ac7 (2026-06-03T17:32:02Z) (Implementing API version 26.1.2.build.69-stable)
+[23:48:50] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[23:48:50] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[23:48:50] [Server thread/INFO]: Using 4 threads for Netty based IO
+[23:48:50] [Server thread/INFO]: [MoonriseCommon] Paper is using 4 worker threads, 1 I/O threads
+[23:48:50] [Server thread/INFO]: Default game type: SURVIVAL
+[23:48:50] [Server thread/INFO]: Generating keypair
+[23:48:50] [Server thread/INFO]: Starting Minecraft server on *:25565
+[23:48:50] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[23:48:50] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[23:48:51] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.9.2-SNAPSHOT
+[23:48:51] [Server thread/INFO]: [ViaVersion] ViaVersion 5.9.2-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
+[23:48:51] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading block connection mappings ...
+[23:48:51] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[23:48:51] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[23:48:52] [Server thread/INFO]: [Vault] Loading server plugin Vault v2.19.1
+[23:48:52] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.5.0-SNAPSHOT-b723ff3
+[23:48:52] [Server thread/WARN]: [ProtocolLib] Version (MC: 26.1.2) has not yet been tested! Proceed with caution.
+[23:48:52] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.9.2-SNAPSHOT
+[23:48:52] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.22.0
+[23:48:52] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.12.2
+[23:48:52] [Server thread/INFO]: [SkibCommon] Loading server plugin SkibCommon v1.0
+[23:48:52] [Server thread/INFO]: [PlasmoVoice] Loading server plugin PlasmoVoice v2.1.9
+[23:48:52] [Server thread/INFO]: [InteractionVisualizer] Loading server plugin InteractionVisualizer v2026.1.1.0
+[23:48:52] [Server thread/INFO]: [GrimAC] Loading server plugin GrimAC v2.3.74-b2b2503
+[23:48:52] [Server thread/ERROR]: [GrimAC] [STDERR] SLF4J(W): No SLF4J providers were found.
+[23:48:52] [Server thread/WARN]: Nag author(s): '[GrimAC]' of 'GrimAC v2.3.74-b2b2503' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[23:48:52] [Server thread/ERROR]: [GrimAC] [STDERR] SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+[23:48:52] [Server thread/ERROR]: [GrimAC] [STDERR] SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+[23:48:52] [Server thread/INFO]: [GrimAC] Loading PacketEvents...
+[23:48:52] [Server thread/INFO]: [packetevents] Loading packetevents...
+[23:48:53] [Server thread/INFO]: [packetevents] Loaded packetevents v2.12.3+e18eca8-SNAPSHOT for GrimAC
+[23:48:53] [pool-13-thread-1/INFO]: [packetevents] Loading block mappings for V_26_1/21...
+[23:48:53] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[23:48:53] [Server thread/INFO]: [Vault] Enabling Vault v2.19.1
+[23:48:53] [Server thread/INFO]: [Vault] Enabled Version 2.19.1
+[23:48:53] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.5.0-SNAPSHOT-b723ff3
+[23:48:53] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.12.2
+[23:48:53] [pool-13-thread-1/INFO]: [packetevents] Finished loading block mappings for V_26_1/21 in 262.3916ms
+[23:48:54] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 26.1.2.
+[23:48:54] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[23:48:54] [Server thread/INFO]: [PlasmoVoice] Enabling PlasmoVoice v2.1.9
+[23:48:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[23:48:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
+[23:48:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer   |
+[23:48:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |-------------------|
+[23:48:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode  |
+[23:48:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
+[23:48:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[23:48:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.12.2
+[23:48:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 5872d07
+[23:48:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[23:48:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[23:48:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[23:48:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer or receive priority support? Become a supporter: https://skinsrestorer.net/pricing
+[23:48:54] [Server thread/INFO]: [PlasmoVoice] NioDatagramChannel UDP server is started on /[0:0:0:0:0:0:0:0]:25565
+[23:48:54] [Server thread/INFO]: [PlasmoVoice] Spigot vanish PlayerHideEntityEvent/PlayerShowEntityEvent event listener attached
+[23:48:54] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[23:48:54] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[23:48:54] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[23:48:54] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[23:48:54] [Server thread/INFO]: Preparing level "world"
+[23:48:55] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
+[23:48:55] [Server thread/INFO]: Preparing spawn area: 100%
+[23:48:55] [Server thread/INFO]: Prepared spawn area in 1 ms
+[23:48:55] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
+[23:48:55] [Server thread/INFO]: Prepared spawn area in 1 ms
+[23:48:55] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
+[23:48:55] [Server thread/INFO]: Prepared spawn area in 2 ms
+[23:48:55] [Server thread/INFO]: Done preparing level "world" (0.329s)
+[23:48:55] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.9.2-SNAPSHOT
+[23:48:55] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 26.1-26.1.2 (775)
+[23:48:55] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.9.2-SNAPSHOT
+[23:48:55] [Server thread/INFO]: [Essentials] Enabling Essentials v2.22.0
+[23:48:55] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[23:48:55] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[23:48:55] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[23:48:55] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[23:48:55] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[23:48:55] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[23:48:55] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[23:48:55] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[23:48:55] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[23:48:55] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[23:48:55] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[23:48:55] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[23:48:55] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[23:48:55] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[23:48:55] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[23:48:55] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[23:48:55] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[23:48:55] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[23:48:55] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[23:48:55] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[23:48:55] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[23:48:55] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[23:48:55] [Server thread/INFO]: [Essentials] Selected Paper 1.13+ Tile Entity Provider as the provider for TileEntityProvider
+[23:48:55] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[23:48:55] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[23:48:55] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[23:48:55] [Server thread/INFO]: [Essentials] Loaded 46312 items from items.json.
+[23:48:55] [Server thread/INFO]: [Essentials] Using locale en_US
+[23:48:55] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[23:48:55] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[23:48:55] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[23:48:55] [Server thread/INFO]: [SkibCommon] Enabling SkibCommon v1.0
+[23:48:55] [Server thread/INFO]: [SkibCommon] Carregadas 2 mineradoras.
+[23:48:55] [Server thread/INFO]: [SkibCommon] [FurnaceTools] 156 receitas de fundição carregadas.
+[23:48:55] [Server thread/INFO]: [InteractionVisualizer] Enabling InteractionVisualizer v2026.1.1.0
+[23:49:00] [Server thread/INFO]: [InteractionVisualizer] Opened Sqlite database successfully
+[23:49:00] [Server thread/INFO]: [InteractionVisualizer] InteractionVisualizer has been enabled!
+[23:49:00] [Server thread/INFO]: [GrimAC] Enabling GrimAC v2.3.74-b2b2503
+[23:49:00] [Server thread/INFO]: [GrimAC] Registering packets...
+[23:49:00] [Server thread/INFO]: [GrimAC] Registering tick schedulers...
+[23:49:00] [Server thread/INFO]: Grim Version: 2.3.74-b2b2503
+[23:49:01] [Server thread/INFO]: [grim-datastore] [v2-bootstrap] grim:grim_sessions (sessions): 0 migration(s)
+[23:49:01] [Server thread/INFO]: [grim-datastore] [v2-bootstrap] grim:grim_players (players): 0 migration(s)
+[23:49:01] [Server thread/INFO]: [grim-datastore] [v2-bootstrap] grim:grim_violations (violations): 0 migration(s)
+[23:49:01] [Server thread/INFO]: [grim-datastore] [v2-bootstrap] grim:grim_settings (settings): 0 migration(s)
+[23:49:01] [Server thread/INFO]: [grim-datastore] [v2-bootstrap] grim:server_startups (server_startups): 0 migration(s)
+[23:49:01] [Server thread/INFO]: [grim-datastore] [grim-datastore] v2 cutover complete: 1 v2 backend(s), ac.grim.grimac.internal.storage.core.V2Routes@72352dae routes installed, 0 legacy backends
+[23:49:01] [Server thread/WARN]: [grim-datastore] [grim-datastore] storage startup claimed: serverName='Prison' instanceId=8ce6820b-88ad-4038-8a70-5294046ce754 startupId=b2801c69-cf4f-4234-951c-44a24e86d29e; recovered 0 previous open session(s).
+[23:49:01] [Server thread/WARN]: [GrimAC] GrimAC has detected that you have installed ViaBackwards on a 1.21.2+ server.
+[23:49:01] [Server thread/WARN]: [GrimAC] This setup is currently unsupported and you will experience issues with older clients using vehicles.
+[23:49:01] [Server thread/INFO]: [GrimAC] Registering singular bukkit event... (PistonEvent)
+[23:49:01] [Server thread/INFO]: [spark] Starting background profiler...
+[23:49:01] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[23:49:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23:49:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[23:49:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[23:49:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:49:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:49:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:49:01] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[23:49:01] [Server thread/INFO]: Running delayed init tasks
+[23:49:01] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v2.19.1)!
+[23:49:01] [Craft Scheduler Thread - 0 - Essentials/INFO]: [Essentials] Fetching version information...
+[23:49:01] [Craft Scheduler Thread - 1 - InteractionVisualizer/INFO]: [InteractionVisualizer] Downloading and extracting latest Language files...
+[23:49:01] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[23:49:01] [Server thread/INFO]: Done (17.672s)! For help, type "help"
+[23:49:01] [Server thread/INFO]: [ViaVersion] You are running a development version of the plugin, please report any bugs to GitHub.
+[23:49:01] [Craft Scheduler Thread - 25 - GrimAC/INFO]: You are using the latest version of GrimAC
+[23:49:01] [Craft Scheduler Thread - 1 - InteractionVisualizer/INFO]: [InteractionVisualizer] Sucessfully downloaded the latest Language files!
+[23:49:02] [User Authenticator #0/INFO]: UUID of player jlenon7 is 6a6dc5c5-65d3-3c55-8a13-d79183ef3ef4
+[23:49:02] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [ProtocolLib]
+[23:49:04] [Server thread/INFO]: jlenon7 joined the game
+[23:49:04] [Server thread/INFO]: jlenon7[/[0:0:0:0:0:0:0:1]:61038] logged in with entity id 1 at ([minecraft:overworld]-258.0989442890465, 69.93254563783744, -125.9122925771715)
+[23:49:12] [Server thread/INFO]: jlenon7 issued server command: /minemagic dar
+[23:49:16] [Server thread/INFO]: jlenon7 issued server command: /minemagic dar cajadofogo
+[23:49:19] [Server thread/INFO]: jlenon7 issued server command: /minemagic dar cajadonecromante
+[23:50:39] [Server thread/INFO]: Named entity Zombie['Zumbi do Necromante'/741, uuid='c563cdda-9e4e-4dd3-8cb1-3040c2ed6ea0', l='ServerLevel[world]', x=-242.71, y=62.00, z=-125.70, cpos=[-16, -8], tl=502, v=true] died: Zumbi do Necromante was burned to a crisp while fighting jlenon7
+[23:50:45] [Server thread/INFO]: Named entity Zombie['Zumbi do Necromante'/743, uuid='71ad1dbc-e781-4ad4-839c-162de2ab8b7b', l='ServerLevel[world]', x=-230.45, y=64.00, z=-151.68, cpos=[-15, -10], tl=626, v=true] died: Zumbi do Necromante was fireballed by jlenon7 using [Cajado de Fogo]
+[23:50:49] [Server thread/INFO]: Named entity Zombie['Zumbi do Necromante'/742, uuid='91cde15e-7dc2-42c4-b5bb-c61271be87dd', l='ServerLevel[world]', x=-232.80, y=64.00, z=-137.51, cpos=[-15, -9], tl=694, v=true] died: Zumbi do Necromante was fireballed by jlenon7 using [Cajado de Fogo]
+[23:51:00] [Server thread/INFO]: Named entity Zombie['Zumbi do Necromante'/900, uuid='212d166d-2da6-4873-b547-e9dfb8baa349', l='ServerLevel[world]', x=-231.17, y=64.00, z=-145.38, cpos=[-15, -10], tl=171, v=true] died: Zumbi do Necromante walked into fire while fighting jlenon7
+[23:52:58] [Server thread/INFO]: Named entity Zombie['Zumbi do Necromante'/1121, uuid='01e1a0d8-3143-46f9-ae15-559f2a8cdc18', l='ServerLevel[world]', x=-244.69, y=64.00, z=-146.98, cpos=[-16, -10], tl=313, v=true] died: Zumbi do Necromante was fireballed by jlenon7 using [Cajado de Fogo]
+[23:53:00] [Server thread/INFO]: Named entity Zombie['Zumbi do Necromante'/1123, uuid='4fb004c9-3835-4238-8d09-76a06323ae39', l='ServerLevel[world]', x=-246.18, y=64.00, z=-132.78, cpos=[-16, -9], tl=346, v=true] died: Zumbi do Necromante was fireballed by jlenon7 using [Cajado de Fogo]
+[23:53:07] [Server thread/INFO]: Named entity Zombie['Zumbi do Necromante'/1122, uuid='a07dadb4-9f91-4354-923e-40a61a7fb890', l='ServerLevel[world]', x=-241.95, y=62.00, z=-124.10, cpos=[-16, -8], tl=478, v=true] died: Zumbi do Necromante was fireballed by jlenon7 using [Cajado de Fogo]
+[23:54:14] [Server thread/INFO]: jlenon7 issued server command: /minemagic dar cajadonecromante
+[23:54:16] [Server thread/INFO]: jlenon7 issued server command: /minemagic dar cajadofogo
+[23:54:19] [Server thread/INFO]: jlenon7 issued server command: /time set day
+[23:54:33] [Server thread/INFO]: jlenon7 issued server command: /gamemode survival
+[23:54:52] [Server thread/INFO]: Named entity Zombie['Zumbi do Necromante'/1731, uuid='03ead076-c805-4c58-8399-92dc67780bb5', l='ServerLevel[world]', x=-297.32, y=71.00, z=-144.66, cpos=[-19, -10], tl=612, v=true] died: Zumbi do Necromante was fireballed by jlenon7 using [Cajado de Fogo]
+[23:54:56] [Server thread/INFO]: jlenon7 lost connection: Disconnected
+[23:54:56] [Server thread/INFO]: jlenon7 left the game
+[23:55:03] [Server thread/INFO]: Stopping the server
+[23:55:03] [Server thread/INFO]: Stopping server
+[23:55:03] [Server thread/INFO]: [GrimAC] Disabling GrimAC v2.3.74-b2b2503
+[23:55:03] [Server thread/INFO]: [GrimAC] Terminating PacketEvents...
+[23:55:03] [Server thread/INFO]: [InteractionVisualizer] Disabling InteractionVisualizer v2026.1.1.0
+[23:55:03] [Server thread/INFO]: [InteractionVisualizer] Saving player preferences bitmask index, do not halt the server.
+[23:55:03] [Server thread/INFO]: [InteractionVisualizer] InteractionVisualizer has been disabled!
+[23:55:03] [Server thread/INFO]: [PlasmoVoice] Disabling PlasmoVoice v2.1.9
+[23:55:03] [Server thread/INFO]: [PlasmoVoice] UDP server is stopped
+[23:55:03] [Server thread/INFO]: [SkibCommon] Disabling SkibCommon v1.0
+[23:55:03] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.12.2
+[23:55:03] [Server thread/INFO]: [Essentials] Disabling Essentials v2.22.0
+[23:55:03] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.9.2-SNAPSHOT
+[23:55:04] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.5.0-SNAPSHOT-b723ff3
+[23:55:04] [Server thread/INFO]: [Vault] Disabling Vault v2.19.1
+[23:55:04] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.9.2-SNAPSHOT
+[23:55:04] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[23:55:04] [Server thread/INFO]: Saving players
+[23:55:04] [Server thread/INFO]: Saving worlds
+[23:55:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23:55:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:overworld'
+[23:55:04] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:overworld'
+[23:55:04] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:overworld'
+[23:55:04] [Server thread/INFO]: [ChunkHolderManager] Saved 1004 block chunks, 435 entity chunks, 0 poi chunks in world 'minecraft:overworld' in 0.28s
+[23:55:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:overworld'
+[23:55:04] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:overworld'
+[23:55:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[23:55:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_nether'
+[23:55:04] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_nether'
+[23:55:04] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_nether'
+[23:55:04] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_nether' in 0.00s
+[23:55:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_nether'
+[23:55:04] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_nether'
+[23:55:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[23:55:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_end'
+[23:55:04] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_end'
+[23:55:04] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_end'
+[23:55:04] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_end' in 0.00s
+[23:55:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_end'
+[23:55:04] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_end'
+[23:55:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:55:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:55:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:55:04] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[23:55:04] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[23:55:04] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[23:55:04] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[23:55:04] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
