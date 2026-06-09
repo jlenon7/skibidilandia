@@ -25,7 +25,7 @@ miners:
         schema_version: 1
   world;-35;88;-63:
     level: 5
-    ticks: 200
+    ticks: 120
     cycleLength: 600
     fuelCycles: 4
     output:
@@ -33,7 +33,7 @@ miners:
         ==: org.bukkit.inventory.ItemStack
         DataVersion: 4790
         id: minecraft:charcoal
-        count: 7
+        count: 1
         schema_version: 1
       '1':
         ==: org.bukkit.inventory.ItemStack
@@ -51,7 +51,7 @@ miners:
         ==: org.bukkit.inventory.ItemStack
         DataVersion: 4790
         id: minecraft:redstone
-        count: 62
+        count: 64
         schema_version: 1
       '4':
         ==: org.bukkit.inventory.ItemStack
@@ -75,19 +75,19 @@ miners:
         ==: org.bukkit.inventory.ItemStack
         DataVersion: 4790
         id: minecraft:raw_gold
-        count: 39
+        count: 47
         schema_version: 1
       '8':
         ==: org.bukkit.inventory.ItemStack
         DataVersion: 4790
         id: minecraft:lapis_lazuli
-        count: 57
+        count: 64
         schema_version: 1
       '9':
         ==: org.bukkit.inventory.ItemStack
         DataVersion: 4790
         id: minecraft:diamond
-        count: 18
+        count: 20
         schema_version: 1
       '10':
         ==: org.bukkit.inventory.ItemStack
@@ -111,17 +111,29 @@ miners:
         ==: org.bukkit.inventory.ItemStack
         DataVersion: 4790
         id: minecraft:raw_iron
-        count: 45
+        count: 57
         schema_version: 1
       '14':
         ==: org.bukkit.inventory.ItemStack
         DataVersion: 4790
         id: minecraft:raw_copper
-        count: 55
+        count: 64
         schema_version: 1
       '15':
         ==: org.bukkit.inventory.ItemStack
         DataVersion: 4790
         id: minecraft:coal
-        count: 39
+        count: 61
+        schema_version: 1
+      '16':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:redstone
+        count: 4
+        schema_version: 1
+      '17':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:raw_copper
+        count: 8
         schema_version: 1
