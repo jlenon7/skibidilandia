@@ -4,7 +4,7 @@ godmode: false
 flymode: false
 muted: false
 jailed: false
-ip-address: 0:0:0:0:0:0:0:1
+ip-address: 26.124.20.38
 afk: false
 socialspy: false
 npc: false
@@ -12,28 +12,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1781232633135
+  lastteleport: 1781233005276
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1781233743949
-  login: 1781233625922
+  logout: 1781233043169
+  login: 1781232952081
 money: '0'
-last-account-name: jlenon7
+last-account-name: bernardindopvp
 logoutlocation:
   world: c3d6ce26-19fa-40f0-b589-ba263cc43ce1
   world-name: world
-  x: -163.84444623062413
-  y: 65.0
-  z: -123.40517473013544
-  yaw: 40.80158996582031
-  pitch: -0.7499499320983887
+  x: -16.971193431384815
+  y: 87.0
+  z: -55.136393422008275
+  yaw: 176.55677795410156
+  pitch: 24.300010681152344
 lastlocation:
   world: c3d6ce26-19fa-40f0-b589-ba263cc43ce1
   world-name: world
-  x: -10.595552507139587
-  y: 85.0
-  z: -36.8963219083106
-  yaw: -66.90003204345703
-  pitch: 9.750004768371582
+  x: -206.72592958527017
+  y: 60.0
+  z: -145.17480076267609
+  yaw: 114.8702392578125
+  pitch: 40.34972381591797

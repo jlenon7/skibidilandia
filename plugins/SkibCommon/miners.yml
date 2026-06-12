@@ -25,15 +25,15 @@ miners:
         schema_version: 1
   world;-35;88;-63:
     level: 5
-    ticks: 120
-    cycleLength: 600
-    fuelCycles: 4
+    ticks: 140
+    cycleLength: 300
+    fuelCycles: 3
     output:
       '0':
         ==: org.bukkit.inventory.ItemStack
         DataVersion: 4790
-        id: minecraft:charcoal
-        count: 1
+        id: minecraft:coal
+        count: 64
         schema_version: 1
       '1':
         ==: org.bukkit.inventory.ItemStack
@@ -63,7 +63,7 @@ miners:
         ==: org.bukkit.inventory.ItemStack
         DataVersion: 4790
         id: minecraft:emerald
-        count: 8
+        count: 13
         schema_version: 1
       '6':
         ==: org.bukkit.inventory.ItemStack
@@ -75,7 +75,7 @@ miners:
         ==: org.bukkit.inventory.ItemStack
         DataVersion: 4790
         id: minecraft:raw_gold
-        count: 47
+        count: 64
         schema_version: 1
       '8':
         ==: org.bukkit.inventory.ItemStack
@@ -87,7 +87,7 @@ miners:
         ==: org.bukkit.inventory.ItemStack
         DataVersion: 4790
         id: minecraft:diamond
-        count: 20
+        count: 28
         schema_version: 1
       '10':
         ==: org.bukkit.inventory.ItemStack
@@ -111,7 +111,7 @@ miners:
         ==: org.bukkit.inventory.ItemStack
         DataVersion: 4790
         id: minecraft:raw_iron
-        count: 57
+        count: 64
         schema_version: 1
       '14':
         ==: org.bukkit.inventory.ItemStack
@@ -123,17 +123,41 @@ miners:
         ==: org.bukkit.inventory.ItemStack
         DataVersion: 4790
         id: minecraft:coal
-        count: 61
+        count: 64
         schema_version: 1
       '16':
         ==: org.bukkit.inventory.ItemStack
         DataVersion: 4790
         id: minecraft:redstone
-        count: 4
+        count: 39
         schema_version: 1
       '17':
         ==: org.bukkit.inventory.ItemStack
         DataVersion: 4790
         id: minecraft:raw_copper
-        count: 8
+        count: 64
+        schema_version: 1
+      '18':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:lapis_lazuli
+        count: 28
+        schema_version: 1
+      '19':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:raw_iron
+        count: 43
+        schema_version: 1
+      '20':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:raw_copper
+        count: 21
+        schema_version: 1
+      '21':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal
+        count: 28
         schema_version: 1
