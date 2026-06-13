@@ -1,0 +1,22 @@
+[2026/06/10 17:53:45 INFO]:           __             _       
+[2026/06/10 17:53:45 INFO]:   _ __   / /  ___   __ _(_)_ __  
+[2026/06/10 17:53:45 INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[2026/06/10 17:53:45 INFO]:  | | | / /__| (_) | (_| | | | | |
+[2026/06/10 17:53:45 INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[2026/06/10 17:53:45 INFO]:                   |___/            
+[2026/06/10 17:53:45 INFO]:  By: www.nickuc.com - V 2.0.17
+[2026/06/10 17:53:45 INFO]:  
+[2026/06/10 17:53:45 DEBUG]: Loading the messages_br.yml message file...
+[2026/06/10 17:53:45 DEBUG]: Messages were loaded in 210 ms (single file).
+[2026/06/10 17:53:45 WARN]: The "unsupported-settings.perform-username-validation" option is enabled in config/paper-global.yml
+[2026/06/10 17:53:45 WARN]: The username-appender feature may fail with an invalid nickname kick message.
+[2026/06/10 17:53:45 DEBUG]: Settings were loaded in 310 ms.
+[2026/06/10 17:53:45 DEBUG]: Loading database...
+[2026/06/10 17:53:46 DEBUG]: Starting logger filter...
+[2026/06/10 17:55:14 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'HBplayOne1', `unique_id` = 31b4fb0d13b93e7bbe11c92abdbc0abc,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$hZxWjT9XGfIGwlSYdrOwYekdZCgE4W/lcNTauB6tfbyV7bsqvNngu', `last_ip` = '127.0.0.1', `creation_date` = 2026-06-07 22:46:34.25, `last_seen` = 2026-06-10 17:55:14.216, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"pt","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2026/06/10 17:55:14 INFO]: O usuário HBplayOne1 se autenticou com sucesso.
+[2026/06/10 17:56:34 DEBUG]: [SQLite] [UPDATE]: "INSERT INTO `nlogin` (`last_name`, `unique_id`, `mojang_id`, `bedrock_id`, `password`, `last_ip`, `creation_date`, `last_seen`, `email`, `discord`, `settings`) VALUES ('bernardindozap', 5ba8eef631613a15aa0389d786aa6d2e, null, null, '$2a$10$KWzqjBikN7hbqR.DdSf2tOIboYCW14jMSZEJ1bjnwNW7w.QmA8uGC', '127.0.0.1', '2026-06-10 17:56:33.936', '2026-06-10 17:56:33.936', null, null, '{"settings":[{"value":true,"key":"force-invalid-session"}],"version":0}')" (applied to all columns)
+[2026/06/10 17:56:34 INFO]: O usuário bernardindozap se registrou com sucesso.
+[2026/06/10 18:04:02 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'bernardindozap', `unique_id` = 5ba8eef631613a15aa0389d786aa6d2e,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$KWzqjBikN7hbqR.DdSf2tOIboYCW14jMSZEJ1bjnwNW7w.QmA8uGC', `last_ip` = '127.0.0.1', `creation_date` = 2026-06-10 17:56:33.936, `last_seen` = 2026-06-10 18:04:02.509, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":true,"key":"force-invalid-session"},{"value":"pt","key":"language"}],"version":0}' WHERE `ai` = 2" (applied to [last_seen, settings] columns)
+[2026/06/10 18:04:28 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'HBplayOne1', `unique_id` = 31b4fb0d13b93e7bbe11c92abdbc0abc,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$hZxWjT9XGfIGwlSYdrOwYekdZCgE4W/lcNTauB6tfbyV7bsqvNngu', `last_ip` = '127.0.0.1', `creation_date` = 2026-06-07 22:46:34.25, `last_seen` = 2026-06-10 18:04:28.306, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"pt","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_seen, settings] columns)
+[2026/06/10 21:25:13 INFO]: Successful plugin core shutdown (took 0.02s)

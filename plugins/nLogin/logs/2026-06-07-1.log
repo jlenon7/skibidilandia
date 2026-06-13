@@ -1,0 +1,49 @@
+[2026/06/07 22:34:47 INFO]:           __             _       
+[2026/06/07 22:34:47 INFO]:   _ __   / /  ___   __ _(_)_ __  
+[2026/06/07 22:34:47 INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[2026/06/07 22:34:47 INFO]:  | | | / /__| (_) | (_| | | | | |
+[2026/06/07 22:34:47 INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[2026/06/07 22:34:47 INFO]:                   |___/            
+[2026/06/07 22:34:47 INFO]:  By: www.nickuc.com - V 2.0.17
+[2026/06/07 22:34:47 INFO]:  
+[2026/06/07 22:34:47 DEBUG]: The config.yml file was created successfully.
+[2026/06/07 22:34:48 DEBUG]: Loading the messages_br.yml message file...
+[2026/06/07 22:34:48 DEBUG]: Messages were loaded in 442 ms (single file).
+[2026/06/07 22:34:48 WARN]: The "unsupported-settings.perform-username-validation" option is enabled in config/paper-global.yml
+[2026/06/07 22:34:48 WARN]: The username-appender feature may fail with an invalid nickname kick message.
+[2026/06/07 22:34:48 DEBUG]: Settings were loaded in 497 ms.
+[2026/06/07 22:34:48 DEBUG]: Loading database...
+[2026/06/07 22:34:49 INFO]: Gerando par de chaves RSA... (isso pode demorar um pouco)
+[2026/06/07 22:34:49 INFO]: O par de chaves RSA foi gerado com sucesso. Demorou 0.48s
+[2026/06/07 22:34:49 DEBUG]: Starting logger filter...
+[2026/06/07 22:35:17 INFO]: 
+[2026/06/07 22:35:17 INFO]:  Muito obrigado por escolher o nLogin! :)
+[2026/06/07 22:35:17 INFO]: 
+[2026/06/07 22:35:17 INFO]:  Para sua segurança, leia a mensagem abaixo:
+[2026/06/07 22:35:17 INFO]:   Nunca baixe o nLogin de fontes desconhecidas.
+[2026/06/07 22:35:17 INFO]:   Uma versão modificada pode conter softwares maliciosos.
+[2026/06/07 22:35:17 INFO]: 
+[2026/06/07 22:35:17 INFO]:  Sites confiáveis:
+[2026/06/07 22:35:17 INFO]:   Website: nickuc.com
+[2026/06/07 22:35:17 INFO]:   GitHub: github.com/nickuc-com
+[2026/06/07 22:35:17 INFO]:   Instalador do OpeNLogin (do Spigot ou GitHub)
+[2026/06/07 22:35:17 INFO]: 
+[2026/06/07 22:35:17 INFO]:  Suporte oficial:
+[2026/06/07 22:35:17 INFO]:   Documentação: docs.nickuc.com/nlogin/
+[2026/06/07 22:35:17 INFO]:   Discord: nickuc.com/discord
+[2026/06/07 22:35:17 INFO]:   Email: support@nickuc.com
+[2026/06/07 22:35:17 INFO]: 
+[2026/06/07 22:38:14 DEBUG]: Loading the messages_br.yml message file...
+[2026/06/07 22:42:26 DEBUG]: Loading the messages_br.yml message file...
+[2026/06/07 22:43:38 DEBUG]: Loading the messages_br.yml message file...
+[2026/06/07 22:46:17 DEBUG]: Loading the messages_br.yml message file...
+[2026/06/07 22:46:17 DEBUG]: Messages were loaded in 14 ms (single file).
+[2026/06/07 22:46:17 WARN]: The "unsupported-settings.perform-username-validation" option is enabled in config/paper-global.yml
+[2026/06/07 22:46:17 WARN]: The username-appender feature may fail with an invalid nickname kick message.
+[2026/06/07 22:46:17 DEBUG]: Settings were loaded in 29 ms.
+[2026/06/07 22:46:34 DEBUG]: [SQLite] [UPDATE]: "INSERT INTO `nlogin` (`last_name`, `unique_id`, `mojang_id`, `bedrock_id`, `password`, `last_ip`, `creation_date`, `last_seen`, `email`, `discord`, `settings`) VALUES ('HBplayOne1', 31b4fb0d13b93e7bbe11c92abdbc0abc, null, null, '$2a$10$hZxWjT9XGfIGwlSYdrOwYekdZCgE4W/lcNTauB6tfbyV7bsqvNngu', '127.0.0.1', '2026-06-07 22:46:34.25', '2026-06-07 22:46:34.25', null, null, '{"settings":[{"value":true,"key":"force-invalid-session"}],"version":0}')" (applied to all columns)
+[2026/06/07 22:46:34 INFO]: O usuário HBplayOne1 se registrou com sucesso.
+[2026/06/07 22:50:16 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'HBplayOne1', `unique_id` = 31b4fb0d13b93e7bbe11c92abdbc0abc,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$hZxWjT9XGfIGwlSYdrOwYekdZCgE4W/lcNTauB6tfbyV7bsqvNngu', `last_ip` = '127.0.0.1', `creation_date` = 2026-06-07 22:46:34.25, `last_seen` = 2026-06-07 22:50:16.73, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":true,"key":"force-invalid-session"},{"value":"pt","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_seen, settings] columns)
+[2026/06/07 22:50:28 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'HBplayOne1', `unique_id` = 31b4fb0d13b93e7bbe11c92abdbc0abc,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$hZxWjT9XGfIGwlSYdrOwYekdZCgE4W/lcNTauB6tfbyV7bsqvNngu', `last_ip` = '127.0.0.1', `creation_date` = 2026-06-07 22:46:34.25, `last_seen` = 2026-06-07 22:50:28.058, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"pt","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2026/06/07 22:50:28 INFO]: O usuário HBplayOne1 se autenticou com sucesso.
+[2026/06/07 22:50:55 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'HBplayOne1', `unique_id` = 31b4fb0d13b93e7bbe11c92abdbc0abc,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$hZxWjT9XGfIGwlSYdrOwYekdZCgE4W/lcNTauB6tfbyV7bsqvNngu', `last_ip` = '127.0.0.1', `creation_date` = 2026-06-07 22:46:34.25, `last_seen` = 2026-06-07 22:50:54.98, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"pt","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_seen, settings] columns)
