@@ -25,8 +25,8 @@ miners:
         schema_version: 1
   world;-35;88;-63:
     level: 5
-    ticks: 140
-    cycleLength: 300
+    ticks: 120
+    cycleLength: 600
     fuelCycles: 3
     output:
       '0':
@@ -129,7 +129,7 @@ miners:
         ==: org.bukkit.inventory.ItemStack
         DataVersion: 4790
         id: minecraft:redstone
-        count: 39
+        count: 41
         schema_version: 1
       '17':
         ==: org.bukkit.inventory.ItemStack
@@ -141,23 +141,23 @@ miners:
         ==: org.bukkit.inventory.ItemStack
         DataVersion: 4790
         id: minecraft:lapis_lazuli
-        count: 28
+        count: 29
         schema_version: 1
       '19':
         ==: org.bukkit.inventory.ItemStack
         DataVersion: 4790
         id: minecraft:raw_iron
-        count: 43
+        count: 45
         schema_version: 1
       '20':
         ==: org.bukkit.inventory.ItemStack
         DataVersion: 4790
         id: minecraft:raw_copper
-        count: 21
+        count: 24
         schema_version: 1
       '21':
         ==: org.bukkit.inventory.ItemStack
         DataVersion: 4790
         id: minecraft:coal
-        count: 28
+        count: 30
         schema_version: 1
