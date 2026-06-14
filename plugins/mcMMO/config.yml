@@ -77,6 +77,7 @@ General:
     # Enable to refresh the chunks around a player at the end of Super Breaker,
     # Giga Drill Breaker, and Berserk. Resource intensive for larger servers.
     Refresh_Chunks: false
+    RegionDataMigrationBackups: true
 
 #
 #  Settings for the mcMMO scoreboards
@@ -229,6 +230,7 @@ Hardcore:
             Tridents: false
             Crossbows: false
             Maces: false
+            Spears: false
     Vampirism:
         Leech_Percentage: 5.0
         Level_Threshold: 0
@@ -249,6 +251,7 @@ Hardcore:
             Tridents: false
             Crossbows: false
             Maces: false
+            Spears: false
 
 #
 #  Settings for SMP Mods
@@ -386,6 +389,7 @@ Skills:
         # Always catch fish, even when treasure is found
         Extra_Fish: false
         Lure_Modifier: 4.0
+        Allow_Conflicting_Enchants: false
     Herbalism:
         Level_Cap: 0
         Prevent_AFK_Leveling: true
@@ -461,6 +465,7 @@ Skills:
         Level_Cap: 0
         Block_Cracker:
             SmoothBrick_To_CrackedBrick: true
+            Allow_Block_Cracker: true
         # When using Unarmed, picked up items will automatically get moved to a free slot instead of going in the slot
         # of your hand. Should item pickup be disabled when your entire inventory - except for your hand - is full?
         Item_Pickup_Disabled_Full_Inventory: true
@@ -468,6 +473,10 @@ Skills:
         Items_As_Unarmed: false
     Woodcutting:
         Tree_Feller_Sounds: true
+        Level_Cap: 0
+    Spears:
+        Enabled_For_PVP: true
+        Enabled_For_PVE: true
         Level_Cap: 0
 
 # Disable or Enable the Green Thumb auto replant feature for specific crops, use the name of the block not the crop itemstack
@@ -478,6 +487,7 @@ Green_Thumb_Replanting_Crops:
     Potatoes: true
     Beetroots: true
     Cocoa: true
+    Sweet_Berry_Bush: true
 #
 #  Settings for Double Drops
 # ##
@@ -540,6 +550,15 @@ Bonus_Drops:
         Rose_Bush: true
         Peony: true
         Lily_Of_The_Valley: true
+        Bush: true
+        Cactus_Flower: true
+        Firefly_Bush: true
+        Leaf_Litter: true
+        Short_Dry_Grass: true
+        Tall_Dry_Grass: true
+        Wildflowers: true
+        Open_Eyeblossom: true
+        Closed_Eyeblossom: true
     Mining:
         Tuff: true
         Deepslate_Redstone_Ore: true

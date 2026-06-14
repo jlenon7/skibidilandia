@@ -1,0 +1,21 @@
+[2026/06/13 18:38:10 INFO]:           __             _       
+[2026/06/13 18:38:10 INFO]:   _ __   / /  ___   __ _(_)_ __  
+[2026/06/13 18:38:10 INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[2026/06/13 18:38:10 INFO]:  | | | / /__| (_) | (_| | | | | |
+[2026/06/13 18:38:10 INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[2026/06/13 18:38:10 INFO]:                   |___/            
+[2026/06/13 18:38:10 INFO]:  By: www.nickuc.com - V 2.0.17
+[2026/06/13 18:38:10 INFO]:  
+[2026/06/13 18:38:10 DEBUG]: Loading the messages_br.yml message file...
+[2026/06/13 18:38:10 DEBUG]: Messages were loaded in 61 ms (single file).
+[2026/06/13 18:38:10 WARN]: The "unsupported-settings.perform-username-validation" option is enabled in config/paper-global.yml
+[2026/06/13 18:38:10 WARN]: The username-appender feature may fail with an invalid nickname kick message.
+[2026/06/13 18:38:10 DEBUG]: Settings were loaded in 95 ms.
+[2026/06/13 18:38:10 DEBUG]: Loading database...
+[2026/06/13 18:38:10 DEBUG]: Starting logger filter...
+[2026/06/13 18:38:39 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'jlenon7', `unique_id` = 6a6dc5c565d33c558a13d79183ef3ef4,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$7adnsuXanKHBmUMQ3QALrexN3XCQB1A87NDdyvdNSaWWZEC.xbS6u', `last_ip` = '0:0:0:0:0:0:0:1', `creation_date` = 2026-06-13 15:57:43.733, `last_seen` = 2026-06-13 18:38:39.905, `email` = null, `discord` = null, `settings` = null WHERE `ai` = 3" (applied to [last_ip, last_seen, settings] columns)
+[2026/06/13 18:38:39 INFO]: O usuário jlenon7 se autenticou com sucesso.
+[2026/06/13 19:20:42 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'jlenon7', `unique_id` = 6a6dc5c565d33c558a13d79183ef3ef4,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$7adnsuXanKHBmUMQ3QALrexN3XCQB1A87NDdyvdNSaWWZEC.xbS6u', `last_ip` = '0:0:0:0:0:0:0:1', `creation_date` = 2026-06-13 15:57:43.733, `last_seen` = 2026-06-13 19:20:42.133, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"pt","key":"language"}],"version":0}' WHERE `ai` = 3" (applied to [last_seen, settings] columns)
+[2026/06/13 19:21:18 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'jlenon7', `unique_id` = 6a6dc5c565d33c558a13d79183ef3ef4,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$7adnsuXanKHBmUMQ3QALrexN3XCQB1A87NDdyvdNSaWWZEC.xbS6u', `last_ip` = '0:0:0:0:0:0:0:1', `creation_date` = 2026-06-13 15:57:43.733, `last_seen` = 2026-06-13 19:21:18.462, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"pt","key":"language"}],"version":0}' WHERE `ai` = 3" (applied to [last_ip, last_seen, settings] columns)
+[2026/06/13 19:21:18 INFO]: O usuário jlenon7 se autenticou com sucesso.
+[2026/06/13 19:29:08 INFO]: Successful plugin core shutdown (took 0.00s)

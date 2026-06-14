@@ -127,6 +127,9 @@ Skills:
                 Standard: 100
                 RetroMode: 1000
             DamageThreshold: 7.0
+        GracefulRoll:
+            # DamageThreshold: The max damage a player can negate with a graceful roll (sneaking)
+            DamageThreshold: 14.0
     #
     #  Settings for Alchemy
     # ##
@@ -298,14 +301,17 @@ Skills:
             MaxBonusLevel:
                 Standard: 1000
                 RetroMode: 10000
-            ChanceMax: 50.0
+            # Reduzido 50->25: Hexa já minera 3x3, MotherLode em cima multiplicava demais
+            ChanceMax: 25.0
         SuperBreaker:
-            AllowTripleDrops: true
+            # Desligado: triplo de drop sobre uma área 3x3 (Hexa) era absurdo
+            AllowTripleDrops: false
         DoubleDrops:
             SilkTouch: true
             # ChanceMax: Maximum chance of receiving double drops when on <MaxBonusLevel> or higher
             # MaxBonusLevel: Level when <ChanceMax> of receiving double drops is reached
-            ChanceMax: 100.0
+            # Reduzido 100->50: com Hexa (9 blocos) e Furnace auto-fundindo, 100% dobrava tudo
+            ChanceMax: 50.0
             MaxBonusLevel:
                 Standard: 100
                 RetroMode: 1000
@@ -408,6 +414,7 @@ Skills:
                 Rank_6: 20.0
                 Rank_7: 15.0
                 Rank_8: 10.0
+            MaxEnchantLevel: 5
     #
     #  Settings for Salvage
     # ##
@@ -439,6 +446,7 @@ Skills:
                 Rank_6: 12.5
                 Rank_7: 15.0
                 Rank_8: 17.5
+            MaxEnchantLevel: 5
     #
     #  Settings for Smelting
     # ##
@@ -446,14 +454,16 @@ Skills:
         SecondSmelt:
             # ChanceMax: Maximum chance of triggering Second Smelt
             # MaxBonusLevel: On this level, the chance to cause Second Smelt will be <ChanceMax>
-            ChanceMax: 50.0
+            # Reduzido 50->25: Furnace Tools já auto-fundem; dobrar o lingote em cima era farm grátis
+            ChanceMax: 25.0
             MaxBonusLevel:
                 Standard: 100
                 RetroMode: 1000
-        
+
         FluxMining:
             # Chance: Chance for Flux Mining to activate
-            Chance: 33.0
+            # Reduzido 33->20: redundante com o auto-smelt das Furnace Tools
+            Chance: 20.0
             MaxBonusLevel:
                 Standard: 100
                 RetroMode: 1000
@@ -525,6 +535,9 @@ Skills:
             # BleedTicks: This determines how long the bleeding effect of SerratedStrikes lasts
             DamageModifier: 4.0
             BleedTicks: 5
+        Stab:
+            Base_Damage: 1.0
+            Per_Rank_Multiplier: 1.5
     #
     #  Settings for Taming
     # ##
@@ -626,7 +639,8 @@ Skills:
         CleanCuts:
             # ChanceMax: Maximum chance of receiving triple drops (100 = 100%)
             # MaxBonusLevel: Level when the maximum chance of receiving triple drops is reached
-            ChanceMax: 50.0
+            # Reduzido 50->25: machado Furnace já derruba a árvore inteira
+            ChanceMax: 25.0
             MaxBonusLevel:
                 Standard: 1000
                 RetroMode: 10000
@@ -634,7 +648,8 @@ Skills:
         HarvestLumber:
             # ChanceMax: Maximum chance of receiving double drops (100 = 100%)
             # MaxBonusLevel: Level when the maximum chance of receiving double drops is reached
-            ChanceMax: 100.0
+            # Reduzido 100->50: empilhava com tree-feller do machado Furnace + CleanCuts
+            ChanceMax: 50.0
             MaxBonusLevel:
                 Standard: 100
                 RetroMode: 1000
@@ -645,3 +660,36 @@ Skills:
                 Rank_2: 15
                 Rank_3: 20
                 Rank_4: 33
+        Crush:
+            # Base_Damage: Flat damage bonus applied at rank 1.
+            Base_Damage: 0.5
+            # Rank_Damage_Multiplier: Additional damage bonus per rank.
+            Rank_Damage_Multiplier: 1.0
+    Crossbows:
+        PoweredShot:
+            # RankDamageMultiplier: The current rank of this subskill is multiplied by this value to determine bonus damage.
+            # RankDamageMultiplier is a percentage.
+            RankDamageMultiplier: 10.0
+            # MaxDamage: Maximum bonus damage added by PoweredShot.
+            MaxDamage: 9.0
+    Tridents:
+        Impale:
+            # Base_Damage: Flat damage bonus applied at rank 1.
+            Base_Damage: 1.0
+            # Rank_Damage_Multiplier: Additional damage bonus per rank after rank 1.
+            Rank_Damage_Multiplier: 0.5
+    Spears:
+        SpearMastery:
+            Rank_Damage_Multiplier: 0.4
+        Momentum:
+            Chance_To_Apply_On_Hit:
+                Rank_1: 5
+                Rank_2: 10
+                Rank_3: 15
+                Rank_4: 20
+                Rank_5: 25
+                Rank_6: 30
+                Rank_7: 35
+                Rank_8: 40
+                Rank_9: 45
+                Rank_10: 50

@@ -131,3 +131,969 @@ miners:
         id: minecraft:lapis_lazuli
         count: 3
         schema_version: 1
+  world;1461;81;-9:
+    level: 5
+    ticks: 260
+    cycleLength: 300
+    fuelCycles: 55
+    output:
+      '0':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal_block
+        count: 61
+        schema_version: 1
+      '1':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal
+        count: 64
+        schema_version: 1
+  world;1338;76;-25:
+    level: 1
+    ticks: 580
+    cycleLength: 600
+    fuelCycles: 19
+    output:
+      '0':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal_block
+        count: 62
+        schema_version: 1
+      '1':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal
+        count: 64
+        schema_version: 1
+  world;1335;76;-25:
+    level: 1
+    ticks: 20
+    cycleLength: 600
+    fuelCycles: 0
+  world;1335;76;-26:
+    level: 1
+    ticks: 40
+    cycleLength: 600
+    fuelCycles: 0
+  world;1337;76;-25:
+    level: 1
+    ticks: 20
+    cycleLength: 600
+    fuelCycles: 20
+    output:
+      '0':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal_block
+        count: 62
+        schema_version: 1
+      '1':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal
+        count: 64
+        schema_version: 1
+  world;1462;83;-9:
+    level: 5
+    ticks: 480
+    cycleLength: 600
+    fuelCycles: 45
+    output:
+      '0':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal_block
+        count: 61
+        schema_version: 1
+      '1':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal
+        count: 64
+        schema_version: 1
+  world;1335;76;-27:
+    level: 1
+    ticks: 20
+    cycleLength: 600
+    fuelCycles: 0
+  world;1337;76;-27:
+    level: 1
+    ticks: 40
+    cycleLength: 600
+    fuelCycles: 0
+  world;1335;76;-28:
+    level: 1
+    ticks: 40
+    cycleLength: 600
+    fuelCycles: 0
+  world;1337;76;-28:
+    level: 1
+    ticks: 20
+    cycleLength: 600
+    fuelCycles: 0
+  world;1460;81;-12:
+    level: 5
+    ticks: 240
+    cycleLength: 600
+    fuelCycles: 63
+    output:
+      '0':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal_block
+        count: 61
+        schema_version: 1
+      '1':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal
+        count: 64
+        schema_version: 1
+  world;1461;81;-12:
+    level: 5
+    ticks: 320
+    cycleLength: 600
+    fuelCycles: 61
+    output:
+      '0':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal_block
+        count: 61
+        schema_version: 1
+      '1':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal
+        count: 64
+        schema_version: 1
+  world;1460;81;-13:
+    level: 5
+    ticks: 120
+    cycleLength: 300
+    fuelCycles: 58
+    output:
+      '0':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal_block
+        count: 61
+        schema_version: 1
+      '1':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal
+        count: 64
+        schema_version: 1
+  world;1461;81;-13:
+    level: 5
+    ticks: 140
+    cycleLength: 600
+    fuelCycles: 65
+    output:
+      '0':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal_block
+        count: 61
+        schema_version: 1
+      '1':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal
+        count: 64
+        schema_version: 1
+  world;1462;82;-9:
+    level: 5
+    ticks: 140
+    cycleLength: 200
+    fuelCycles: 44
+    output:
+      '0':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal_block
+        count: 61
+        schema_version: 1
+      '1':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal
+        count: 32
+        schema_version: 1
+      '4':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal
+        count: 32
+        schema_version: 1
+  world;1462;82;-13:
+    level: 5
+    ticks: 160
+    cycleLength: 600
+    fuelCycles: 54
+    output:
+      '0':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal_block
+        count: 61
+        schema_version: 1
+      '1':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal
+        count: 64
+        schema_version: 1
+  world;1462;82;-12:
+    level: 5
+    ticks: 580
+    cycleLength: 600
+    fuelCycles: 41
+    output:
+      '0':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal_block
+        count: 61
+        schema_version: 1
+      '1':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal
+        count: 64
+        schema_version: 1
+  world;1331;76;-28:
+    level: 1
+    ticks: 20
+    cycleLength: 600
+    fuelCycles: 0
+  world;1331;76;-27:
+    level: 1
+    ticks: 40
+    cycleLength: 600
+    fuelCycles: 0
+  world;1332;76;-28:
+    level: 1
+    ticks: 20
+    cycleLength: 600
+    fuelCycles: 0
+  world;1331;76;-29:
+    level: 1
+    ticks: 40
+    cycleLength: 600
+    fuelCycles: 0
+  world;1332;76;-26:
+    level: 1
+    ticks: 40
+    cycleLength: 600
+    fuelCycles: 0
+  world;1332;76;-27:
+    level: 1
+    ticks: 40
+    cycleLength: 600
+    fuelCycles: 0
+  world;1331;76;-26:
+    level: 1
+    ticks: 20
+    cycleLength: 600
+    fuelCycles: 0
+  world;1332;76;-25:
+    level: 1
+    ticks: 20
+    cycleLength: 600
+    fuelCycles: 0
+  world;1331;76;-25:
+    level: 1
+    ticks: 40
+    cycleLength: 600
+    fuelCycles: 0
+  world;1383;85;-53:
+    level: 2
+    ticks: 20
+    cycleLength: 600
+    fuelCycles: 0
+  world;1336;76;-27:
+    level: 1
+    ticks: 20
+    cycleLength: 600
+    fuelCycles: 0
+  world;1330;77;-27:
+    level: 1
+    ticks: 40
+    cycleLength: 600
+    fuelCycles: 0
+  world;1336;76;-26:
+    level: 1
+    ticks: 40
+    cycleLength: 600
+    fuelCycles: 0
+  world;1330;77;-28:
+    level: 1
+    ticks: 40
+    cycleLength: 600
+    fuelCycles: 0
+  world;1336;76;-25:
+    level: 1
+    ticks: 40
+    cycleLength: 600
+    fuelCycles: 20
+    output:
+      '0':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal_block
+        count: 62
+        schema_version: 1
+      '1':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal
+        count: 64
+        schema_version: 1
+  world;1330;77;-25:
+    level: 1
+    ticks: 20
+    cycleLength: 600
+    fuelCycles: 0
+  world;1459;82;-11:
+    level: 1
+    ticks: 160
+    cycleLength: 600
+    fuelCycles: 23
+    output:
+      '0':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal_block
+        count: 62
+        schema_version: 1
+      '1':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal
+        count: 64
+        schema_version: 1
+  world;1330;77;-26:
+    level: 1
+    ticks: 20
+    cycleLength: 600
+    fuelCycles: 0
+  world;1459;82;-10:
+    level: 1
+    ticks: 120
+    cycleLength: 600
+    fuelCycles: 23
+    output:
+      '0':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal_block
+        count: 62
+        schema_version: 1
+      '1':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal
+        count: 64
+        schema_version: 1
+  world;1330;77;-29:
+    level: 1
+    ticks: 20
+    cycleLength: 600
+    fuelCycles: 0
+  world;1336;76;-28:
+    level: 1
+    ticks: 40
+    cycleLength: 600
+    fuelCycles: 0
+  world;1334;77;-28:
+    level: 1
+    ticks: 20
+    cycleLength: 600
+    fuelCycles: 0
+  world;1334;77;-27:
+    level: 1
+    ticks: 20
+    cycleLength: 600
+    fuelCycles: 0
+  world;1334;77;-26:
+    level: 1
+    ticks: 20
+    cycleLength: 600
+    fuelCycles: 0
+  world;1334;77;-25:
+    level: 1
+    ticks: 40
+    cycleLength: 600
+    fuelCycles: 0
+  world;1459;82;-13:
+    level: 1
+    ticks: 180
+    cycleLength: 600
+    fuelCycles: 23
+    output:
+      '0':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal_block
+        count: 62
+        schema_version: 1
+      '1':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal
+        count: 64
+        schema_version: 1
+  world;1459;82;-12:
+    level: 1
+    ticks: 180
+    cycleLength: 600
+    fuelCycles: 23
+    output:
+      '0':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal_block
+        count: 62
+        schema_version: 1
+      '1':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal
+        count: 64
+        schema_version: 1
+  world;1462;82;-11:
+    level: 5
+    ticks: 480
+    cycleLength: 600
+    fuelCycles: 50
+    output:
+      '0':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal_block
+        count: 61
+        schema_version: 1
+      '1':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal
+        count: 64
+        schema_version: 1
+  world;1462;82;-10:
+    level: 5
+    ticks: 420
+    cycleLength: 600
+    fuelCycles: 51
+    output:
+      '0':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal_block
+        count: 61
+        schema_version: 1
+      '1':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal
+        count: 64
+        schema_version: 1
+  world;1338;77;-28:
+    level: 1
+    ticks: 40
+    cycleLength: 600
+    fuelCycles: 0
+  world;1338;77;-27:
+    level: 1
+    ticks: 40
+    cycleLength: 600
+    fuelCycles: 0
+  world;1338;77;-26:
+    level: 1
+    ticks: 40
+    cycleLength: 600
+    fuelCycles: 0
+  world;1338;77;-25:
+    level: 1
+    ticks: 540
+    cycleLength: 600
+    fuelCycles: 19
+    output:
+      '0':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal_block
+        count: 62
+        schema_version: 1
+      '1':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal
+        count: 64
+        schema_version: 1
+  world;1460;81;-10:
+    level: 5
+    ticks: 280
+    cycleLength: 600
+    fuelCycles: 66
+    output:
+      '0':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal_block
+        count: 61
+        schema_version: 1
+      '1':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal
+        count: 64
+        schema_version: 1
+  world;1462;83;-10:
+    level: 5
+    ticks: 220
+    cycleLength: 300
+    fuelCycles: 42
+    output:
+      '0':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal_block
+        count: 61
+        schema_version: 1
+      '1':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal
+        count: 64
+        schema_version: 1
+  world;1331;77;-29:
+    level: 1
+    ticks: 40
+    cycleLength: 600
+    fuelCycles: 0
+  world;1462;83;-11:
+    level: 5
+    ticks: 420
+    cycleLength: 600
+    fuelCycles: 47
+    output:
+      '0':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal_block
+        count: 61
+        schema_version: 1
+      '1':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal
+        count: 64
+        schema_version: 1
+  world;1331;77;-28:
+    level: 1
+    ticks: 40
+    cycleLength: 600
+    fuelCycles: 0
+  world;1462;83;-12:
+    level: 5
+    ticks: 220
+    cycleLength: 300
+    fuelCycles: 47
+    output:
+      '0':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal_block
+        count: 61
+        schema_version: 1
+      '1':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal
+        count: 64
+        schema_version: 1
+  world;1331;77;-27:
+    level: 1
+    ticks: 40
+    cycleLength: 600
+    fuelCycles: 0
+  world;1462;83;-13:
+    level: 5
+    ticks: 600
+    cycleLength: 600
+    fuelCycles: 56
+    output:
+      '0':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal_block
+        count: 61
+        schema_version: 1
+      '1':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal
+        count: 64
+        schema_version: 1
+      '2':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal
+        count: 2
+        schema_version: 1
+  world;1331;77;-26:
+    level: 1
+    ticks: 20
+    cycleLength: 600
+    fuelCycles: 0
+  world;1333;77;-28:
+    level: 1
+    ticks: 40
+    cycleLength: 600
+    fuelCycles: 0
+  world;1459;83;-9:
+    level: 1
+    ticks: 260
+    cycleLength: 600
+    fuelCycles: 23
+    output:
+      '0':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal_block
+        count: 62
+        schema_version: 1
+      '1':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal
+        count: 64
+        schema_version: 1
+  world;1333;77;-25:
+    level: 1
+    ticks: 40
+    cycleLength: 600
+    fuelCycles: 0
+  world;1333;77;-27:
+    level: 1
+    ticks: 20
+    cycleLength: 600
+    fuelCycles: 0
+  world;1333;77;-26:
+    level: 1
+    ticks: 20
+    cycleLength: 600
+    fuelCycles: 0
+  world;1331;77;-25:
+    level: 1
+    ticks: 40
+    cycleLength: 600
+    fuelCycles: 0
+  world;1337;77;-27:
+    level: 1
+    ticks: 20
+    cycleLength: 600
+    fuelCycles: 0
+  world;1337;77;-25:
+    level: 1
+    ticks: 20
+    cycleLength: 600
+    fuelCycles: 0
+  world;1335;77;-25:
+    level: 1
+    ticks: 20
+    cycleLength: 600
+    fuelCycles: 0
+  world;1335;77;-26:
+    level: 1
+    ticks: 40
+    cycleLength: 600
+    fuelCycles: 0
+  world;1335;77;-27:
+    level: 1
+    ticks: 20
+    cycleLength: 600
+    fuelCycles: 0
+  world;1335;77;-28:
+    level: 1
+    ticks: 40
+    cycleLength: 600
+    fuelCycles: 0
+  world;1337;77;-28:
+    level: 1
+    ticks: 20
+    cycleLength: 600
+    fuelCycles: 0
+  world;1460;81;-9:
+    level: 5
+    ticks: 440
+    cycleLength: 600
+    fuelCycles: 51
+    output:
+      '0':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal_block
+        count: 61
+        schema_version: 1
+      '1':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal
+        count: 64
+        schema_version: 1
+  world;1461;81;-10:
+    level: 5
+    ticks: 260
+    cycleLength: 300
+    fuelCycles: 58
+    output:
+      '0':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal_block
+        count: 61
+        schema_version: 1
+      '1':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal
+        count: 64
+        schema_version: 1
+  world;1461;81;-11:
+    level: 5
+    ticks: 180
+    cycleLength: 600
+    fuelCycles: 61
+    output:
+      '0':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal_block
+        count: 61
+        schema_version: 1
+      '1':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal
+        count: 64
+        schema_version: 1
+  world;1459;82;-9:
+    level: 1
+    ticks: 100
+    cycleLength: 600
+    fuelCycles: 23
+    output:
+      '0':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal_block
+        count: 62
+        schema_version: 1
+      '1':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal
+        count: 64
+        schema_version: 1
+  world;1330;76;-26:
+    level: 1
+    ticks: 20
+    cycleLength: 600
+    fuelCycles: 0
+  world;1459;83;-10:
+    level: 1
+    ticks: 240
+    cycleLength: 600
+    fuelCycles: 23
+    output:
+      '0':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal_block
+        count: 62
+        schema_version: 1
+      '1':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal
+        count: 64
+        schema_version: 1
+  world;1330;76;-27:
+    level: 1
+    ticks: 40
+    cycleLength: 600
+    fuelCycles: 0
+  world;1330;76;-28:
+    level: 1
+    ticks: 20
+    cycleLength: 600
+    fuelCycles: 0
+  world;1330;76;-29:
+    level: 1
+    ticks: 40
+    cycleLength: 600
+    fuelCycles: 0
+  world;1382;85;-53:
+    level: 1
+    ticks: 40
+    cycleLength: 600
+    fuelCycles: 0
+  world;1333;76;-28:
+    level: 1
+    ticks: 20
+    cycleLength: 600
+    fuelCycles: 0
+  world;1333;76;-27:
+    level: 1
+    ticks: 40
+    cycleLength: 600
+    fuelCycles: 0
+  world;1459;83;-13:
+    level: 1
+    ticks: 200
+    cycleLength: 600
+    fuelCycles: 23
+    output:
+      '0':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal_block
+        count: 62
+        schema_version: 1
+      '1':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal
+        count: 64
+        schema_version: 1
+  world;1333;76;-26:
+    level: 1
+    ticks: 40
+    cycleLength: 600
+    fuelCycles: 0
+  world;1459;83;-12:
+    level: 1
+    ticks: 220
+    cycleLength: 600
+    fuelCycles: 23
+    output:
+      '0':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal_block
+        count: 62
+        schema_version: 1
+      '1':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal
+        count: 64
+        schema_version: 1
+  world;1333;76;-25:
+    level: 1
+    ticks: 40
+    cycleLength: 600
+    fuelCycles: 0
+  world;1330;76;-25:
+    level: 1
+    ticks: 20
+    cycleLength: 600
+    fuelCycles: 0
+  world;1459;83;-11:
+    level: 1
+    ticks: 240
+    cycleLength: 600
+    fuelCycles: 23
+    output:
+      '0':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal_block
+        count: 62
+        schema_version: 1
+      '1':
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4790
+        id: minecraft:coal
+        count: 64
+        schema_version: 1
+  world;1334;76;-25:
+    level: 1
+    ticks: 20
+    cycleLength: 600
+    fuelCycles: 0
+  world;1334;76;-27:
+    level: 1
+    ticks: 20
+    cycleLength: 600
+    fuelCycles: 0
+  world;1332;77;-27:
+    level: 1
+    ticks: 40
+    cycleLength: 600
+    fuelCycles: 0
+  world;1338;76;-27:
+    level: 1
+    ticks: 20
+    cycleLength: 600
+    fuelCycles: 0
+  world;1334;76;-26:
+    level: 1
+    ticks: 40
+    cycleLength: 600
+    fuelCycles: 0
+  world;1332;77;-28:
+    level: 1
+    ticks: 20
+    cycleLength: 600
+    fuelCycles: 0
+  world;1338;76;-26:
+    level: 1
+    ticks: 40
+    cycleLength: 600
+    fuelCycles: 0
+  world;1334;76;-28:
+    level: 1
+    ticks: 40
+    cycleLength: 600
+    fuelCycles: 0
+  world;1338;76;-28:
+    level: 1
+    ticks: 40
+    cycleLength: 600
+    fuelCycles: 0
+  world;1332;77;-25:
+    level: 1
+    ticks: 20
+    cycleLength: 600
+    fuelCycles: 0
+  world;1332;77;-26:
+    level: 1
+    ticks: 40
+    cycleLength: 600
+    fuelCycles: 0
+  world;1336;77;-26:
+    level: 1
+    ticks: 20
+    cycleLength: 600
+    fuelCycles: 0
+  world;1336;77;-25:
+    level: 1
+    ticks: 40
+    cycleLength: 600
+    fuelCycles: 0
+  world;1336;77;-28:
+    level: 1
+    ticks: 40
+    cycleLength: 600
+    fuelCycles: 0
+  world;1336;77;-27:
+    level: 1
+    ticks: 40
+    cycleLength: 600
+    fuelCycles: 0
